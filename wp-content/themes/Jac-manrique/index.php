@@ -2,11 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>#Hashtag</title>
+    <header>
+      
+    </header>
+    <title>Jac Manrique Central</title>
   </head>
   <body>
-    <h1><b>sync</b></h1>
-    <p>Prueba pa'l ocho</p>
+    <h1></h1>
 
   </body>
 </html>
