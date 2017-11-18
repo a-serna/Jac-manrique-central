@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>#Hashtag</title>
   </head>
   <body>
-    <h1>sync</h1>
+    <h1><b>sync</b></h1>
+    <p>Prueba pa'l ocho</p>
+
   </body>
 </html>
