@@ -9,9 +9,32 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
+        <div class="col-12">
+
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Logo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comuna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link href="#"" href="#">Mapas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link href="#"" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link href="#"" href="#">Contacto</a>
+            </li>
+          </ul>
+
+        </div>
+
       </div>
 
 
