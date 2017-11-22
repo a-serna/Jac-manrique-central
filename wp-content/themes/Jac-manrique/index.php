@@ -16,7 +16,7 @@
     <!--material icon-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/jacstyle.css">
-    <title>Jac Manrique Central</title>
+    <title><?php bloginfo(title); ?></title>
   </head>
   <body>
     <header class="container-fluid">
