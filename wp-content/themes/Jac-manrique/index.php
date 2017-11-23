@@ -32,23 +32,26 @@
       </nav>
     </header>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm">
-          columna
-        </div>
-        <div class="col-sm">
-          columna
-        </div>
-        <div class="col-sm">
-          columna
-        </div>
-        <div class="col-sm">
-          columna
+    <!-- aqui va la primera sección -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            columna
+          </div>
+          <div class="col-sm">
+            columna
+          </div>
+          <div class="col-sm">
+            columna
+          </div>
+          <div class="col-sm">
+            columna
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <i class="material-icons">code</i>
+    <!-- con esta etiqueta podes agregar iconos de material icon<i class="material-icons">code</i> -->
 
     <?php get_footer(); ?>
