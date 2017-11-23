@@ -27,8 +27,32 @@ section{
   padding-top: 90px;
 }
 
+.my-border{
+  height: 210px;
+}
+
+.my-border:nth-child(3){
+  height: 360px;
+}
+
+.my-border:nth-child(4){
+  height: 360px;
+}
+
+.my-border:nth-child(5){
+  height: 180px;
+}
+
+.my-border.rounded{
+  border-radius: .85rem !important;
+}
+
+.my-border.border{
+  border: 5px solid #82BA2B !important;
+}
+/*fonts*/
 p{
-  font-size: 1.3em; 
+  font-size: 1.3em;
 }
 
 h2{
@@ -39,18 +63,67 @@ h2{
   color: #82BA2B;
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+/*Responsive*/
+/*No media query since this is the default in Bootstrap*/
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .my-border{
+    height: 250px;
+  }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+  .my-border:nth-child(3){
+    height: 325px;
+  }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+  .my-border:nth-child(4){
+    height: 430px;
+  }
 
-// Extra large devices (large desktops, 1200px and up)
+  .my-border:nth-child(5){
+    height: 270px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .my-border:nth-child(3){
+    height: 250px;
+  }
+  .my-border:nth-child(4){
+    height: 310px;
+  }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .my-border{
+    height: 200px;
+  }
+
+  .my-border:nth-child(3){
+    height: 220px;
+  }
+
+  .my-border:nth-child(4){
+    height: 280px;
+  }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .my-border{
+    height: 250px;
+  }
+
+  .my-border:nth-child(3){
+    height: 470px;
+  }
+
+  .my-border:nth-child(4){
+    height: 460px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
-*/
