@@ -34,37 +34,37 @@
 
     <!-- aqui va la primera sección -->
     <article id="home" class="container">
-      <div class="card-deck">
-        <div class="card">
+      <div class="row card-deck">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
           <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Comuna</h4>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
           <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Mapas</h4>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
           <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Equipamiento</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
           <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Blog</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>
