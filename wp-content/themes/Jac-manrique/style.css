@@ -27,6 +27,7 @@ section{
   padding-top: 90px;
 }
 
+/*bordes de sección de movilidad*/
 .my-border{
   height: 210px;
 }
@@ -48,19 +49,42 @@ section{
 }
 
 .my-border.border{
-  border: 5px solid #82BA2B !important;
+  border: 3px solid #82BA2B !important;
 }
+
+/*bordes de formulario*/
+.form-border{
+  border: 2px solid #82BA2B !important;
+}
+
+.form-border.rounded{
+  border-radius: 1.2rem !important;
+}
+
+textarea{
+  width: 60% !important;
+  height: 15em !important;
+}
+
+.my-btn{
+  background-color: #82BA2B !important;
+}
+
 /*fonts*/
 p{
   font-size: 1.3em;
 }
 
 h2{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
 }
 
 .text-green{
   color: #82BA2B;
+}
+
+.text-white{
+  font-family: 'Lato', sans-serif !important;
 }
 
 /*Responsive*/
@@ -83,6 +107,7 @@ h2{
   .my-border:nth-child(5){
     height: 270px;
   }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -93,7 +118,19 @@ h2{
   .my-border:nth-child(4){
     height: 310px;
   }
+
  }
+
+ /*Medium devices (tablets, 768px and down)*/
+ @media (max-width: 768px) {
+   .margin-ajust.mr-5{
+     margin-right: 0px !important;
+   }
+
+   .margin-ajust.ml-5{
+     margin-left: 0px !important;
+   }
+  }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {

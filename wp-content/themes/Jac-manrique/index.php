@@ -129,7 +129,7 @@
 
       <div class="row media">
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
               <img class="mr-3" src="..." alt="Generic placeholder image">
@@ -144,7 +144,7 @@
         </div>
 
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
               <img class="mr-3" src="..." alt="Generic placeholder image">
@@ -157,7 +157,7 @@
           </div>
         </div>
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
               <img class="mr-3" src="..." alt="Generic placeholder image">
@@ -172,7 +172,7 @@
           </div>
         </div>
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
               <img class="mr-3" src="..." alt="Generic placeholder image">
@@ -189,7 +189,7 @@
           </div>
         </div>
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-12 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-12 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
               <img class="mr-3" src="..." alt="Generic placeholder image">
@@ -232,12 +232,60 @@
       </div>
     </section>
 
-    <section id="contacto">
-      <div class="container-fluid">
+    <section id="social-media">
+      <div class="container">
         <div class="row">
           <div class="col-sm">
-            <h1>contacto</h1>
+            <h1>aqui va la api de fb</h1>
           </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="text-green">Contacto</h2>
+            <p>Escríbenos y mándanos tus inquietudes, sugerencias o aportes, para que conectemos a nuestra comuna.</p>
+          </div>
+        </div>
+
+
+        <form class="mt-5 p-5">
+          <div class="form-row justify-content-md-center">
+            <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
+              <input type="text" class="form-control border form-border rounded text-center" placeholder="Nombre">
+            </div>
+            <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
+              <input type="text" class="form-control border form-border rounded text-center" placeholder="Apellido">
+            </div>
+            <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
+              <input type="email" class="form-control border form-border rounded text-center" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
+              <input type="tel" class="form-control border form-border rounded text-center" placeholder="Teléfono">
+            </div>
+
+            <textarea name="textarea" class="form-control border form-border rounded" length="400"></textarea>
+          </div>
+
+          <div class="row justify-content-md-center">
+            <div class="form-group">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox"><h6>Acepto términos y condiciones</h6>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-sm-center mt-3">
+            <div class="col-sm-3">
+              <input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar">
+            </div>
+          </div>
+
+        </form>
+
       </div>
     </section>
 
