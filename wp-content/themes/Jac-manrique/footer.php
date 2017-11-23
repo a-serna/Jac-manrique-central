@@ -36,7 +36,7 @@
     </footer>
 
     <script type="text/javascript">
-      $('body').scrollspy({ target: '#navbarTogglerDemo02', });
+      $('body').scrollspy({ target: '#navbarTogglerDemo02' })
       $('[data-spy="scroll"]').each(function () {
         var $spy = $(this).scrollspy('refresh')
       })

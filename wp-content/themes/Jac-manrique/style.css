@@ -16,6 +16,7 @@
 
 body{
   position: relative;
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 article{
@@ -26,10 +27,16 @@ section{
   padding-top: 90px;
 }
 
-h1 {
-  font-size: 80px;
-  font-family: 'Source Sans Pro', sans-serif;
-  /*font-family: 'Lato', sans-serif;*/
+p{
+  font-size: 1.3em; 
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+}
+
+.text-green{
+  color: #82BA2B;
 }
 
 /* Extra small devices (portrait phones, less than 576px)

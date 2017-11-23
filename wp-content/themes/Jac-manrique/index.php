@@ -33,40 +33,84 @@
     </header>
 
     <!-- aqui va la primera sección -->
-    <article id="home">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm">
-            <h1>columna</h1>
+    <article id="home" class="container">
+      <div class="card-deck">
+        <div class="card">
+          <!-- imagenes -->
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body bg-dark text-white">
+            <h4 class="card-title text-center">Comuna</h4>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
-          <div class="col-sm">
-            <h1>columna</h1>
+        </div>
+        <div class="card">
+          <!-- imagenes -->
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body bg-dark text-white">
+            <h4 class="card-title text-center">Mapas</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
-          <div class="col-sm">
-            <h1>columna</h1>
+        </div>
+        <div class="card">
+          <!-- imagenes -->
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body bg-dark text-white">
+            <h4 class="card-title text-center">Equipamiento</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
-          <div class="col-sm">
-            <h1>columna</h1>
+        </div>
+        <div class="card">
+          <!-- imagenes -->
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body bg-dark text-white">
+            <h4 class="card-title text-center">Blog</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
         </div>
       </div>
     </article>
 
-    <section id="nosotros">
+    <!-- <section id="nosotros">
       <div class="container">
         <div class="row">
           <div class="col-sm">
             <h1>info de nosotros</h1>
           </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="comuna">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1>comuna</h1>
+    <section id="comuna" class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h2 class="text-green">Comuna</h2>
+          <p>La comuna 4 tiene una interesante geografía con una larga trayectoria historica y cultural.</p>
+        </div>
+      </div>
+      <div class="row media">
+        <div class="col-sm-12 col-lg-5">
+        <!-- imagen aqui -->
+        <img class="mr-3" src="..." alt="Generic placeholder image">
+        </div>
+        <div class="col-sm-12 col-lg-7">
+          <div class="media-body">
+            <h2 class="mt-0 text-green">Comuna 4</h2>
+            <p><b class="text-green">Construcción:</b> su inicio fue en el año de 1.920 con la construcción del tranvía eléctrico
+              se empezó a poblar y construir nuestra comuna.</p>
+            <p><b class="text-green">Ubicación:</b> la comuna 4 Aranjuez está ubicada en la zona nororiental de la ciudad de
+              Medellín, compuesta por 14 barrios y 17 equipamientos institucionales.</p>
+            <p><b class="text-green">Límites:</b> la comuna 4 limita por el norte con las comunas 1 y 2 ( Popular y Santa Cruz )
+              nos separa la quebrada la Rosa; por el sur con la comuna 10 ( la Candelaria ) calle 67
+              Barranquilla; por el oriente con la comuna 3 ( Manrique ) carrera 45 avenida Carlos Gardel
+              y por el occidente con el Rio Medellín.</p>
+            <p><b class="text-green">Población:</b> el número de habitantes es de 170.000 de acuerdo con el censo realizado en
+              el año 2.005.</p>
+            <p><b class="text-green">Área:</b> el área de nuestro territorio tiene una extensión de 486,45 hectáreas que
+              corresponden al 30.9% de la zona nororiental y al 4,7 del suelo urbano de Medellín.</p>
+            <p><b class="text-green">Estratificación:</b> los estratos de la comuna 4 Aranjuez son el 1, 2 y 3.</p>
+            <p><b class="text-green">Viviendas:</b> en nuestro territorio se encuentran 45.000 viviendas entre casas,
+              apartamentos y locales comerciales.</p>
           </div>
+        </div>
       </div>
     </section>
 
