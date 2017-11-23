@@ -210,8 +210,16 @@
       <div class="container">
         <div class="row">
           <div class="col-sm">
+            <h2 class="text-green">Mapas</h2>
+            <p>En la comuna 4 Aranjuez existen 14 barrios.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
             <h1>aqui va el mapa</h1>
           </div>
+        </div>
       </div>
     </section>
 
