@@ -1,27 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <!--colocar descripción-->
-    <meta name="description" content="...">
-    <!--verificación google analytics.. pendiente-->
-    <meta name="google-site-verification" content="...."/>
-    <!--colocar keywords-->
-    <meta name="keywords" content="...">
-    <meta name=”robots” content=”index, follow”>
-    <meta name="author" content="Brumker">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--css bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!--material icon-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/jacstyle.css">
-    <title><?php bloginfo(title); ?></title>
-  </head>
+<?php get_header(); ?>
+
   <body>
-    <header class="container-fluid">
+    <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="/img/logo-manrique.png"></a>
+        <a class="navbar-brand" href="#">
+          <!-- <img src="/img/logo-manrique.png"> -->
+          logo
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,16 +33,20 @@
       </nav>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm">
-          One of three columns
+          columna 01
         </div>
         <div class="col-sm">
-          One of three columns
+          columna 02
         </div>
         <div class="col-sm">
-          One of three columns
+          columna 03
+        </div>
+        <div class="col-sm">
+          <h1>vf</h1>columna 04
+          <h2>eds</h2>
         </div>
       </div>
     </div>
