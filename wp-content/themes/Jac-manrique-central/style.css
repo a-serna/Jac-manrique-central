@@ -1,0 +1,103 @@
+/*
+ Theme Name:   Jac Manrique Central
+ Theme URI:    http://jacmanriquecentral.org
+ Description:  Tema diseñado para la junta de acción comunal de Manrique central 2.
+ Author:       Brumker studios
+ Author URI:   http://brumker.com
+ Template:     Jac Manrique Central
+ Version:      1.0.0
+ Tags:         light, responsive-layout, accessibility-ready
+ Text Domain:  Jac manrique Central
+*/
+
+/* css file */
+/*@import url('https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro');*/
+
+body{
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+article{
+  padding-top: 270px;
+  background-color: black;
+}
+
+section{
+}
+
+
+/*bordes de formulario*/
+.form-border{
+  border: 2px solid #82BA2B !important;
+}
+
+.form-border.rounded{
+  border-radius: 1.2rem !important;
+}
+
+textarea{
+  width: 60% !important;
+  height: 15em !important;
+}
+
+.my-btn{
+  background-color: #82BA2B !important;
+}
+
+/*fonts*/
+p{
+  font-size: 1.3em;
+}
+
+h2{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.text-green{
+  color: #82BA2B;
+}
+
+.text-white{
+  font-family: 'Lato', sans-serif !important;
+}
+
+
+/*Responsive*/
+/*No media query since this is the default in Bootstrap*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+ }
+
+ /*Medium devices (tablets, 768px and down)*/
+ @media (max-width: 768px) {
+   .margin-ajust.mr-5{
+     margin-right: 0px !important;
+   }
+
+   .margin-ajust.ml-5{
+     margin-left: 0px !important;
+   }
+  }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
