@@ -37,7 +37,7 @@
       <div class="row card-deck">
         <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Comuna</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -45,7 +45,7 @@
         </div>
         <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Mapas</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -53,7 +53,7 @@
         </div>
         <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Equipamiento</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -61,7 +61,7 @@
         </div>
         <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Blog</h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -89,7 +89,7 @@
       <div class="row media">
         <div class="col-sm-12 col-lg-4">
         <!-- imagen aqui -->
-        <img class="mr-3" src="..." alt="Generic placeholder image">
+        <img class="mr-3" src="" alt="Generic placeholder image">
         </div>
         <div class="col-sm-12 col-lg-8">
           <div class="media-body">
@@ -132,7 +132,7 @@
         <div class="my-border border rounded col-sm-12 col-lg-5 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -147,7 +147,7 @@
         <div class="my-border border rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -160,7 +160,7 @@
         <div class="my-border border rounded col-sm-12 col-lg-5 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -175,7 +175,7 @@
         <div class="my-border border rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -192,7 +192,7 @@
         <div class="my-border border rounded col-sm-12 col-lg-12 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">

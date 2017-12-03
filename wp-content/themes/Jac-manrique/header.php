@@ -14,10 +14,12 @@
     <!--css bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!--material icon-->
-    <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--css-->
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_url); ?>" >
+    <link rel="stylesheet" href="<?php bloginfo(stylesheet_directory); ?>/css/jac.css" >
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
     <title><?php bloginfo(title); ?></title>
+    <!-- <?php wp_head(); ?> -->
   </head>
