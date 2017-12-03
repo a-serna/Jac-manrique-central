@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#nosotros"><p>Nosotros</p></a>
+              <a class="nav-link" href="#historia"><p>Historia</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
@@ -65,54 +65,61 @@
       </div>
     </article>
 
-
-
-    <!-- aqui va la primera sección -->
-    <article id="home" class="container">
-      <div class="row card-deck">
-        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
-          <!-- imagenes -->
-          <img class="card-img-top" src="" alt="Card image cap">
-          <div class="card-body bg-dark text-white">
-            <h4 class="card-title text-center">Comuna</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <!-- sección de historia -->
+    <section id="historia">
+      <div class="row">
+        <div class="col-12">
+          <div class="bg-1">
+            ...<!-- imagen -->
           </div>
         </div>
-        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
-          <!-- imagenes -->
-          <img class="card-img-top" src="" alt="Card image cap">
-          <div class="card-body bg-dark text-white">
-            <h4 class="card-title text-center">Mapas</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
-          <!-- imagenes -->
-          <img class="card-img-top" src="" alt="Card image cap">
-          <div class="card-body bg-dark text-white">
-            <h4 class="card-title text-center">Equipamiento</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
-          <!-- imagenes -->
-          <img class="card-img-top" src="" alt="Card image cap">
-          <div class="card-body bg-dark text-white">
-            <h4 class="card-title text-center">Blog</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-12">
+          <h2 class="text-green text-pt ml-5">Historia</h2>
+          <p class="text-left mt-5 pl-5 pr-5">En el año 2000 el señor <b>Fernando Arango</b>, apoyado por su señor padre <b>Gilberto Arango</b>,
+            se dio a la tarea de crear la acción comunal del barrio; el señor Arango convocó a varias personas
+            para que lo acompañaran en su objetivo encontrando apoyo en algunas personas entre ellas: los señores
+            <b>Juan Raúl Díaz, Alberto Ochoa, José María Cardona, Oscar Ramiro Álzate,</b> y las señoras
+            <b>Magda Ochoa, Luz Dary</b> entre otras.
+            <br></br>
+            A partir de ese momento se dieron a la tarea de consultar los límites geográficos del barrio en
+            planeación municipal, que más tarde se convertirían, de acuerdo a la aprobación de la
+            <b>Junta de Acción Comunal(JAC)</b> provisional en la jurisdicción de la organización:
+            Por el sur la calle 66f hasta la carrera 48, baja por la calle 67 <b>&quot;barranquilla&quot;</b>
+            hasta la carrera 49, por el norte con calle 76, por el oriente con la carrera 45
+            <b>&quot;Avenida Carlos Gardel&quot;</b> y por el occidente con la carrera 49.
+            Se aprobaron, además, los estatutos y se tomó el nombre de <b>JAC Manrique Central No 1</b>.
+            <br></br>
+            En el año 2001 reciben el reconocimiento y la personería jurídica 084 del 1°de junio de 2001 y el
+            NIT N° 811.030.218-9, procediendo entonces a la elección de nueva JAC:
+            <br></br>
+            <b>Presidente:</b> Fernando Arango
+            <br>
+            <b>Vicepresidente:</b> Oscar Ramiro Álzate
+            <br>
+            <b>Tesorero:</b> Juan Raúl Díaz
+            <br>
+            <b>Secretaria:</b> Luz Dary
+            <br></br>
+            En los años 2002 y 2003 se eligieron nuevos miembros por motivos de retiro de algunos dignatarios.
+            La JAC fomenta los ejercicios de discusión y representación frente a las diferentes problemáticas
+            del barrio, nuestras acciones se han convertido en un ejercicio de representación política y
+            comunitaria, velando por el mejoramiento de la calidad de vida de los habitantes del barrio.
+            La JAC no posee sede, pero esto no impide realizar nuestro quehacer comunitario.</p>
         </div>
       </div>
-    </article>
-
-    <!-- <section id="nosotros">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1>info de nosotros</h1>
-          </div>
+      <div class="row my-pt">
+        <div class="col-sm-12 col-md-6">
+          <h2 class="text-green ml-5">En la actualidad</h2>
+          <p class="text-left mt-5 pl-5 pr-5">En este momento la Junta directiva y comités,
+            están orientados por personas con alto perfil de trabajo comunitario, sustentado
+            en constantes procesos de formación y capacitación, donde prima como principio la
+            construcción en pro del beneficio de los habitantes del barrio.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 pr-5">
+          <img src="..." class="rounded float-left d-block img-thumb" alt="...">
+        </div>
       </div>
-    </section> -->
+    </section>
 
     <section id="comuna" class="container">
       <div class="row">
@@ -145,12 +152,6 @@
             <p><b class="text-green">Viviendas:</b> en nuestro territorio se encuentran 45.000 viviendas entre casas,
               apartamentos y locales comerciales.</p>
           </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          aqui insertamos un video
         </div>
       </div>
 
@@ -241,30 +242,15 @@
       </div>
     </section>
 
-    <section id="maps">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h2 class="text-green">Mapas</h2>
-            <p>En la comuna 4 Aranjuez existen 14 barrios.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm">
-            <h1>aqui va el mapa</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="blog">
       <div class="container">
         <div class="row">
           <div class="col-sm">
             <h1>el blog</h1>
+            <?php get_sidebar(); ?>
           </div>
       </div>
+
     </section>
 
     <section id="social-media">

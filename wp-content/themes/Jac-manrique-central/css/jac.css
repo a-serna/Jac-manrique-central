@@ -5,6 +5,28 @@
   border-radius: 100%;
 }
 
+/*imagen 1*/
+.bg-1{
+  /*background-image: */
+  background-color: #82BA2B;
+  width: 100%;
+  height: 300px;
+}
+
+.text-pt{
+  padding-top: 4em;
+}
+
+.my-pt{
+  padding-top: 8em;
+}
+
+.img-thumb{
+  height: 400px;
+  background-color: #808080;
+  width: 100%;
+}
+
 /*bordes de sección de movilidad*/
 .my-border{
   height: 210px;

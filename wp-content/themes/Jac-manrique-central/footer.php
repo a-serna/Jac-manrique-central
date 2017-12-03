@@ -38,8 +38,8 @@
     <script type="text/javascript">
     $('.carousel').carousel({
       interval: 2000
-    })
-      // $('body').scrollspy({ target: '#navbarTogglerDemo02' })
+    }),
+    $('body').scrollspy({ target: '#navbarTogglerDemo02' })
       // $('[data-spy="scroll"]').each(function () {
       //   var $spy = $(this).scrollspy('refresh')
     // })

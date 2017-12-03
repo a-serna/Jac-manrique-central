@@ -15,7 +15,6 @@
 
 body{
   position: relative;
-  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 article{
@@ -47,7 +46,8 @@ textarea{
 
 /*fonts*/
 p{
-  font-size: 1.3em;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 h2{
