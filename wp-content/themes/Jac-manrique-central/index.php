@@ -285,73 +285,97 @@
     </section> -->
 
     <section id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1>el blog</h1>
-            <?php get_sidebar(); ?>
+      <div class="row my-pt">
+        <div class="col-12">
+          <div class="bg-1">
+            <div class="row my-pt">
+              <div class="col-12 pt-5">
+                <h2 class="text-white ml-5 mt-5 pt-1">Blog</h2>
+              </div>
+              <div class="col-8">
+                <p class="text-white text-left mt-1 pl-5 pr-5">Suscribete y entérate de todo
+                  lo que pasa en nuestra comuna y en tu barrio aquí en nuestro blog y en nuestra página de facebook.</p>
+                <a class="nav-link text-right text-success" href="#">Ir al blog</a>
+              </div>
+            </div>
+            <!-- imagen -->
           </div>
+        </div>
       </div>
-
+      <div class="row my-pt pl-5 pr-5">
+        <div class="col">
+          entrada 1
+        </div>
+        <div class="col">
+          entrada 2
+        </div>
+        <div class="col">
+          <?php get_sidebar(); ?>
+        </div>
+      </div>
     </section>
 
     <section id="social-media">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1>aqui va la api de fb</h1>
-          </div>
+      <div class="row">
+        <div class="col-sm">
+          <h1>aqui va la api de fb</h1>
+        </div>
       </div>
     </section>
 
-    <section id="contacto">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h2 class="text-green">Contacto</h2>
-            <p>Escríbenos y mándanos tus inquietudes, sugerencias o aportes, para que conectemos a nuestra comuna.</p>
+    <section id="contacto" class="mt-5">
+      <div class="row my-pt">
+        <div class="col-12">
+          <div class="bg-1">
+            <div class="row my-pt">
+              <div class="col-12 pt-5">
+                <h2 class="text-white ml-5 mt-5 pt-1">Contacto</h2>
+              </div>
+              <div class="col-8">
+                <p class="text-white text-left mt-1 pl-5 pr-5">Escribenos y mandanos
+                  tus inquietudes, sugerencias o aportes.</p>
+              </div>
+            </div>
+            <!-- imagen -->
+          </div>
+        </div>
+      </div>
+
+
+      <form class="mt-5 p-5">
+        <div class="form-row justify-content-md-center">
+          <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
+            <input type="text" class="form-control border form-border rounded text-center" placeholder="Nombre">
+          </div>
+          <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
+            <input type="text" class="form-control border form-border rounded text-center" placeholder="Apellido">
+          </div>
+          <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
+            <input type="email" class="form-control border form-border rounded text-center" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
+            <input type="tel" class="form-control border form-border rounded text-center" placeholder="Teléfono">
+          </div>
+
+          <textarea name="textarea" class="form-control border form-border rounded" length="400"></textarea>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="form-group">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"><h6>Acepto términos y condiciones</h6>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-sm-center mt-3">
+          <div class="col-sm-3">
+            <input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar">
           </div>
         </div>
 
-
-        <form class="mt-5 p-5">
-          <div class="form-row justify-content-md-center">
-            <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
-              <input type="text" class="form-control border form-border rounded text-center" placeholder="Nombre">
-            </div>
-            <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
-              <input type="text" class="form-control border form-border rounded text-center" placeholder="Apellido">
-            </div>
-            <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
-              <input type="email" class="form-control border form-border rounded text-center" id="inputEmail4" placeholder="Email">
-            </div>
-            <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
-              <input type="tel" class="form-control border form-border rounded text-center" placeholder="Teléfono">
-            </div>
-
-            <textarea name="textarea" class="form-control border form-border rounded" length="400"></textarea>
-          </div>
-
-          <div class="row justify-content-md-center">
-            <div class="form-group">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox"><h6>Acepto términos y condiciones</h6>
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-sm-center mt-3">
-            <div class="col-sm-3">
-              <input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar">
-            </div>
-          </div>
-
-        </form>
-
-      </div>
+      </form>
     </section>
-
-    <!-- con esta etiqueta podes agregar iconos de material icon<i class="material-icons">code</i> -->
 
     <?php get_footer(); ?>
