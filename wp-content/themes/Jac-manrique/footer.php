@@ -36,10 +36,13 @@
     </footer>
 
     <script type="text/javascript">
-      $('body').scrollspy({ target: '#navbarTogglerDemo02' })
-      $('[data-spy="scroll"]').each(function () {
-        var $spy = $(this).scrollspy('refresh')
-      })
+    $('.carousel').carousel({
+      interval: 2000
+    })
+      // $('body').scrollspy({ target: '#navbarTogglerDemo02' })
+      // $('[data-spy="scroll"]').each(function () {
+      //   var $spy = $(this).scrollspy('refresh')
+    // })
     </script>
     <!--js bootstrap-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

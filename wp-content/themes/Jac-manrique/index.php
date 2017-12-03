@@ -4,7 +4,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#home">
-          <img src="wp-content/themes/Jac-manrique/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
+          <img src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -16,10 +16,10 @@
               <a class="nav-link" href="#nosotros"><p>Nosotros</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#comuna"><p>Mi comuna</p></a>
+              <a class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#maps"><p>Mapas</p></a>
+              <a class="nav-link" href="#"><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#blog"><p>Blog</p></a>
@@ -32,39 +32,74 @@
       </nav>
     </header>
 
+    <article>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="1rst slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="3Th slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="4th slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </article>
+
+
+
     <!-- aqui va la primera sección -->
     <article id="home" class="container">
-      <div class="card-deck">
-        <div class="card">
+      <div class="row card-deck">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Comuna</h4>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Mapas</h4>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Equipamiento</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-sm-6 col-md-3 pl-0 pr-0">
           <!-- imagenes -->
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="" alt="Card image cap">
           <div class="card-body bg-dark text-white">
             <h4 class="card-title text-center">Blog</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>
@@ -89,7 +124,7 @@
       <div class="row media">
         <div class="col-sm-12 col-lg-4">
         <!-- imagen aqui -->
-        <img class="mr-3" src="..." alt="Generic placeholder image">
+        <img class="mr-3" src="" alt="Generic placeholder image">
         </div>
         <div class="col-sm-12 col-lg-8">
           <div class="media-body">
@@ -129,10 +164,10 @@
 
       <div class="row media">
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -144,10 +179,10 @@
         </div>
 
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -157,10 +192,10 @@
           </div>
         </div>
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -172,10 +207,10 @@
           </div>
         </div>
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-5 offset-lg-2 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -189,10 +224,10 @@
           </div>
         </div>
 
-        <div class="my-border border border-success rounded col-sm-12 col-lg-12 p-4 mb-3">
+        <div class="my-border border rounded col-sm-12 col-lg-12 p-4 mb-3">
           <div class="row">
             <div class="col-sm-3">
-              <img class="mr-3" src="..." alt="Generic placeholder image">
+              <img class="mr-3" src="" alt="Generic placeholder image">
             </div>
             <div class="col-sm-9">
               <div class="media-body">
@@ -232,12 +267,60 @@
       </div>
     </section>
 
-    <section id="contacto">
-      <div class="container-fluid">
+    <section id="social-media">
+      <div class="container">
         <div class="row">
           <div class="col-sm">
-            <h1>contacto</h1>
+            <h1>aqui va la api de fb</h1>
           </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2 class="text-green">Contacto</h2>
+            <p>Escríbenos y mándanos tus inquietudes, sugerencias o aportes, para que conectemos a nuestra comuna.</p>
+          </div>
+        </div>
+
+
+        <form class="mt-5 p-5">
+          <div class="form-row justify-content-md-center">
+            <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
+              <input type="text" class="form-control border form-border rounded text-center" placeholder="Nombre">
+            </div>
+            <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
+              <input type="text" class="form-control border form-border rounded text-center" placeholder="Apellido">
+            </div>
+            <div class="margin-ajust col-sm-12 col-md-4 mr-5 mb-3">
+              <input type="email" class="form-control border form-border rounded text-center" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="margin-ajust col-sm-12 col-md-4 ml-5 mb-3">
+              <input type="tel" class="form-control border form-border rounded text-center" placeholder="Teléfono">
+            </div>
+
+            <textarea name="textarea" class="form-control border form-border rounded" length="400"></textarea>
+          </div>
+
+          <div class="row justify-content-md-center">
+            <div class="form-group">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox"><h6>Acepto términos y condiciones</h6>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-sm-center mt-3">
+            <div class="col-sm-3">
+              <input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar">
+            </div>
+          </div>
+
+        </form>
+
       </div>
     </section>
 
