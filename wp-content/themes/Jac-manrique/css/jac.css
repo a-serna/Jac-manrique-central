@@ -1,3 +1,10 @@
+/*botones slider*/
+.carousel-indicators>li{
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+}
+
 /*bordes de sección de movilidad*/
 .my-border{
   height: 210px;
@@ -22,6 +29,8 @@
 .my-border.border{
   border: 3px solid #82BA2B !important;
 }
+
+
 
 /*Responsive*/
 /*No media query since this is the default in Bootstrap*/

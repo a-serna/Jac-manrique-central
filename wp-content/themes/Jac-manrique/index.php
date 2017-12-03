@@ -16,10 +16,10 @@
               <a class="nav-link" href="#nosotros"><p>Nosotros</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#comuna"><p>Mi comuna</p></a>
+              <a class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#maps"><p>Mapas</p></a>
+              <a class="nav-link" href="#"><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#blog"><p>Blog</p></a>
@@ -31,6 +31,41 @@
         </div>
       </nav>
     </header>
+
+    <article>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="1rst slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="3Th slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="4th slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </article>
+
+
 
     <!-- aqui va la primera sección -->
     <article id="home" class="container">
