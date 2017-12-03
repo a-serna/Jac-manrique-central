@@ -109,19 +109,61 @@
       </div>
       <div class="row my-pt">
         <div class="col-sm-12 col-md-6">
-          <h2 class="text-green ml-5">En la actualidad</h2>
+          <h2 class="text-green pl-5">En la actualidad</h2>
           <p class="text-left mt-5 pl-5 pr-5">En este momento la Junta directiva y comités,
             están orientados por personas con alto perfil de trabajo comunitario, sustentado
             en constantes procesos de formación y capacitación, donde prima como principio la
             construcción en pro del beneficio de los habitantes del barrio.</p>
         </div>
-        <div class="col-sm-12 col-md-6 pr-5">
+        <div class="col-sm-12 col-md-6 pr-5 pl-5">
           <img src="..." class="rounded float-left d-block img-thumb" alt="...">
         </div>
       </div>
     </section>
 
-    <section id="comuna" class="container">
+    <section id="misión-visión">
+      <div class="row my-pt">
+        <div class="col-12">
+          <div class="bg-1">
+            ...<!-- imagen -->
+          </div>
+        </div>
+      </div>
+      <div class="row my-pt">
+        <div class="col-sm-12 col-md-6 pl-5 pr-5">
+          <img src="..." class="rounded d-block img-thumb" alt="...">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h2 class="text-green mr-5 pl-5 mt-5">Objetivo:</h2>
+          <p class="text-left mt-5 pr-5 pl-5">Poner en manos de la organización una herramienta práctica que
+            facilite tomar conciencia sobre las responsabilidades que tienen los asociados y dignatarios,
+            para lograr mayor beneficio y mejoramiento de la calidad de vida de la comunidad, que ayuden a la
+            interpretación y comprensión de la normatividad contemplada en la legislación comunal vigente y en los estatutos.</p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h2 class="text-green ml-5 mt-5">Misión:</h2>
+          <p class="text-left mt-5 pl-5 pr-5">La JAC Manrique Central N° 1 es una organización civil, sin
+            ánimo de lucro que busca elevar la calidad de vida de sus afiliados y desarrolla proyectos
+            educativos ambientales, formando así ciudadanos solidarios, respetuosos, tolerantes, autónomos
+            y responsables. Su propósito es promover un desarrollo integral sostenible y sustentable, construido
+            a partir de la democracia participativa en la gestión del desarrollo de la comunidad. (ley 743 de 2002)</p>
+        </div>
+        <div class="col-sm-12 col-md-6 pr-5 pl-5 mt-5">
+          <img src="..." class="rounded d-block img-thumb" alt="...">
+        </div>
+        <div class="col-sm-12 col-md-6 pl-5 pr-5 mt-5">
+          <img src="..." class="rounded d-block img-thumb" alt="...">
+        </div>
+        <div class="col-sm-12 col-md-6 mt-5">
+          <h2 class="text-green ml-5">Visión:</h2>
+          <p class="text-left mt-5 pl-5 pr-5">La Junta de Acción Comunal espera que para el año 2020 sea reconocida
+            como una organización honesta al servicio de la Comunidad por su gestión administrativa y política en el
+            desarrollo de sus proyectos educativos ambientales y prevención en el campo de la salud pública.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="comuna" class="container">
       <div class="row">
         <div class="col-sm">
           <h2 class="text-green">Mi comuna</h2>
@@ -130,7 +172,7 @@
       </div>
       <div class="row media">
         <div class="col-sm-12 col-lg-4">
-        <!-- imagen aqui -->
+
         <img class="mr-3" src="" alt="Generic placeholder image">
         </div>
         <div class="col-sm-12 col-lg-8">
@@ -240,7 +282,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="blog">
       <div class="container">
