@@ -6,7 +6,7 @@
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
     <!--colocar keywords-->
-    <meta name="keywords" content="...">
+    <meta name="keywords" content="Gobierno, Medellín, Jac, comuna 4, Manrique central, calidad de vida, desarrollo integral, trabajo comunitario, gestión administrativa, salud pública,">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

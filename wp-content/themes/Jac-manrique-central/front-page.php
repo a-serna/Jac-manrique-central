@@ -181,43 +181,27 @@
           </div>
         </div>
       </div>
+      <!-- loop con excerpt -->
       <div class="row my-pt pl-5 pr-5">
-        <div class="col">
-          <?php
-          if ( 'posts' == get_option( 'show_on_front' ) ) {
-          include( get_home_template() );
-          } else {
-          // Custom content markup goes here
-          }
-            ?>
-
-        </div>
-        <div class="col">
-          <?php
-          if ( 'posts' == get_option( 'show_on_front' ) ) {
-              include( get_home_template() );
-          } else {
-              include( get_page_template() );
-          }
-           ?>
-        </div>
-        <div class="col">
-          <?php get_sidebar(); ?>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
+        <div class="col-9">
           <?php if( have_posts() ) : ?>
         	<?php while( have_posts() ) : the_post() ?>
         		<h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
         		<div class="content">
-        			<?php the_content() ?>
+              <?php if( is_singular() ) : ?>
+        			   <?php the_content() ?>
+              <?php else : ?>
+         				<?php the_excerpt() ?>
+         			<?php endif ?>
         		</div>
         	<?php endwhile ?>
         <?php else : ?>
-        	<p>Oh No, there are no posts!</p>
+        	<p>Oops no tenemos publicaciones aún.</p>
         <?php endif ?>
+        </div>
+      <!-- fin del loop -->
+        <div class="col-3 float-rigth">
+          <?php get_sidebar(); ?>
         </div>
       </div>
     </section>

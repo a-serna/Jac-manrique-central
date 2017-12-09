@@ -29,20 +29,21 @@
 							<li><a href='<?php the_permalink() ?>'><?php the_title() ?></a></li>
 						<?php endwhile ?>
 						<?php else : ?>
-							<p>Oh No, there are no posts!</p>
+							<p>Oops no tenemos publicaciones aún.</p>
 						<?php endif ?>
 					</ul>
 				</li>
 				<li class="categories nav-item"><h2>Categorías</h2>
 					<ul>
+						<!-- pendiente -->
 						<li class="cat-item cat-item-1"><a href="http://localhost/Jac-manrique-central/category/sin-categoria/" >Sin categoría</a> (1)
 						</li>
 					</ul>
 				</li>
-				<li class="nav-item"><h2>Meta</h2>
+				<li class="nav-item"><h2>Administrador</h2>
 					<ul>
-						<li><a href="http://localhost/Jac-manrique-central/wp-admin/">Administrador del sitio</a></li>
-						<!-- <li><a href="http://localhost/Jac-manrique-central/wp-login.php?action=logout&#038;_wpnonce=2925da6b7c">Desconectar</a></li> -->
+						<li><a href="<?php echo wp_login_url( $redirect ); ?>" title="Iniciar sesión">Iniciar sesión</a></li>
+						<!-- <li><a href="<?php echo wp_logout_url( $redirect ); ?>" title="Cerrar sesión">Cerrar sesión</a></li> -->
 					</ul>
 				</li>
 			</ul>
