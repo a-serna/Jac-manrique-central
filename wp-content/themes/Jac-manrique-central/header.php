@@ -21,5 +21,4 @@
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
     <title><?php bloginfo(title); ?></title>
-    <!-- <?php wp_head(); ?> -->
   </head>

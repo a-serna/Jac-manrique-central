@@ -18,7 +18,7 @@
               <a class="nav-link" href="#">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Comuna</a>
+              <a class="nav-link" href="comuna-virtual.pnp">Comuna</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Mapas</a>
