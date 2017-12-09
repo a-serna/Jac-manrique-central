@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-  <body data-spy="scroll" data-target="#navbarTogglerDemo02">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#home">
+        <a data-scroll class="navbar-brand" href="#home">
           <img src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,27 +13,27 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#historia"><p>Historia</p></a>
+              <a data-scroll class="nav-link" href="#historia"><p>Historia</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
+              <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href=""><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog"><p>Blog</p></a>
+              <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto"><p>Contacto</p></a>
+              <a data-scroll class="nav-link" href="#contacto"><p>Contacto</p></a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <article>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <article id="home">
+      <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -66,7 +66,7 @@
     </article>
 
     <!-- sección de historia -->
-    <section id="historia">
+    <section id="historia" class="fooContainer">
       <div class="row">
         <div class="col-12">
           <div class="bg-1">
@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="col-12">
-          <h2 class="text-green text-pt ml-5">Historia</h2>
+          <h2 class="text-green text-pt ml-5 fooReveal">Historia</h2>
           <p class="text-left mt-5 pl-5 pr-5">En el año 2000 el señor <b>Fernando Arango</b>, apoyado por su señor padre <b>Gilberto Arango</b>,
             se dio a la tarea de crear la acción comunal del barrio; el señor Arango convocó a varias personas
             para que lo acompañaran en su objetivo encontrando apoyo en algunas personas entre ellas: los señores
@@ -183,28 +183,47 @@
       </div>
       <!-- loop con excerpt -->
       <div class="row my-pt pl-5 pr-5">
-        <div class="col-9">
-          <?php if( have_posts() ) : ?>
-        	<?php while( have_posts() ) : the_post() ?>
-        		<h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
-        		<div class="content">
+        <?php if( have_posts() ) : ?>
+      	<?php while( have_posts() ) : the_post() ?>
+      		<div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="Card image">
+              <a class="text-white" href='<?php the_permalink() ?>'>
+                <div class="card-img-overlay pl-0 pr-0 pb-0">
+                  <div class="bg-tittle p-auto animated bounce">
+                    <h4 class="card-title"><?php the_title() ?></h4>
+                  </div>
+
+                  <!--  <p class="card-text">Last updated 3 mins ago</p> -->
+                </div>
+              </a>
+            </div>
+            <div class="content">
               <?php if( is_singular() ) : ?>
-        			   <?php the_content() ?>
+                <p class="card-text"><?php the_content() ?></p>
               <?php else : ?>
-         				<?php the_excerpt() ?>
+         				<p class="card-text"><?php the_excerpt() ?></p>
+                <a class="text-green" href='<?php the_permalink() ?>'><p>Ver más</p></a>
          			<?php endif ?>
         		</div>
-        	<?php endwhile ?>
+          </div>
+        <?php endwhile ?>
         <?php else : ?>
         	<p>Oops no tenemos publicaciones aún.</p>
         <?php endif ?>
-        </div>
-      <!-- fin del loop -->
-        <div class="col-3 float-rigth">
+        <!-- fin del loop -->
+        <div class="col-sm-12 col-md-6 col-lg-3 float-right">
           <?php get_sidebar(); ?>
         </div>
       </div>
     </section>
+
+    <div class="row my-pt pl-5 pr-5">
+
+
+
+
+      </div>
 
     <section id="social-media">
       <div class="row">

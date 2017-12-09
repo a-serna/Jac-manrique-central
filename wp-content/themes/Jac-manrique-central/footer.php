@@ -36,35 +36,24 @@
     </footer>
 
     <script type="text/javascript">
-      $(document).ready(function(){
-        $('.carousel').carousel({
-          interval: 2000,
-        }),
-      $('body').scrollspy({target: "#navbarTogglerDemo02", offset: 50});
-      // Add smooth scrolling on all links inside the navbar
-      $("a").on('click', function(event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+      var scroll = new SmoothScroll('a[href*="#"]', {
+      	// Selectors
+      	ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+      	header: null, // Selector for fixed headers (must be a valid CSS selector)
 
-          // Store hash
-          var hash = this.hash;
+      	// Speed & Easing
+      	speed: 500, // Integer. How fast to complete the scroll in milliseconds
+      	offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+      	easing: 'easeInOutCubic', // Easing pattern to use
+      	customEasing: function (time) {}, // Function. Custom easing pattern
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        }  // End if
+      	// Callback API
+      	before: function () {}, // Callback to run before scroll
+      	after: function () {} // Callback to run after scroll
       });
-    });
     </script>
-
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!--js bootstrap-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

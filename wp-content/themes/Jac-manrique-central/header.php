@@ -17,7 +17,11 @@
     <!--css-->
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_url); ?>" >
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_directory); ?>/css/jac.css" >
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
+    <!-- js smooth scroll -->
+    <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
     <title><?php bloginfo(title); ?></title>
   </head>
