@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <!--colocar descripción-->
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="description" content="<?php bloginfo(description); ?>">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>

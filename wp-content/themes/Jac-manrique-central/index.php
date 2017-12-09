@@ -1,8 +1,9 @@
-delete info
- aqui va la info del Blog
+<?php get_header(); ?>
 
- <div id="article">
+<div id="article">
    <h2 class="article-title"><?php the_title() ?></h2>
-   <div class="article-content"><p><?php the_content() ?></p></div>
+   <div class="article-content"><?php the_content() ?></div>
    <div class="article-meta">Published on <?php the_time( "Y-m-d" ) ?> by <?php the_author() ?></div>
- </div>
+</div>
+
+<?php get_footer(); ?>

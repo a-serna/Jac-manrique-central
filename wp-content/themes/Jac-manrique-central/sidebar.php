@@ -21,9 +21,16 @@
 						<li class="page_item page-item-11"><a href="http://localhost/Jac-manrique-central/comuna-virtual/">Comuna_Virtual</a></li>
 					</ul>
 				</li>
-				<li class="nav-item"><h2>Archivos</h2>
+				<!-- aqui van las entradas -->
+				<li class="nav-item"><h2>Publicaciones</h2>
 					<ul>
-						<li><a href='http://localhost/Jac-manrique-central/2017/11/'>noviembre 2017</a></li>
+						<?php if( have_posts() ) : ?>
+						<?php while( have_posts() ) : the_post() ?>
+							<li><a href='<?php the_permalink() ?>'><?php the_title() ?></a></li>
+						<?php endwhile ?>
+						<?php else : ?>
+							<p>Oh No, there are no posts!</p>
+						<?php endif ?>
 					</ul>
 				</li>
 				<li class="categories nav-item"><h2>Categorías</h2>
@@ -35,7 +42,7 @@
 				<li class="nav-item"><h2>Meta</h2>
 					<ul>
 						<li><a href="http://localhost/Jac-manrique-central/wp-admin/">Administrador del sitio</a></li>
-						<li><a href="http://localhost/Jac-manrique-central/wp-login.php?action=logout&#038;_wpnonce=2925da6b7c">Desconectar</a></li>
+						<!-- <li><a href="http://localhost/Jac-manrique-central/wp-login.php?action=logout&#038;_wpnonce=2925da6b7c">Desconectar</a></li> -->
 					</ul>
 				</li>
 			</ul>
