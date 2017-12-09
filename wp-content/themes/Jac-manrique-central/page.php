@@ -1,6 +1,4 @@
-<!-- aqui se manejara el blog -->
-
-<?php get_header(); ?>
+<?php get_header(comuna); ?>
 
   <body>
     <header>
