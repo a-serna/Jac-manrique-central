@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!--colocar descripción-->
-    <meta name="description" content="...">
+    <meta name="description" content="<?php bloginfo(description); ?>">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
     <!--colocar keywords-->
