@@ -2,7 +2,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
         <a data-scroll class="navbar-brand" href="#home">
           <img src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
         </a>
@@ -19,7 +19,7 @@
               <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=""><p>Comuna virtual</p></a>
+              <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
               <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
@@ -66,7 +66,7 @@
     </article>
 
     <!-- sección de historia -->
-    <section id="historia" class="fooContainer">
+    <section id="historia">
       <div class="row">
         <div class="col-12">
           <div class="bg-1">
@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="col-12">
-          <h2 class="text-green text-pt ml-5 fooReveal">Historia</h2>
+          <h2 class="text-green text-pt ml-5">Historia</h2>
           <p class="text-left mt-5 pl-5 pr-5">En el año 2000 el señor <b>Fernando Arango</b>, apoyado por su señor padre <b>Gilberto Arango</b>,
             se dio a la tarea de crear la acción comunal del barrio; el señor Arango convocó a varias personas
             para que lo acompañaran en su objetivo encontrando apoyo en algunas personas entre ellas: los señores

@@ -17,8 +17,7 @@
 			<ul role="navigation" class="nav flex-column">
 				<li class="pagenav nav-item"><h2>Páginas</h2>
 					<ul>
-						<li class="page_item page-item-5"><a href="http://localhost/Jac-manrique-central/blog/">Blog</a></li>
-						<li class="page_item page-item-11"><a href="http://localhost/Jac-manrique-central/comuna-virtual/">Comuna_Virtual</a></li>
+						<li class="navbar-item"><a href="<?php echo get_page_link(11); ?>"><h5>Comuna Virtual</h5></a></li>
 					</ul>
 				</li>
 				<!-- aqui van las entradas -->
@@ -26,7 +25,7 @@
 					<ul>
 						<?php if( have_posts() ) : ?>
 						<?php while( have_posts() ) : the_post() ?>
-							<li><a href='<?php the_permalink() ?>'><?php the_title() ?></a></li>
+							<li><a href='<?php the_permalink() ?>'><h5><?php the_title() ?></h5></a></li>
 						<?php endwhile ?>
 						<?php else : ?>
 							<p>Oops no tenemos publicaciones aún.</p>

@@ -23,5 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
     <!-- js smooth scroll -->
     <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
+    <!-- js -->
+    <script src="<?php bloginfo(stylesheet_directory); ?>/js/jac.js"></script>
     <title><?php bloginfo(title); ?></title>
   </head>

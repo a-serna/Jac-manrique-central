@@ -32,6 +32,7 @@
       </nav>
     </header>
 
+    <h2>pagina comuna virtual</h2>
     <section id="comuna" class="container">
       <div class="row">
         <div class="col-sm">
