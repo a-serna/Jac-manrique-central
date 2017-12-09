@@ -19,7 +19,7 @@
               <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
+              <a class="nav-link" href="<?php echo get_page_link(); ?>"><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
               <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
@@ -187,14 +187,12 @@
       	<?php while( have_posts() ) : the_post() ?>
       		<div class="col-sm-12 col-md-6 col-lg-3">
             <div class="card bg-dark text-white">
-              <img class="card-img" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="Card image">
+              <img class="card-img" src="<?php the_post_thumbnail('small'); ?>" alt="Card image">
               <a class="text-white" href='<?php the_permalink() ?>'>
                 <div class="card-img-overlay pl-0 pr-0 pb-0">
                   <div class="bg-tittle p-auto animated bounce">
                     <h4 class="card-title"><?php the_title() ?></h4>
                   </div>
-
-                  <!--  <p class="card-text">Last updated 3 mins ago</p> -->
                 </div>
               </a>
             </div>
@@ -203,6 +201,7 @@
                 <p class="card-text"><?php the_content() ?></p>
               <?php else : ?>
          				<p class="card-text"><?php the_excerpt() ?></p>
+                <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
                 <a class="text-green" href='<?php the_permalink() ?>'><p>Ver más</p></a>
          			<?php endif ?>
         		</div>
@@ -217,13 +216,6 @@
         </div>
       </div>
     </section>
-
-    <div class="row my-pt pl-5 pr-5">
-
-
-
-
-      </div>
 
     <section id="social-media">
       <div class="row">
