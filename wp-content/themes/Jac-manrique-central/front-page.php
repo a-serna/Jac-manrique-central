@@ -212,7 +212,7 @@
         	<p>Oops no tenemos publicaciones aún.</p>
         <?php endif ?>
         <!-- fin del loop -->
-        <div class="col-sm-12 col-md-6 col-lg-3 float-right">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <?php get_sidebar(); ?>
         </div>
       </div>

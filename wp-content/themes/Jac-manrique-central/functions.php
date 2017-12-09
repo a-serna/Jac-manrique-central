@@ -1,14 +1,19 @@
 <?php
-// function JacManriqueCentral_enqueue_styles() {
-//
-//     $parent_style = 'parent-style';
-//
-//     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-//     wp_enqueue_style( 'child-style',
-//         get_stylesheet_directory_uri() . '/css/jac.css',
-//         array(),
-//         wp_get_theme()->get('Version')
-//     );
-// }
-// add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'widgets_init', 'mat_widget_areas' );
+function mat_widget_areas() {
+    register_sidebar( array(
+        'name' => 'Theme Sidebar',
+        'id' => 'mat-sidebar',
+        'description' => 'El sidebar se muestra a el lado derecho de la página',
+        'before_widget' => '<div id="%1$s" class="widget %2$s col-12">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="widget-title nav-item">',
+		'after_title'   => '</h2>',
+        // 'before'   => '<h5>',
+        // 'after'    => '</h5>,
+    ));
+}
+register_nav_menus( array(
+	'header-menu' => 'Header Menu Jac',
+) );
 ?>
