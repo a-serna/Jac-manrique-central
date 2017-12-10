@@ -1,2 +1,2 @@
 
- ests en el home
+ estas en el home

@@ -1,55 +1,47 @@
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm">
-            footer
-            <small>footer content</small>
-          </div>
+    <footer class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-2">
+          facebook
+        </div>
+        <div class="col-sm-2">
+          Youtube
         </div>
       </div>
-    </footer>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            info 01
-          </div>
-          <div class="col-sm">
-            <h2>Contacto</h2>
-            <ul>
-              <li><i class="material-icons">email</i> ---</li>
-              <li><i class="material-icons">smartphone</i> tel</li>
-              <li><i class="material-icons">place</i> dirección</li>
-            </ul>
-          </div>
-          <div class="col-sm">
-            <h2>Siguenos en:</h2>
-            <ul>
-              <li><a target="_blank" href="#"></a></li>
-              <li><a target="_blank" href="#"></a></li>
-              <li><a target="_blank" href="#"></a></li>
-            </ul>
-          </div>
+      <div class="row d-flex justify-content-end">
+        <div class="col-sm-2">
+          <a href="#home">arrow top</a>
         </div>
       </div>
-    </footer>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center">Email: info@jacmanrique.org</p>
+        <p class="text-center">Teléfono: </p>
+        <p class="text-center">Dirección: </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <?php wp_nav_menu('Footer menu'); ?>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-center"><b>&copy;</b> <?php echo date('Y'); ?> <?php bloginfo(name) ?> | Desarrollado por: Brumker </p>
+      </div>
+    </div>
+  </footer>
 
     <script type="text/javascript">
       var scroll = new SmoothScroll('a[href*="#"]', {
-      	// Selectors
-      	ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
-      	header: null, // Selector for fixed headers (must be a valid CSS selector)
-
-      	// Speed & Easing
-      	speed: 1000, // Integer. How fast to complete the scroll in milliseconds
-      	offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-      	easing: 'easeInOutCubic', // Easing pattern to use
-      	customEasing: function (time) {}, // Function. Custom easing pattern
-
-      	// Callback API
-      	before: function () {}, // Callback to run before scroll
-      	after: function () {} // Callback to run after scroll
+      	ignore: '[data-scroll-ignore]',
+      	header: null,
+      	speed: 1000,
+      	offset: 0,
+      	easing: 'easeInOutCubic',
+      	customEasing: function (time) {},
+      	before: function () {},
+      	after: function () {}
       });
     </script>
     <!-- scroll reveal -->

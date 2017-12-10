@@ -12,7 +12,14 @@ function mat_widget_areas() {
 		'after_title'   => '</h2>',
     ));
 }
-add_theme_support( 'post-thumbnails' ); 
+add_theme_support( 'post-thumbnails' );
+
+// navigation menu
+register_nav_menus( array(
+	'header-menu' => 'Header Menu',
+    'footer-menu' => 'Footer Menu'
+) );
+
 // function featuredSupported()
 // {
 //     // add featured image support

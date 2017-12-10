@@ -1,37 +1,4 @@
 <?php get_header(); ?>
-
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
-        <a data-scroll class="navbar-brand" href="#home">
-          <img src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="#historia"><p>Historia</p></a>
-            </li>
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
-            </li>
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
-            </li>
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="#contacto"><p>Contacto</p></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
     <article id="home">
       <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -280,4 +247,4 @@
       </form>
     </section>
 
-    <?php get_footer(); ?>
+<?php get_footer(); ?>

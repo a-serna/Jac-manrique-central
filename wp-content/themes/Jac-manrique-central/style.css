@@ -1,12 +1,12 @@
 /*
  Theme Name:   Jac Manrique Central
  Theme URI:    http://jacmanriquecentral.org
- Description:  Tema diseñado para la junta de acción comunal de Manrique central 2.
+ Description:  Tema diseñado para la junta de acción comunal de Manrique central Número 1.
  Author:       Brumker studios
  Author URI:   http://brumker.com
  Template:     Jac Manrique Central
  Version:      1.0.0
- Tags:         Gobierno, Medellín, Jac, comuna 4, Manrique central, calidad de vida, desarrollo integral
+ Tags:         Gobierno, responsive, flat, Blog, Barra lateral izquierda, Fondo personalizado, Colores personalizados, Cabecera personalizada, custom-menu, Imágenes destacadas, Formatos de entradas, Entrada fija.
  Text Domain:  Jac manrique Central
 */
 
@@ -64,6 +64,37 @@ h1,h2,h3,h4,h5,h6{
 .text-white{
   font-family: 'Lato', sans-serif !important;
 }
+
+/*menu del footer*/
+.menu-footer-main-container ul{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+  width: 80%;
+}
+
+.menu-footer-main-container ul:before, .site-nav ul:after{
+  content: "";
+  display: table;
+}
+.menu-footer-main-container ul:after { clear: both;}
+.menu-footer-main-container ul { *zoom: 1; }
+
+.menu-footer-main-container ul li{
+  list-style: none;
+  float: right;
+  padding-top: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+}
+
+.menu-footer-main-container ul li a{
+  text-decoration: none;
+  color: #858585;
+  font-size: 1em;
+}
+
 
 /*Responsive*/
 /*No media query since this is the default in Bootstrap*/

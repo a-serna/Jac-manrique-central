@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<?php wp_nav_menu('Header menu'); ?>
 
 
 <!-- <div id="article">
