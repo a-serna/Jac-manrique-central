@@ -11,14 +11,11 @@
 */
 
 /* css file */
-/*@import url('https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro');*/
 
+/*estructura general*/
 body{
   position: relative;
-}
-
-.navbar .navbar-light{
-  background-color: rgba(#fff, 0.7) !important;
+  font-size: 16px;
 }
 
 article{
@@ -33,46 +30,6 @@ img{
 
 a{
   text-decoration: none !important;
-}
-
-.post{
-  width: 75%;
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  float: left;
-}
-
-.post-col{
-  margin: 0.5em;
-  max-width: 25%
-}
-
-.sidebar-right{
-  width: 25%;
-  display: flex;
-  margin-bottom: 5em;
-}
-
-.sidebar-col{
-  flex: 1;
-}
-
-.api-fb{
-  width: 100%;
-  display: flex;
-  float: left;
-}
-
-.contacto{
-  width: 100%;
-  float: left;
-}
-
-.footer{
-  width: 100%;
-  float: left;
 }
 
 /*bordes de formulario*/
@@ -103,6 +60,14 @@ p{
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Lato', sans-serif !important;
+}
+
+small{
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+b{
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .text-green{
@@ -172,6 +137,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 1em;
 }
 
+/*alineación de imagenes en editor de wordpress*/
 img.alignright{float: right; margin: -70px 0 1em 1em;}
 img.alignleft{float: left; margin: 0 1em 1em 0;}
 img.aligncenter{display: block; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px;}
@@ -183,8 +149,6 @@ img#wpstats{
 }
 
 /*Responsive*/
-/*No media query since this is the default in Bootstrap*/
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 }
