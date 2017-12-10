@@ -25,6 +25,16 @@ article{
   padding-top: 90px;
 }
 
+img{
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+a{
+  text-decoration: none !important;
+}
+
 .post{
   width: 75%;
   display: flex;
@@ -133,22 +143,21 @@ h1,h2,h3,h4,h5,h6{
   font-size: 1em;
 }
 
+img.alignright{float: right; margin: -70px 0 1em 1em;}
+img.alignleft{float: left; margin: 0 1em 1em 0;}
+img.aligncenter{display: block; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px;}
+a img.alignright{float: right; margin: -65px 0 1em 1em;}
+a img.alignleft{float: left; margin: 0 1em 1em 0;}
+a img.aligncenter{display: block; margin-left: auto; margin-right: auto;}
+img#wpstats{
+  display: none;
+}
 
 /*Responsive*/
 /*No media query since this is the default in Bootstrap*/
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-  .post{
-    width: 100%;
-  }
-
-  .post-col{
-    max-width: 100%;
-  }
-  .sidebar-right{
-    width: 50%;
-  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -156,21 +165,14 @@ h1,h2,h3,h4,h5,h6{
 
  }
 
- /*Medium devices (tablets, 768px and down)*/
- @media (max-width: 768px) {
-   .margin-ajust.mr-5{
-     margin-right: 0px !important;
-   }
-
-   .margin-ajust.ml-5{
-     margin-left: 0px !important;
-   }
-  }
+/*Medium devices (tablets, 768px and down)*/
+@media (max-width: 768px) {
+}
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
- }
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {

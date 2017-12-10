@@ -15,9 +15,13 @@ function mat_widget_areas() {
 add_theme_support( 'post-thumbnails' );
 
 // navigation menu
-register_nav_menus( array(
-	'header-menu' => 'Header Menu',
-    'footer-menu' => 'Footer Menu',
-) );
+function register_my_menus(){
+  register_nav_menus( array(
+    'header-menu' => 'Header Menu',
+      'footer-menu' => 'Footer Menu',
+  ) );
+}
+add_action('init', 'register_my_menus');
+
 
 ?>

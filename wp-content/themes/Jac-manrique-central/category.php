@@ -10,14 +10,15 @@
          if(have_posts() ) : ?>
              <?php while( have_posts() ) : the_post() ?>
            <div class="col-lg-3 col-md-6 col-xs-12">
-           <div class="card bg-dark text-white">
-             <img class="card-img" src="<?php the_post_thumbnail(); ?>">
+           <div class="card border-light">
              <a class="text-white" href='<?php the_permalink() ?>'>
-               <div class="card-img-overlay pl-0 pr-0 pb-0">
-                 <div class="bg-tittle p-auto animated bounce">
-                   <h4 class="card-title"><?php the_title() ?></h4>
-                 </div>
-               </div>
+               <?php
+                  if (has_post_thumbnail()){
+
+                  the_post_thumbnail();
+                  }
+                ?>
+              <h4 class="card-header text-green"><?php the_title() ?></h4>
              </a>
            </div>
            <div class="content">
@@ -27,7 +28,7 @@
                        <p class="card-text"><?php the_excerpt() ?></p>
                <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
                <small class="card-text"><?php the_tags(); ?></small>
-               <a class="text-green" href='<?php the_permalink() ?>'><p>Ver más</p></a>
+               <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
                    <?php endif ?>
                </div>
          </div>

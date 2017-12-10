@@ -3,6 +3,13 @@
 <article id="home">
     <div class="row pl-5 pr-5 pt-5">
       <?php
+      wp_nav_menu(
+        array(
+          'theme_location' => 'header-menu'
+        )
+      );
+      ?>
+      <?php
       if(have_posts()) :
         while(have_posts()) :
           the_post();
