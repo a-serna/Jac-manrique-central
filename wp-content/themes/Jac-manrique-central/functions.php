@@ -17,7 +17,7 @@ add_theme_support( 'post-thumbnails' );
 // navigation menu
 register_nav_menus( array(
 	'header-menu' => 'Header Menu',
-    'footer-menu' => 'Footer Menu'
+    'footer-menu' => 'Footer Menu',
 ) );
 
 // function featuredSupported()

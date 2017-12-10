@@ -22,12 +22,48 @@ body{
 }
 
 article{
-  padding-top: 270px;
-  background-color: black;
+  padding-top: 90px;
 }
 
+.post{
+  width: 75%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  float: left;
+}
 
+.post-col{
+  margin: 0.5em;
+  max-width: 25%
+}
 
+.sidebar-right{
+  width: 25%;
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.sidebar-col{
+  flex: 1;
+}
+
+.api-fb{
+  width: 100%;
+  display: flex;
+  float: left;
+}
+
+.contacto{
+  width: 100%;
+  float: left;
+}
+
+.footer{
+  width: 100%;
+  float: left;
+}
 
 /*bordes de formulario*/
 .form-border{
@@ -39,7 +75,9 @@ article{
 }
 
 textarea{
-  width: 60% !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
   height: 15em !important;
 }
 
@@ -101,7 +139,16 @@ h1,h2,h3,h4,h5,h6{
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
+  .post{
+    width: 100%;
+  }
 
+  .post-col{
+    max-width: 100%;
+  }
+  .sidebar-right{
+    width: 50%;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/

@@ -42,19 +42,19 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a data-scroll class="nav-link" href="#historia"><p>Historia</p></a>
+                <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#historia"><p>Historia</p></a>
               </li>
               <li class="nav-item">
-                <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
+                <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#misión-visión"><p>Misión/visión</p></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
               </li>
               <li class="nav-item">
-                <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
+                <a data-scroll class="nav-link" href="#home"><p>Blog</p></a>
               </li>
               <li class="nav-item">
-                <a data-scroll class="nav-link" href="#contacto"><p>Contacto</p></a>
+                <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#contacto"><p>Contacto</p></a>
               </li>
             </ul>
           </div>
