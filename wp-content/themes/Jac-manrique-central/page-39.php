@@ -34,7 +34,7 @@
 </article>
 
 <section>
-  <div class="row my-pt pl-5 pr-5 d-flex align-self-start">
+  <div class="row pt-5 pl-5 pr-5 d-flex align-self-start">
          <div class="col-lg-3 col-md-6 col-xs-12 pb-3">
              <?php get_sidebar(); ?>
          </div>
@@ -53,7 +53,7 @@
                   the_post_thumbnail();
                   }
                 ?>
-               <h4 class="card-header text-green"><?php the_title() ?></h4>
+               <h4 class="card-header text-uppercase text-white"><?php the_title() ?></h4>
              </a>
            </div>
            <div class="content">

@@ -1,6 +1,6 @@
 /*background colors*/
 .bg-purpura{
-  background-color: #cc1da5;
+  background-color: #db157d;
   width: 100%;
   height: auto;
   padding-bottom: 5px;
@@ -8,7 +8,7 @@
 }
 
 .bg-naranja{
-  background-color: #dab530;
+  background-color: #e6593f;
   width: 100%;
   height: auto;
   padding-bottom: 5px;
@@ -65,13 +65,13 @@
 
 /*border colors*/
 .media-purpura{
-  border-left: 4px solid #cc1da5;
+  border-left: 4px solid #db157d;
   padding-left: 25px;
 }
 
 /*text colors*/
 .text-purpura{
-  color: #cc1da5;
+  color: #db157d;
 }
 
 /*bordes de sección de movilidad*/
@@ -80,7 +80,7 @@
 }
 
 .my-border.border{
-  border: 3px solid #dab530 !important;
+  border: 3px solid #e6593f !important;
 }
 
 footer{

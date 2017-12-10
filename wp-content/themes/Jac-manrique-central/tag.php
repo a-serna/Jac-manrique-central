@@ -18,7 +18,7 @@
                   the_post_thumbnail();
                   }
                 ?>
-              <h4 class="card-header text-green"><?php the_title() ?></h4>
+              <h4 class="card-header text-uppercase text-white"><?php the_title() ?></h4>
              </a>
            </div>
            <div class="content">

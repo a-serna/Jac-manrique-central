@@ -5,57 +5,47 @@
   border-radius: 100%;
 }
 
+/*background colors*/
 .bg-1{
   background-color: #82BA2B;
   width: 100%;
   height: 400px;
 }
 
-.text-pt{
-  padding-top: 4em;
-}
-
-.my-pt{
-  padding-top: 8em;
-}
-
+/*imagenes*/
 .img-thumb{
   height: 400px;
   background-color: #808080;
   width: 100%;
 }
 
+/*bordes de formulario*/
+.form-border{
+  border: 2px solid #82BA2B !important;
+}
+
+.form-border.rounded{
+  border-radius: 1.2rem !important;
+}
+
+textarea{
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  height: 15em !important;
+}
+
+.my-btn{
+  background-color: #82BA2B !important;
+}
+
+/*background de titulos entradas del blog*/
+.card-header{
+  background-color: rgba(0,0,0,0.8) !important;
+}
+
+/*footer principal*/
 footer{
   background-color: #82BA2B;
   color: #fff;
-}
-
-/*Responsive*/
-/*No media query since this is the default in Bootstrap*/
-
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575px) {
-
-}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
- }
-
- /*Medium devices (tablets, 768px and down)*/
- @media (max-width: 768px) {
-  }
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
- }
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
 }

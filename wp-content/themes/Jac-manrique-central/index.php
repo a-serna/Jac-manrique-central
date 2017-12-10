@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="col-12">
-          <h2 class="text-green text-pt pl-5">Historia</h2>
+          <h2 class="text-green pt-5 pl-5">Historia</h2>
           <p class="text-left mt-5 pl-5 pr-5">En el año 2000 el señor <b>Fernando Arango</b>, apoyado por su señor padre <b>Gilberto Arango</b>,
             se dio a la tarea de crear la acción comunal del barrio; el señor Arango convocó a varias personas
             para que lo acompañaran en su objetivo encontrando apoyo en algunas personas entre ellas: los señores
@@ -74,7 +74,7 @@
             La JAC no posee sede, pero esto no impide realizar nuestro quehacer comunitario.</p>
         </div>
       </div>
-      <div class="row my-pt">
+      <div class="row pt-5">
         <div class="col-sm-12 col-md-6">
           <h2 class="text-green pl-5">En la actualidad</h2>
           <p class="text-left mt-5 pl-5 pr-5">En este momento la Junta directiva y comités,
@@ -89,14 +89,14 @@
     </section>
 
     <section id="misión-visión">
-      <div class="row my-pt">
+      <div class="row pt-5">
         <div class="col-12">
           <div class="bg-1">
             ...<!-- imagen -->
           </div>
         </div>
       </div>
-      <div class="row my-pt">
+      <div class="row pt-5">
         <div class="col-sm-12 col-md-6 pl-5 pr-5">
           <img src="" class="rounded d-block img-thumb" alt="...">
         </div>
@@ -131,10 +131,10 @@
     </section>
 
     <section id="blog">
-      <div class="row my-pt">
+      <div class="row pt-5">
         <div class="col-12">
           <div class="bg-1">
-            <div class="row my-pt">
+            <div class="row pt-5">
               <div class="col-12 pt-5">
                 <h2 class="text-white pl-5 mt-5 pt-1">Blog</h2>
               </div>
@@ -147,7 +147,7 @@
           </div>
         </div>
       </div>
-      <div class="row my-pt pl-5 pr-5 d-flex align-self-start">
+      <div class="row pt-5 pl-5 pr-5 d-flex align-self-start">
           <div class="col-lg-3 col-md-6 col-xs-12 pb-3">
               <?php get_sidebar(); ?>
           </div>
@@ -166,7 +166,7 @@
                     the_post_thumbnail();
                     }
                   ?>
-                <h4 class="card-header text-green"><?php the_title() ?></h4>
+                <h4 class="card-header text-uppercase text-white"><?php the_title() ?></h4>
             </a>
             </div>
             <div class="content">
@@ -200,10 +200,10 @@
     </section>
 
     <section id="contacto" class="mt-5">
-      <div class="row my-pt">
+      <div class="row pt-5">
         <div class="col-12">
           <div class="bg-1">
-            <div class="row my-pt">
+            <div class="row pt-5">
               <div class="col-12 pt-5">
                 <h2 class="text-white ml-5 mt-5 pt-1">Contacto</h2>
               </div>
