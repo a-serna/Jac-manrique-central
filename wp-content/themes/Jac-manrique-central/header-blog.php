@@ -40,15 +40,23 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <?php
-            wp_nav_menu(
-              array(
-                'theme_location' => 'header-menu',
-                'container' => 'nav',
-                'menu-class' => 'nav_list',
-              )
-            );
-            ?>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#historia"><p>Historia</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#misión-visión"><p>Misión/visión</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="<?php echo get_page_link(39); ?>"><p>Blog</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#contacto"><p>Contacto</p></a>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>
