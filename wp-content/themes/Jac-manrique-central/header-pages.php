@@ -48,7 +48,7 @@
                 <a data-scroll class="nav-link" href="<?php echo home_url(); ?>#misión-visión"><p>Misión/visión</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
+                <a class="nav-link" target="_blank" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
               </li>
               <li class="nav-item">
                 <a data-scroll class="nav-link" href="<?php echo get_page_link(39); ?>"><p>Blog</p></a>

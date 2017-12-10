@@ -87,7 +87,7 @@ textarea{
 
 /*fonts*/
 p{
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: 'Source Sans Pro', sans-serif !important;
 }
 
@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,h6{
 
 .menu-footer-main-container ul li a{
   text-decoration: none;
-  color: #858585;
+  color: #d1d1d1;
   font-size: 1em;
 }
 

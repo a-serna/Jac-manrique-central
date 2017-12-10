@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <!--colocar descripción-->
-    <meta name="description" content="...">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="description" content="<?php bloginfo(description); ?>">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
     <!--colocar keywords-->
-    <meta name="keywords" content="...">
+    <meta name="keywords" content="Gobierno, Medellín, Jac, comuna 4, Manrique central, calidad de vida, desarrollo integral, trabajo comunitario, gestión administrativa, salud pública,">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +17,55 @@
     <!--css-->
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_url); ?>" >
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_directory); ?>/css/comuna.css" >
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
+    <!-- js smooth scroll -->
+    <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
+    <!-- js -->
+    <script src="<?php bloginfo(stylesheet_directory); ?>/js/comuna.js"></script>
     <title><?php bloginfo(title); ?></title>
   </head>
+
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
+          <a data-scroll class="navbar-brand" href="<?php echo get_page_link(11); ?>">
+            <img src="" class="img-fluid float-left" alt="logo comuna">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#comuna"><p>Comuna 4</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#movilidad"><p>Movilidad</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quebradas"><p>Quebradas</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#deportivos"><p>Escenarios deportivos</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#ciudad"><p>Equipamientos de ciudad</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#instituciones"><p>Instituciones Educativas</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#iglesias"><p>Iglesias</p></a>
+              </li>
+              <li class="nav-item">
+                <a data-scroll class="nav-link" href="#mapas"><p>Mapas</p></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
