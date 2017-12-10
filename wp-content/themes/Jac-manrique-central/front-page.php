@@ -152,8 +152,12 @@
               <?php get_sidebar(); ?>
           </div>
           <!-- loop con excerpt -->
-          <?php if( have_posts() ) : ?>
-              <?php while( have_posts() ) : the_post() ?>
+          <?php
+
+          $args = array ('posts_per_page' => 7 );
+          $filter_posts = new WP_Query($args);
+          if($filter_posts->have_posts() ) : ?>
+              <?php while( $filter_posts->have_posts() ) : $filter_posts->the_post() ?>
             <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="card bg-dark text-white">
               <img class="card-img" src="<?php the_post_thumbnail(); ?>">
@@ -178,11 +182,17 @@
           </div>
         <?php endwhile ?>
         <?php else : ?>
-            <p>Oops no tenemos publicaciones aún.</p>
+            <h1>Oops no tenemos publicaciones aún.</h1>
         <?php endif ?>
         <!-- fin del loop -->
       </div>
 
+    </section>
+
+    <section>
+        <div class="row">
+              <p>no hay entradas</p>
+        </div>
     </section>
 
     <section id="social-media" class="mt-5">
