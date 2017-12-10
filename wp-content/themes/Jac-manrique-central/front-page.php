@@ -153,12 +153,11 @@
           </div>
           <!-- loop con excerpt -->
           <?php
-
-          $args = array ('posts_per_page' => 7 );
+          $args = array ('posts_per_page' => 3 );
           $filter_posts = new WP_Query($args);
           if($filter_posts->have_posts() ) : ?>
               <?php while( $filter_posts->have_posts() ) : $filter_posts->the_post() ?>
-            <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-xs-12 order-first">
             <div class="card bg-dark text-white">
               <img class="card-img" src="<?php the_post_thumbnail(); ?>">
               <a class="text-white" href='<?php the_permalink() ?>'>
@@ -183,7 +182,9 @@
         <?php endwhile ?>
         <?php else : ?>
             <h1>Oops no tenemos publicaciones aún.</h1>
-        <?php endif ?>
+        <?php endif;
+        wp_reset_postdata(); //reset del loop
+         ?>
         <!-- fin del loop -->
       </div>
 
