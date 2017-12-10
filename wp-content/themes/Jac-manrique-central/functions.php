@@ -20,15 +20,4 @@ register_nav_menus( array(
     'footer-menu' => 'Footer Menu',
 ) );
 
-// function featuredSupported()
-// {
-//     // add featured image support
-//     add_theme_support('post_thumbnail');
-// }
-//     add_action('after_setup_theme', 'featuredSupported');
-//
-// function custom_excerpt_length() {
-//     return 25;
-// }
-// add_filter('excerpt_length', 'custom_excerpt_length');
 ?>

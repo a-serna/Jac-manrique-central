@@ -2,10 +2,7 @@
 
 <article id="home">
   <div class="row pt-5 pl-5 pr-5">
-    <div class="col-md-3 col-sm-12">
-  		<?php get_sidebar(); ?>
-  	</div>
-  	<div class="col-md-9 col-sm-12 order-first">
+  	<div class="col-sm-12">
   		<?php
   			if( have_posts() ) {
   				while( have_posts() ) {
