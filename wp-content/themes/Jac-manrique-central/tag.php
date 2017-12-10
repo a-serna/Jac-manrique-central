@@ -3,7 +3,7 @@
 <article id="home">
   <div class="row mt-5 pl-5 pr-5 d-flex align-self-start">
     <div class="col-12">
-      <h1 class="text-green mb-5"><?php single_cat_title(); ?></h1>
+      <h1 class="text-green mb-5"><?php single_tag_title(); ?></h1>
     </div>
          <!-- loop con filtro de categoria -->
          <?php

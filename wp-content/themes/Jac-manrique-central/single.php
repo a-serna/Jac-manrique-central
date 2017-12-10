@@ -1,4 +1,4 @@
-<?php get_header("pages"); ?>
+<?php get_header("blog"); ?>
 
 <article id="home">
   <div class="row pt-5 pl-5 pr-5">

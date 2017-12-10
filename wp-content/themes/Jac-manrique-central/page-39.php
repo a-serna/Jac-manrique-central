@@ -1,4 +1,4 @@
-<?php get_header("pages") ?>
+<?php get_header("blog") ?>
 
 <article id="home">
     <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
