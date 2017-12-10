@@ -51,7 +51,7 @@
                 <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
               </li>
               <li class="nav-item">
-                <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
+                <a data-scroll class="nav-link" href="<?php echo get_page_link(39); ?>"><p>Blog</p></a>
               </li>
               <li class="nav-item">
                 <a data-scroll class="nav-link" href="#contacto"><p>Contacto</p></a>
