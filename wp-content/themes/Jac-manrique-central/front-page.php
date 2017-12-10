@@ -19,7 +19,7 @@
               <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_page_link(); ?>"><p>Comuna virtual</p></a>
+              <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
               <a data-scroll class="nav-link" href="#blog"><p>Blog</p></a>
@@ -174,7 +174,7 @@
               <div class="col-8">
                 <p class="text-white text-left mt-1 pl-5 pr-5">Suscribete y entérate de todo
                   lo que pasa en nuestra comuna y en tu barrio aquí en nuestro blog y en nuestra página de facebook.</p>
-                <a class="nav-link text-right text-success" href="#">Ir al blog</a>
+                <a class="nav-link text-right text-success" href="<?php echo get_page_link(39); ?>">Ir al blog</a>
               </div>
             </div>
             <!-- imagen -->
@@ -187,7 +187,7 @@
       	<?php while( have_posts() ) : the_post() ?>
       		<div class="col-sm-12 col-md-6 col-lg-3">
             <div class="card bg-dark text-white">
-              <img class="card-img" src="<?php the_post_thumbnail('small'); ?>" alt="Card image">
+              <img class="card-img" src="<?php the_post_thumbnail(); ?>">
               <a class="text-white" href='<?php the_permalink() ?>'>
                 <div class="card-img-overlay pl-0 pr-0 pb-0">
                   <div class="bg-tittle p-auto animated bounce">
