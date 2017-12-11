@@ -1,0 +1,89 @@
+/*background colors*/
+.bg-purpura{
+  background-color: #db157d;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-naranja{
+  background-color: #e6593f;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-cian{
+  background-color: #30c6da;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-verde{
+  background-color: #30da46;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-violeta{
+  background-color: #8530da;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-azul{
+  background-color: #303cda;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-café{
+  background-color: #463613;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+.bg-rojo{
+  background-color: #da3030;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+
+/*border colors*/
+.media-purpura{
+  border-left: 4px solid #db157d;
+  padding-left: 25px;
+}
+
+/*text colors*/
+.text-purpura{
+  color: #db157d;
+}
+
+/*bordes de sección de movilidad*/
+.my-border.rounded{
+  border-radius: .85rem !important;
+}
+
+.my-border.border{
+  border: 3px solid #e6593f !important;
+}
+
+footer{
+  background-color: #cc1da5;
+  color: #fff;
+}
