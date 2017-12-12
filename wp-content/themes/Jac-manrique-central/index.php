@@ -14,19 +14,13 @@
           <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="3Th slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="4th slide">
-          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">email</i></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">email</i></span>
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -36,12 +30,11 @@
     <section id="historia">
       <div class="row">
         <div class="col-12">
-          <div class="bg-1">
+          <div class="bg-1 pt-5">
             <h2 class="text-white pt-5 pl-5 pb-3">Historia</h2>
           </div>
         </div>
         <div class="col-12">
-          <h2 class="text-green pt-5 pl-5">Historia</h2>
           <p class="text-left mt-5 pl-5 pr-5">En el año 2000 el señor <b>Fernando Arango</b>, apoyado por su señor padre <b>Gilberto Arango</b>,
             se dio a la tarea de crear la acción comunal del barrio; el señor Arango convocó a varias personas
             para que lo acompañaran en su objetivo encontrando apoyo en algunas personas entre ellas: los señores
@@ -75,32 +68,26 @@
         </div>
       </div>
       <div class="row pt-5">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-12">
           <h2 class="text-green pl-5">En la actualidad</h2>
           <p class="text-left mt-5 pl-5 pr-5">En este momento la Junta directiva y comités,
             están orientados por personas con alto perfil de trabajo comunitario, sustentado
             en constantes procesos de formación y capacitación, donde prima como principio la
             construcción en pro del beneficio de los habitantes del barrio.</p>
         </div>
-        <div class="col-sm-12 col-md-6 pr-5 pl-5">
-          <img src="" class="rounded float-left d-block img-thumb" alt="...">
-        </div>
       </div>
     </section>
 
     <section id="misión-visión">
       <div class="row pt-5">
-        <div class="col-12">
-          <div class="bg-1">
-            ...<!-- imagen -->
+          <div class="col-12">
+            <div class="bg-1 pt-5">
+              <h2 class="text-white pt-5 pl-5 pb-3">Misión y Visión</h2>
+            </div>
           </div>
-        </div>
       </div>
       <div class="row pt-5">
-        <div class="col-sm-12 col-md-6 pl-5 pr-5">
-          <img src="" class="rounded d-block img-thumb" alt="...">
-        </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12">
           <h2 class="text-green pr-5 pl-5 mt-5">Objetivo:</h2>
           <p class="text-left mt-5 pr-5 pl-5">Poner en manos de la organización una herramienta práctica que
             facilite tomar conciencia sobre las responsabilidades que tienen los asociados y dignatarios,
@@ -115,12 +102,6 @@
             y responsables. Su propósito es promover un desarrollo integral sostenible y sustentable, construido
             a partir de la democracia participativa en la gestión del desarrollo de la comunidad. (ley 743 de 2002)</p>
         </div>
-        <div class="col-sm-12 col-md-6 pr-5 pl-5 mt-5">
-          <img src="" class="rounded d-block img-thumb" alt="...">
-        </div>
-        <div class="col-sm-12 col-md-6 pl-5 pr-5 mt-5">
-          <img src="" class="rounded d-block img-thumb" alt="...">
-        </div>
         <div class="col-sm-12 col-md-6 mt-5">
           <h2 class="text-green pl-5">Visión:</h2>
           <p class="text-left mt-5 pl-5 pr-5">La Junta de Acción Comunal espera que para el año 2020 sea reconocida
@@ -132,20 +113,16 @@
 
     <section id="blog">
       <div class="row pt-5">
-        <div class="col-12">
-          <div class="bg-1">
-            <div class="row pt-5">
-              <div class="col-12 pt-5">
-                <h2 class="text-white pl-5 mt-5 pt-1">Blog</h2>
-              </div>
-              <div class="col-8">
+          <div class="col-12">
+            <div class="bg-1 pt-5 pb-5">
+              <h2 class="text-white pt-5 pl-5 pb-3">Blog</h2>
+              <div class="col-sm-12 col-md-8">
                 <p class="text-white text-left mt-1 pl-5 pr-5">Suscribete y entérate de todo
                   lo que pasa en nuestra comuna y en tu barrio aquí en nuestro blog y en nuestra página de facebook.</p>
+                <a class="nav-link" href="<?php echo get_page_link(39); ?>"><p class="float-right text-white pl-5 pr-5">Ir al blog</p></a>
               </div>
             </div>
-            <!-- imagen -->
           </div>
-        </div>
       </div>
       <div class="row pt-5 pl-5 pr-5 d-flex align-self-start">
           <div class="col-lg-3 col-md-6 col-xs-12 pb-3">
@@ -188,7 +165,6 @@
          ?>
         <!-- fin del loop -->
       </div>
-
     </section>
 
     <section id="social-media" class="mt-5">
@@ -201,20 +177,15 @@
 
     <section id="contacto" class="mt-5">
       <div class="row pt-5">
-        <div class="col-12">
-          <div class="bg-1">
-            <div class="row pt-5">
-              <div class="col-12 pt-5">
-                <h2 class="text-white ml-5 mt-5 pt-1">Contacto</h2>
-              </div>
-              <div class="col-8">
+          <div class="col-12">
+            <div class="bg-1 pt-5 pb-2">
+              <h2 class="text-white pt-5 pl-5 pb-3">Contacto</h2>
+              <div class="col-sm-12 col-md-8">
                 <p class="text-white text-left mt-1 pl-5 pr-5">Escribenos y mandanos
                   tus inquietudes, sugerencias o aportes.</p>
               </div>
             </div>
-            <!-- imagen -->
           </div>
-        </div>
       </div>
 
 
