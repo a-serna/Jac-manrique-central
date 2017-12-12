@@ -1,3 +1,8 @@
+/*menu index*/
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 3px solid #db157b !important;
+}
+
 /*background colors*/
 .bg-purpura{
   background-color: #db157d;
@@ -84,6 +89,9 @@
 }
 
 footer{
-  background-color: #cc1da5;
+  padding-top: 4em;
   color: #fff;
+  background: url(../img/fondo-footer-morado.png);
+  overflow: hidden;
+  height: 656px;
 }

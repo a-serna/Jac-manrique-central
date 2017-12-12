@@ -109,6 +109,11 @@ b{
   font-family: 'Lato', sans-serif !important;
 }
 
+/*menu index*/
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 3px solid #82BA2B;
+}
+
 /*top menu*/
 .menu-header-main-container ul{
   padding: 0;
@@ -186,6 +191,14 @@ b{
     background-image: none;
     padding: 5px;
 }
+
+/*botones slider*/
+.carousel-indicators>li{
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+}
+
 
 /*alineación de imagenes en editor de wordpress*/
 img.alignright{float: right; margin: -70px 0 1em 1em;}

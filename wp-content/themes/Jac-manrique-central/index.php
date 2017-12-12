@@ -37,7 +37,7 @@
       <div class="row">
         <div class="col-12">
           <div class="bg-1">
-            ...<!-- imagen -->
+            <h2 class="text-white pt-5 pl-5 pb-3">Historia</h2>
           </div>
         </div>
         <div class="col-12">
