@@ -30,7 +30,7 @@
       	ignore: '[data-scroll-ignore]',
       	header: null,
       	speed: 1000,
-      	offset: 90,
+      	offset: 0,
       	easing: 'easeInOutCubic',
       	customEasing: function (time) {},
       	before: function () {},

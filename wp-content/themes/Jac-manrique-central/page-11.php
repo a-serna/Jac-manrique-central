@@ -260,32 +260,84 @@
         para visitar por todos los ciudadanos de Medellín, Antioquia, Colombia y ciudadanos extranjeros que nos visitan.</p>
     </div>
   </div>
-  <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
+  <div id="ciudadslider" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="1rst slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(2).jpg" alt="udea">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Universidad de Antioquia</h3>
+          <p class="text-shadow">Es la principal institución académica de Antioquia y una de las mejores universidades de Colombia gracias a sus logros investigativos, culturales y académicos.</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(3).jpg" alt="udea">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Universidad de Antioquia</h3>
+          <p class="text-shadow">La ciudadela universitaria inicio funciones en octubre del año 1.968.</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="3Th slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(3).jpg" alt="ruta n">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Ruta N</h3>
+          <p class="text-shadow">Es el centro de innovación y negocios de Medellín.</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="4th slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(4).jpg" alt="ruta n">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Ruta N</h3>
+          <p class="text-shadow">Una corporación creada por la Alcaldía de Medellín, une y epm.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(9).jpg" alt="ruta n">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Ruta N</h3>
+          <p class="text-shadow">Nace en el año 2.009.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Unidad-Permanente-de-Justicia.jpg" alt="updj">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Unidad permanente de justicia</h3>
+          <p class="text-shadow">Es un centro de prestación de servicios de justicia formal e informal, presta los servicios a la comunidad en justicia, oportuna y gratuita.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(13).jpg" alt="planetario">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Planetario</h3>
+          <p class="text-shadow">Inicia funciones en el mes de octubre del año 1.984.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(14).jpg" alt="planetario">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Planetario</h3>
+          <p class="text-shadow">Cuenta con un Domo de proyecciones.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(16).jpg" alt="planetario">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Planetario</h3>
+          <p class="text-shadow">Un espacio para reuniones pedagógicas sobre el Universo y la Astronomía, es considerado como un museo.</p>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#ciudadslider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#ciudadslider" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
       <span class="sr-only">Next</span>
     </a>
