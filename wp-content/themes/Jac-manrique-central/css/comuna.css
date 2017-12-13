@@ -13,7 +13,7 @@
 }
 
 .bg-naranja{
-  background-color: #e6593f;
+  background-color: #f9a745;
   width: 100%;
   height: auto;
   padding-bottom: 5px;
@@ -21,7 +21,7 @@
 }
 
 .bg-cian{
-  background-color: #30c6da;
+  background-color: #0097a5;
   width: 100%;
   height: auto;
   padding-bottom: 5px;
@@ -29,7 +29,7 @@
 }
 
 .bg-verde{
-  background-color: #30da46;
+  background-color: #059d60;
   width: 100%;
   height: auto;
   padding-bottom: 5px;
@@ -37,7 +37,7 @@
 }
 
 .bg-violeta{
-  background-color: #8530da;
+  background-color: #683cb0;
   width: 100%;
   height: auto;
   padding-bottom: 5px;
@@ -79,13 +79,17 @@
   color: #db157d;
 }
 
+.text-cian{
+  color: #0097a5;
+}
+
 /*bordes de sección de movilidad*/
 .my-border.rounded{
   border-radius: .85rem !important;
 }
 
 .my-border.border{
-  border: 3px solid #e6593f !important;
+  border: 3px solid #f9a745 !important;
 }
 
 footer{

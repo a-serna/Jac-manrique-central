@@ -69,28 +69,30 @@
   </div>
 </section>
 
-<main>
-  api de youtube
+<main class="mt-5 pt-3">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+  </div>
 </main>
 
-<section id="movilidad" class="mt-5">
+<section id="movilidad">
   <div class="row bg-naranja pl-5 pr-5 m-0">
     <div class="col-sm-12">
       <h2 class="text-white pt-5">Movilidad</h2>
     </div>
-    <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>La comuna 4 cuenta con una alta variedad de rutas y medios de transporte para el servicio
-        público de transporte, que atienden su población.</small></p>
+    <div class="col-sm-12 col-md-6">
+      <p class="text-white">La comuna 4 cuenta con una alta variedad de rutas y medios de transporte para el servicio
+        público de transporte, que atienden su población.</p>
     </div>
   </div>
 
   <div class="row media p-5 mt-5 d-flex justify-content-center">
     <div class="my-border border rounded col-sm-8 p-4 mb-3">
       <div class="row">
-        <div class="col-sm-3">
-          <img class="pr-3" src="" alt="Generic placeholder image">
+        <div class="col-sm-2">
+          <img class="pr-3" src="<?php bloginfo('template_url'); ?>/img/bus-naranja-icon.png" alt="buses">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10 d-flex align-items-center">
           <div class="media-body">
             <p>Las empresas de buses que recorren el territorio son: Aranjuez, Campo Valdés, Santa Cruz.
               Combuses, Zamora, Bello y Coopetransa.</p>
@@ -101,10 +103,10 @@
 
     <div class="my-border border rounded col-sm-8 p-4 mb-3">
       <div class="row">
-        <div class="col-sm-3">
-          <img class="pr-3" src="" alt="Generic placeholder image">
+        <div class="col-sm-2">
+          <img class="pr-3" src="<?php bloginfo('template_url'); ?>/img/taxi-naranja.png" alt="Taxis">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10 d-flex align-items-center">
           <div class="media-body">
             <p>El servicio de taxis que circulan en nuestras vías es muy eficiente.</p>
           </div>
@@ -114,10 +116,10 @@
 
     <div class="my-border border rounded col-sm-8 p-4 mb-3">
       <div class="row">
-        <div class="col-sm-3">
-          <img class="pr-3" src="" alt="Generic placeholder image">
+        <div class="col-sm-2">
+          <img class="pr-3" src="<?php bloginfo('template_url'); ?>/img/metro-naranja-icon.png" alt="metro">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10 d-flex align-items-center">
           <div class="media-body">
             <p>El Metro de Medellín tiene cuatro estaciones en la comuna 4 Aranjuez que son: Estación
               Hospital, Estación Universidad de Antioquia, Estación Terminal de Transporte y la Estación
@@ -129,10 +131,10 @@
 
     <div class="my-border border rounded col-sm-8 p-4 mb-3">
       <div class="row">
-        <div class="col-sm-3">
-          <img class="pr-3" src="" alt="Generic placeholder image">
+        <div class="col-sm-2">
+          <img class="pr-3" src="<?php bloginfo('template_url'); ?>/img/metroplus-naranja-icon.png" alt="metro plus">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10 d-flex align-items-center">
           <div class="media-body">
             <p>El Metro Plus tiene siete estaciones que son: Estación Aranjuez, Estación Berlín, Estación
               las Esmeraldas, Estación Manrique, Estación Gardel, Estación Palos Verdes y Estación
@@ -146,10 +148,10 @@
 
     <div class="my-border border rounded col-sm-8 p-4 mb-3">
       <div class="row">
-        <div class="col-sm-3">
-          <img class="pr-3" src="" alt="Generic placeholder image">
+        <div class="col-sm-2">
+          <img class="pr-3" src="<?php bloginfo('template_url'); ?>/img/carro-naranja-icon.png" alt="carro">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10 d-flex align-items-center">
           <div class="media-body">
             <p>Gran cantidad de habitantes de la comuna tienen vehículo particular o moto para su
               movilidad.
@@ -164,65 +166,73 @@
 <section id="quebradas" class="mt-5">
   <div class="row bg-cian pl-5 pr-5 m-0">
     <div class="col-sm-12">
-      <h2 class="text-white pt-5">Quebradas</h2>
+      <h2 class="text-white pt-3">Quebradas</h2>
     </div>
     <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>texto.</small></p>
+      <p class="text-white">En la comuna 4 Aranjuez de la Zona Nororiental hasta el río Medellín la recorren 8 Quebradas que son.</p>
     </div>
   </div>
   <div class="row media mt-5 pl-5 pr-5">
     <div class="col-sm-12 col-lg-5">
-      <img class="pr-3" src="" alt="Generic placeholder image">
+      <img class="pr-3" src="" alt="...">
     </div>
     <div class="col-sm-12 col-lg-7">
-      <div class="media-body row">
-        <div class="col-1">
-          <img src="" alt="icon">
+      <div class="media-body row d-flex justify-content-start">
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian"> El Ahorcado:</b>
+            Recorre los siguientes barrios Manrique Central N°1, San Pedro, Sevilla y por la calle 67 Barranquilla llega al rio Medellín.
+          </p>
         </div>
-        <div class="col-11">
-          <p><b class="text-cian">El Ahorcado:</b> texto.</p>
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">La Honda:</b>
+            Recorre los siguientes barrios Manrique Central n°1, San Pedro, en el Jardín Botánico se une la quebrada el molino.
+          </p>
         </div>
-        <div class="col-1">
-          <img src="" alt="icon">
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">El Molino:</b>
+            Recorre los siguientes barrios Manrique Central N°1, San Pedro, Moravia donde desemboca al río Medellín.
+          </p>
         </div>
-        <div class="col-11">
-          <p><b class="text-cian">La Honda:</b> texto.</p>
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">El Remolino:</b>
+            Recorre los siguientes barrios Campo Valdés y Brasilia donde se une a la quebrada Santa Inés.
+          </p>
         </div>
-        <div class="col-1">
-          <img src="" alt="icon">
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">La Maquinita:</b>
+            Recorre los siguientes barrios las Esmeraldas, Campo Valdés y Brasilia donde se une a la quebrada la Bermejala.
+          </p>
         </div>
-        <div class="col-11">
-          <p><b class="text-cian">El Molino:</b> texto.</p>
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">La Santa Ines:</b>
+            Recorre los siguientes barrios Campo Valdés, Brasilia donde se une a la quebrada el molino.
+          </p>
         </div>
-        <div class="col-1">
-          <img src="" alt="icon">
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">La Bermejala:</b>
+            Recorre los siguientes barrios las Esmeraldas, Berlín, la piñuela, Brasilia, Aranjuez, Miranda, los Álamos y Moravia donde desemboca al río Medellín.
+          </p>
         </div>
-        <div class="col-11">
-          <p><b class="text-cian">El Remolino:</b> texto.</p>
-        </div>
-        <div class="col-1">
-          <img src="" alt="icon">
-        </div>
-        <div class="col-11">
-          <p><b class="text-cian">La Maquina:</b> texto.</p>
-        </div>
-        <div class="col-1">
-          <img src="" alt="icon">
-        </div>
-        <div class="col-11">
-          <p><b class="text-cian">La Santa Ines:</b> texto.</p>
-        </div>
-        <div class="col-1">
-          <img src="" alt="icon">
-        </div>
-        <div class="col-11">
-          <p><b class="text-cian">La Bermejala:</b> texto.</p>
-        </div>
-        <div class="col-1">
-          <img src="" alt="icon">
-        </div>
-        <div class="col-11">
-          <p><b class="text-cian">La Rosa:</b> texto.</p>
+        <div class="col-12 pr-5">
+          <p>
+            <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
+            <b class="text-cian">La Rosa:</b>
+            Recorre los siguientes barrios Berlín, San Isidro y Palermo donde desemboca al río Medellín.
+          </p>
         </div>
       </div>
     </div>
@@ -235,7 +245,7 @@
       <h2 class="text-white pt-5">Escenarios deportivos</h2>
     </div>
     <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>texto.</small></p>
+      <p class="text-white">La comuna 4 cuenta con 6 canchas sintéticas y 9 placas polideportivas.</p>
     </div>
   </div>
 </section>
@@ -245,9 +255,40 @@
     <div class="col-sm-12">
       <h2 class="text-white pt-5">Equipamientos de ciudad</h2>
     </div>
-    <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>texto.</small></p>
+    <div class="col-sm-12 col-md-8 float-left">
+      <p class="text-white">En la comuna 4 Aranjuez existen en su territorio 17 equipamientos de ciudad
+        para visitar por todos los ciudadanos de Medellín, Antioquia, Colombia y ciudadanos extranjeros que nos visitan.</p>
     </div>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="1rst slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="3Th slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="4th slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 </section>
 
