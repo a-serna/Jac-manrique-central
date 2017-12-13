@@ -431,6 +431,97 @@
       <h2 class="text-white pt-5">Instituciones Educativas</h2>
     </div>
   </div>
+  <div id="colegiosslider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Alfonso-Mora-Naranjo.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Alfonso Mora Naranjo</h3>
+          <p class="text-shadow">Cr. 48A #77-68</p>
+          <p class="text-shadow">Barrio Campo Valdés</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Camilo-Torres-Restrepo.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Presbitero Camilo Torres Restrepo</h3>
+          <p class="text-shadow">CR. 49 # 83-34</p>
+          <p class="text-shadow">Barrio Campo Valdés La Maquinita</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Campo-Valdes.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Campo Valdés</h3>
+          <p class="text-shadow">Cl. 83 # 47-33</p>
+          <p class="text-shadow">Barrio Campo Valdés La Maquinita</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Francisco-Miranda-(2).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Francisco Miranda</h3>
+          <p class="text-shadow">Cr. 51C # 79-56</p>
+          <p class="text-shadow">Barrio Miranda</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Hernan-Toro-(2).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Hernán Toro</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Lorenza-Villegas-(3).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Lorenza Villegas</h3>
+          <p class="text-shadow">Cr. 51 # 87-40</p>
+          <p class="text-shadow">Barrio Aranjuez</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-San-Agustin-(1).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa San Agustin</h3>
+          <p class="text-shadow">Cl. 88 A # 51B-91</p>
+          <p class="text-shadow">Barrio San Cayetano</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Tomas-Carrasquilla-(2).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Tomas Carrasquilla</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        ---
+      </div>
+      <div class="carousel-item">
+        ---
+      </div>
+      <div class="carousel-item">
+        ---
+      </div>
+      <div class="carousel-item">
+        ---
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#colegiosslider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#colegiosslider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </section>
 
 <section id="iglesias" class="mt-5">
