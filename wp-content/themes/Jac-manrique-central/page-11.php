@@ -39,7 +39,7 @@
       <h2 class="text-white pt-5">Mi comuna</h2>
     </div>
     <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>La comuna 4 tiene una interesante geografía con una larga trayectoria historica y cultural.</small></p>
+      <p class="text-white">La comuna 4 tiene una interesante geografía con una larga trayectoria historica y cultural.</p>
     </div>
   </div>
   <div class="row media mt-5 pl-5 pr-5">
@@ -346,6 +346,73 @@
           <p class="text-shadow">Cuenta con un recinto llamado Orquideorama lugar para la exposición de flores, alberga 1000 especies vivas.</p>
         </div>
       </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Explora-(2).jpg" alt="Parque explora">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Parque explora</h3>
+          <p class="text-shadow">Es un museo interactivo para la apropiación y divulgación de la ciencia y la tecnología ubicado en Medellín Colombia.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Centro-Cultural-Moravia-(1).jpg" alt="cultural moravia">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Centro de desarrollo cultural de Moravia</h3>
+          <p class="text-shadow">La casa de todos es un espacio de encuentros, de las Expresiones Artísticas, lo Cultural y lo Comunitario.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Museo-Pedro-Nel-Gomez-(6).jpg" alt="Pedro Nel Gomez">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Museo Pedro Nel Gomez</h3>
+          <p class="text-shadow">Es un sitio cultural constituido por el maestro Pedro Nel Gómez con el fin de conservar la casa, su acervo artístico, bibliográfico y documental como patrimonio de la ciudad de Medellín.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Comfama-(1).jpg" alt="Comfama">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Comfama</h3>
+          <p class="text-shadow">Este espacio antiguo fue restaurado, en el pasado allí funcionaba el manicomio de la ciudad.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Plaza-de-Campo-Valdes-(1).jpg" alt="plaza">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Plaza de Campo Valdés</h3>
+          <p class="text-shadow">Es un establecimiento de comercio mayorista de abarrotes. Cuenta con un amplio parqueadero de cargue y descargue.
+            Su slogan es "Plaza de Mercado, para Mercar y Regatear".</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Norte-(2).jpg" alt="Parque norte">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Parque Norte</h3>
+          <p class="text-shadow">El Parque Norte es un espacio de diversión, sana convivencia, cultura y recreación de la ciudad de Medellín.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Norte-(3).jpg" alt="Parque norte">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Parque Norte</h3>
+          <p class="text-shadow">Tiene el lago más grande de Latinoamérica.
+            Cuenta con 25 atracciones mecánicas para el disfrute de todos los grupos poblacionales que lo visitan.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Cementerio-de-San-Pedro-(2).jpg" alt="cementerio">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Museo cementerio San Pedro</h3>
+          <p class="text-shadow">En el Cementerio se encuentran inhumadas personas que fueron muy importantes del país
+          como los expresidentes Mariano Ospina Rodríguez, Carlos E. Restrepo y Pedro Nel Ospina, escritores
+          y artistas como María Cano, Jorge Isaac, Bernardo Vieco y Fidel Cano. Declarado Monumento Nacional en el año de 1.999</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Cementerio-de-San-Pedro-(4).jpg" alt="cementerio">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Museo cementerio San Pedro</h3>
+          <p class="text-shadow">Los mausoleos se destacan tanto por sus obras esculturales y arquitectónicas que son muy representativas del arte fúnebre.</p>
+        </div>
+      </div>
     </div>
     <a class="carousel-control-prev" href="#ciudadslider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
@@ -358,13 +425,10 @@
   </div>
 </section>
 
-<section id="instituciones" class="mt-5">
+<section id="instituciones">
   <div class="row bg-azul pl-5 pr-5 m-0">
     <div class="col-sm-12">
       <h2 class="text-white pt-5">Instituciones Educativas</h2>
-    </div>
-    <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>texto.</small></p>
     </div>
   </div>
 </section>
