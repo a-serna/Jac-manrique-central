@@ -44,7 +44,7 @@
   </div>
   <div class="row media mt-5 pl-5 pr-5">
     <div class="col-sm-12 col-lg-5">
-      <img class="pr-3" src="" alt="Generic placeholder image">
+      <img class="ml-3 w-100 rounded pb-3" src="<?php bloginfo('template_url'); ?>/img/comuna-4.jpg">
     </div>
     <div class="col-sm-12 col-lg-7">
       <div class="media-body media-purpura">
@@ -174,60 +174,60 @@
   </div>
   <div class="row media mt-5 pl-5 pr-5">
     <div class="col-sm-12 col-lg-5">
-      <img class="pr-3" src="" alt="...">
+      <img class="ml-3 mr-5 w-100 rounded pb-3" src="<?php bloginfo('template_url'); ?>/img/quebradas.jpg">
     </div>
     <div class="col-sm-12 col-lg-7">
       <div class="media-body row d-flex justify-content-start">
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian"> El Ahorcado:</b>
             Recorre los siguientes barrios Manrique Central N°1, San Pedro, Sevilla y por la calle 67 Barranquilla llega al rio Medellín.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">La Honda:</b>
             Recorre los siguientes barrios Manrique Central n°1, San Pedro, en el Jardín Botánico se une la quebrada el molino.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">El Molino:</b>
             Recorre los siguientes barrios Manrique Central N°1, San Pedro, Moravia donde desemboca al río Medellín.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">El Remolino:</b>
             Recorre los siguientes barrios Campo Valdés y Brasilia donde se une a la quebrada Santa Inés.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">La Maquinita:</b>
             Recorre los siguientes barrios las Esmeraldas, Campo Valdés y Brasilia donde se une a la quebrada la Bermejala.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">La Santa Ines:</b>
             Recorre los siguientes barrios Campo Valdés, Brasilia donde se une a la quebrada el molino.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">La Bermejala:</b>
             Recorre los siguientes barrios las Esmeraldas, Berlín, la piñuela, Brasilia, Aranjuez, Miranda, los Álamos y Moravia donde desemboca al río Medellín.
           </p>
         </div>
-        <div class="col-12 pr-5">
+        <div class="col-12 pl-5 pr-5">
           <p>
             <img src="<?php bloginfo('template_url'); ?>/img/quebradas-rios-icon.png" alt="quebradas-icon">
             <b class="text-cian">La Rosa:</b>
@@ -411,6 +411,14 @@
         <div class="carousel-caption d-none d-md-block">
           <h3 class="text-shadow">Museo cementerio San Pedro</h3>
           <p class="text-shadow">Los mausoleos se destacan tanto por sus obras esculturales y arquitectónicas que son muy representativas del arte fúnebre.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/biblioteca-piloto-(1).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Biblioteca Pública piloto Juan Zuleta Ferrer</h3>
+          <p class="text-shadow">Sus funciones básicas son: educar, informar, investigar, consultar, culturalizar y recrear a
+            la comunidad en general. Lleva el nombre de Juan Zuleta Ferrer en homenaje al ilustre escritor y periodista Antiqueño.</p>
         </div>
       </div>
     </div>
