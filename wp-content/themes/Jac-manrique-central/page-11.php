@@ -1,39 +1,35 @@
 <?php get_header(11); ?>
 
 <article id="home">
-  <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
+  <div id="comunavirtual" class="carousel slide animated bounceInLeft" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="1rst slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/comuna-carrusel-1.jpg">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/comuna-carrusel-2.jpg">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="3Th slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="4th slide">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/comuna-carrusel-3.jpg">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#comunavirtual" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#comunavirtual" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
 </article>
 
-<section id="comuna" class="mt-5">
+<section id="comuna">
   <div class="row bg-purpura pl-5 pr-5 m-0">
     <div class="col-sm-12">
       <h2 class="text-white pt-5">Mi comuna</h2>
