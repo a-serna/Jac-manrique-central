@@ -529,9 +529,6 @@
     <div class="col-sm-12">
       <h2 class="text-white pt-5">Iglesias</h2>
     </div>
-    <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>texto.</small></p>
-    </div>
   </div>
 </section>
 
@@ -541,9 +538,10 @@
       <h2 class="text-white pt-5">Mapas</h2>
     </div>
     <div class="col-sm-12 col-md-6 float-left">
-      <p class="text-white"><small>texto.</small></p>
+      <p class="text-white">En la comuna 4 existen 14 barrios, busca en el mapa para encontrar lugares de interés.</p>
     </div>
   </div>
+  <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1KZS5v4zzAwi3O5jo40BwceS6TgTvDEK8" width="100%" height="640"></iframe>
 </section>
 
 
