@@ -332,6 +332,20 @@
           <p class="text-shadow">Un espacio para reuniones pedagógicas sobre el Universo y la Astronomía, es considerado como un museo.</p>
         </div>
       </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(1).jpg" alt="jardin botanico">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Jardín Botánico</h3>
+          <p class="text-shadow">Fue construido en nombre del botánico Joaquín Antonio Uribe. En el año 1.985 fue declarado Patrimonio Cultural de Medellín.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(6).jpg" alt="jardin botanico">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Jardín Botánico</h3>
+          <p class="text-shadow">Cuenta con un recinto llamado Orquideorama lugar para la exposición de flores, alberga 1000 especies vivas.</p>
+        </div>
+      </div>
     </div>
     <a class="carousel-control-prev" href="#ciudadslider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
