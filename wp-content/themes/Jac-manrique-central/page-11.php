@@ -625,6 +625,12 @@
           <p class="text-shadow">Barrio Brasilia</p>
         </div>
       </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/I.E-Bravo-Marquez.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Bravo Marquez</h3>
+        </div>
+      </div>
     </div>
     <a class="carousel-control-prev" href="#colegiosslider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
