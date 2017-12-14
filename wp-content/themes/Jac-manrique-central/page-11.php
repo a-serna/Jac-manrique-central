@@ -38,7 +38,7 @@
       <p class="text-white">La comuna 4 tiene una interesante geografía con una larga trayectoria historica y cultural.</p>
     </div>
   </div>
-  <div class="row media mt-5 pl-5 pr-5">
+  <div class="row media mt-5 pl-5 pr-5 mb-5">
     <div class="col-sm-12 col-lg-5">
       <img class="ml-3 w-100 rounded pb-3" src="<?php bloginfo('template_url'); ?>/img/comuna-4.jpg">
     </div>
@@ -61,6 +61,11 @@
         <p><b class="text-purpura">Viviendas:</b> en nuestro territorio se encuentran 45.000 viviendas entre casas,
           apartamentos y locales comerciales.</p>
       </div>
+    </div>
+  </div>
+  <div class="row pl-5 pr-5 mb-3">
+    <div class="col-12">
+      <h2 class="mt-0 text-purpura">Sedes sociales</h2>
     </div>
   </div>
   <div id="sedes" class="carousel slide" data-ride="carousel">
@@ -152,6 +157,11 @@
 </section>
 
 <main class="mt-5 pt-3">
+  <div class="row pl-5 pr-5 mb-3">
+    <div class="col-12">
+      <h2 class="mt-0 text-purpura">Recorre tu comuna</h2>
+    </div>
+  </div>
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
   </div>
