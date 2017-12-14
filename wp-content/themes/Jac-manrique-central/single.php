@@ -16,7 +16,11 @@
   		?>
   	</div>
   </div>
-
+  <div class="row p-5">
+    <div class="col-12">
+      <?php comments_template(); ?>
+    </div>
+  </div>
 </article>
 
 <?php get_footer(); ?>
