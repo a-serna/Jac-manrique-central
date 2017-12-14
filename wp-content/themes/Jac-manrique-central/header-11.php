@@ -33,7 +33,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
           <a data-scroll class="navbar-brand" href="#home">
-            <img src="" class="img-fluid float-left" alt="logo comuna">
+            <img src="<?php bloginfo('template_url'); ?>/img/comunavirtual-logo.png" class="img-fluid float-left" alt="logo comuna">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

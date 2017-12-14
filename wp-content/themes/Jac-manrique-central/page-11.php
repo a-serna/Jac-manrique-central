@@ -3,9 +3,9 @@
 <article id="home">
   <div id="comunavirtual" class="carousel slide animated bounceInLeft" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#comunavirtual" data-slide-to="0" class="active"></li>
+      <li data-target="#comunavirtual" data-slide-to="1"></li>
+      <li data-target="#comunavirtual" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -62,6 +62,92 @@
           apartamentos y locales comerciales.</p>
       </div>
     </div>
+  </div>
+  <div id="sedes" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#sedes" data-slide-to="0" class="active"></li>
+      <li data-target="#sedes" data-slide-to="1"></li>
+      <li data-target="#sedes" data-slide-to="2"></li>
+      <li data-target="#sedes" data-slide-to="3"></li>
+      <li data-target="#sedes" data-slide-to="4"></li>
+      <li data-target="#sedes" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-El-Bosque.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social el Bosque</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Campo-Valdes-Calvario.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social Campo Valdés Calvario</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Álamos-(2).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social Álamos</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-San-Pedro-(1).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social San Pedro</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-San-Cayetano-(1).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social San Cayetano</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/sede-s-moravia-oriente-(1).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social Moravia Oriente</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/sede-s-miranda.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social Miranda</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social Prado Brasilia</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/sede-s-berlin.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social Berlín</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-La-Piñuela-(3).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social La Piñuela</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Sede-la-Maquinita-(3).jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Sede social La Maquinita</h3>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#sedes" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#csedes" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 </section>
 
@@ -258,11 +344,11 @@
   </div>
   <div id="ciudadslider" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#ciudadslider" data-slide-to="0" class="active"></li>
+      <li data-target="#ciudadslider" data-slide-to="1"></li>
+      <li data-target="#ciudadslider" data-slide-to="2"></li>
+      <li data-target="#ciudadslider" data-slide-to="3"></li>
+      <li data-target="#ciudadslider" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -437,11 +523,12 @@
   </div>
   <div id="colegiosslider" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#colegiosslider" data-slide-to="0" class="active"></li>
+      <li data-target="#colegiosslider" data-slide-to="1"></li>
+      <li data-target="#colegiosslider" data-slide-to="2"></li>
+      <li data-target="#colegiosslider" data-slide-to="3"></li>
+      <li data-target="#colegiosslider" data-slide-to="4"></li>
+      <li data-target="#colegiosslider" data-slide-to="5"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -505,16 +592,28 @@
         </div>
       </div>
       <div class="carousel-item">
-        ---
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/ie-gilberto-alzate-avendaño.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa Gilberto Alzate Avendaño</h3>
+          <p class="text-shadow">CL. 92 # 51A-100</p>
+          <p class="text-shadow">Barrio San Cayetano</p>
+        </div>
       </div>
       <div class="carousel-item">
-        ---
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/i.e-juan-bosco.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Institución Educativa San Juan Bosco</h3>
+          <p class="text-shadow">Cl. 82 # 50 C-10</p>
+          <p class="text-shadow">Barrio Brasilia</p>
+        </div>
       </div>
       <div class="carousel-item">
-        ---
-      </div>
-      <div class="carousel-item">
-        ---
+        <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/i.e-nuestra-señora-de-lourdes.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="text-shadow">Colegio Nuestra señora de Lourdes</h3>
+          <p class="text-shadow">Calle 82 # 50BB-30</p>
+          <p class="text-shadow">Barrio Brasilia</p>
+        </div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#colegiosslider" role="button" data-slide="prev">
