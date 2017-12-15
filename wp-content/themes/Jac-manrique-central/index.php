@@ -1,18 +1,16 @@
 <?php get_header(); ?>
     <article id="home">
-      <div id="carouselExampleIndicators" class="carousel slide animated bounceInLeft" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="1rst slide">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Iglesia-de-Manrique-(1).jpg">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" alt="2nd slide">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Iglesia-de-Manrique-(2).jpg">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
