@@ -29,6 +29,14 @@
                <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
                <small class="card-text"><?php the_tags(); ?></small>
                <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
+               <div class="fb-like" 
+                  data-href="https://www.jacmanriquecentral.org/blog/"
+                  data-layout="button"
+                  data-action="like"
+                  data-size="large"
+                  data-show-faces="true"
+                  data-share="true">
+                </div>
              <?php else : ?>
                <p>no hay contenido en esta entrada</p>
                    <?php endif ?>

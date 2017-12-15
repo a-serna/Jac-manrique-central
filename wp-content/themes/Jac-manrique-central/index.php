@@ -109,17 +109,17 @@
       <div class="row pt-5">
           <div class="col-12">
             <div class="bg-1 pt-5 pb-5">
-              <h2 class="text-white pt-5 pl-5 pb-3">Blog</h2>
+              <h2 class="text-white pt-5 pl-5">Blog</h2>
               <div class="col-sm-12 col-md-8">
                 <p class="text-white text-left mt-1 pl-5 pr-5">Suscribete y entérate de todo
                   lo que pasa en nuestra comuna y en tu barrio aquí en nuestro blog y en nuestra página de facebook.</p>
-                <a class="nav-link" href="<?php echo get_page_link(39); ?>"><p class="float-right text-white pl-5 pr-5">Ir al blog</p></a>
+                <a class="nav-link" href="<?php echo get_page_link(39); ?>"><p class="float-right text-white pl-5 pr-5"><small>Ir al blog</small></p></a>
               </div>
             </div>
           </div>
       </div>
       <div class="row pt-5 pl-5 pr-5 d-flex align-self-start">
-          <div class="col-lg-3 col-md-6 col-xs-12 pb-3">
+          <div class="col-lg-3 col-md-6 col-xs-12 float-left pb-3 order-md-1 order-lg-2">
               <?php get_sidebar(); ?>
           </div>
           <?php
@@ -127,7 +127,7 @@
           $filter_posts = new WP_Query($args);
           if($filter_posts->have_posts() ) : ?>
               <?php while( $filter_posts->have_posts() ) : $filter_posts->the_post() ?>
-            <div class="col-lg-3 col-md-6 col-xs-12 order-first">
+            <div class="col-lg-3 col-md-6 col-xs-12 order-md-2 order-lg-1">
             <div class="card">
               <a class="text-success" href='<?php the_permalink() ?>'>
                   <?php
@@ -146,6 +146,14 @@
                 <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
                 <small class="card-text"><?php the_tags(); ?></small>
                 <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
+                <div class="fb-like"
+                   data-href="https://www.jacmanriquecentral.org"
+                   data-layout="button"
+                   data-action="like"
+                   data-size="large"
+                   data-show-faces="true"
+                   data-share="true">
+                 </div>
                     <?php endif ?>
                 </div>
           </div>
@@ -159,18 +167,57 @@
     </section>
     <section id="social-media" class="mt-5">
       <div class="row pl-5">
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FJUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838%2Fabout%2F%3Fref%3Dpage_internal&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-      </div>
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FJUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838%2Fabout%2F%3Fref%3Dpage_internal&tabs=biografia&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <h2 class="text-fb">Visita nuestra fanpage</h2>
+  		   <div class="fb-page"
+  				data-href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"
+  				data-tabs="timeline"
+  				data-small-header="false"
+  				data-adapt-container-width="true"
+  				data-hide-cover="false"
+  				data-show-facepile="true">
+  				<blockquote cite="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/" class="fb-xfbml-parse-ignore">
+  					<a href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/">JUNTA DE ACCION COMUNAL MANRIQUE CENTRAL # 1</a>
+  				</blockquote>
+            </div>
+  		</div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <h2 class="text-fb">Escríbenos</h2>
+            <div class="fb-page"
+                data-href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"
+                data-tabs="messages"
+                data-small-header="true"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/">JUNTA DE ACCION COMUNAL MANRIQUE CENTRAL # 1</a>
+                </blockquote>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <h2 class="text-fb">Próximos eventos</h2>
+            <div class="fb-page"
+                data-href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"
+                data-tabs="events"
+                data-small-header="true"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/">JUNTA DE ACCION COMUNAL MANRIQUE CENTRAL # 1</a>
+                </blockquote>
+            </div>
+        </div>
+  	  </div>
     </section>
-
     <section id="contacto" class="mt-5">
       <div class="row pt-5">
           <div class="col-12">
             <div class="bg-1 pt-5 pb-2">
               <h2 class="text-white pt-5 pl-5 pb-3">Contacto</h2>
               <div class="col-sm-12 col-md-8">
-                <p class="text-white text-left mt-1 pl-5 pr-5">Escribenos y mandanos
+                <p class="text-white text-left mt-1 pl-5 pr-5">Escríbenos y mándanos
                   tus inquietudes, sugerencias o aportes.</p>
               </div>
             </div>
@@ -214,5 +261,4 @@
 
       </form>
     </section>
-
 <?php get_footer(); ?>

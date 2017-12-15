@@ -22,6 +22,11 @@
     <!-- js -->
     <script src="<?php bloginfo(stylesheet_directory); ?>/js/jac.js"></script>
     <title><?php bloginfo(title); ?></title>
+    <meta property="og:url"           content="https://www.jacmanriquecentral.org" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="<?php bloginfo(title); ?>" />
+    <meta property="og:description"   content="<?php bloginfo(description); ?>" />
+    <meta property="og:image"         content="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" />
   </head>
 
   <body>

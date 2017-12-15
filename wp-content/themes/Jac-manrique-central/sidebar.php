@@ -1,4 +1,4 @@
-<div id="site-sidebar" class="float-right"  role="complementary">
+<div id="site-sidebar" role="complementary">
 	<div class="row">
 		<div class="col-12">
 			<form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url( '/' ); ?>">
