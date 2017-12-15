@@ -23,8 +23,6 @@
         </a>
       </div>
     </article>
-
-    <!-- sección de historia -->
     <section id="historia">
       <div class="row">
         <div class="col-12">
@@ -75,7 +73,6 @@
         </div>
       </div>
     </section>
-
     <section id="misión-visión">
       <div class="row pt-5">
           <div class="col-12">
@@ -108,7 +105,6 @@
         </div>
       </div>
     </section>
-
     <section id="blog">
       <div class="row pt-5">
           <div class="col-12">
@@ -126,7 +122,6 @@
           <div class="col-lg-3 col-md-6 col-xs-12 pb-3">
               <?php get_sidebar(); ?>
           </div>
-          <!-- loop con excerpt -->
           <?php
           $args = array ('posts_per_page' => 3 );
           $filter_posts = new WP_Query($args);
@@ -137,7 +132,6 @@
               <a class="text-success" href='<?php the_permalink() ?>'>
                   <?php
                     if (has_post_thumbnail()){
-
                     the_post_thumbnail();
                     }
                   ?>
@@ -148,7 +142,7 @@
               <?php if( is_singular() ) : ?>
                 <p class="card-text"><?php the_content() ?></p>
               <?php else : ?>
-                        <p class="card-text"><?php the_excerpt() ?></p>
+                <p class="card-text"><?php the_excerpt() ?></p>
                 <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
                 <small class="card-text"><?php the_tags(); ?></small>
                 <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
@@ -160,17 +154,14 @@
             <h1>Oops no tenemos publicaciones aún.</h1>
         <?php endif;
         wp_reset_postdata(); //reset del loop
-         ?>
-        <!-- fin del loop -->
+         ?><!-- fin del loop -->
       </div>
     </section>
-
     <section id="social-media" class="mt-5">
       <div class="row pl-5">
-        <div class="col-12">
-          <h1>aqui va la api de fb</h1>
-        </div>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FJUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838%2Fabout%2F%3Fref%3Dpage_internal&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FJUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838%2Fabout%2F%3Fref%3Dpage_internal&tabs=biografia&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
     </section>
 
     <section id="contacto" class="mt-5">
