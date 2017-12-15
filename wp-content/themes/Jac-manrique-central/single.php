@@ -24,10 +24,10 @@
   </div>
   <div class="row pl-5 pr-5">
     <div class="col-12">
-      <h2 class="text-green">Publicaciones recientes</h2>
+      <h2 class="text-green">Otras publicaciones</h2>
     </div>
     <?php
-         $args = array ('posts_per_page' => 4 );
+         $args = array ('posts_per_page' => 4, 'orderby' => 'rand' );
          $filter_posts = new WP_Query($args);
          if($filter_posts->have_posts() ) : ?>
              <?php while( $filter_posts->have_posts() ) : $filter_posts->the_post() ?>

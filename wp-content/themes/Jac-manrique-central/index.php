@@ -140,20 +140,20 @@
             </div>
             <div class="content">
               <?php if( is_singular() ) : ?>
-                <p class="card-text"><?php the_content() ?></p>
+                  <p class="card-text"><?php the_excerpt() ?></p>
               <?php else : ?>
-                <p class="card-text"><?php the_excerpt() ?></p>
-                <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
-                <small class="card-text"><?php the_tags(); ?></small>
-                <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
-                <div class="fb-like"
-                   data-href="https://www.jacmanriquecentral.org"
-                   data-layout="button"
-                   data-action="like"
-                   data-size="large"
-                   data-show-faces="true"
-                   data-share="true">
-                 </div>
+                  <p class="card-text"><?php the_excerpt() ?></p>
+                  <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
+                  <small class="card-text"><?php the_tags(); ?></small>
+                  <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
+                  <div class="fb-like"
+                     data-href="https://www.jacmanriquecentral.org/blog/"
+                     data-layout="button"
+                     data-action="like"
+                     data-size="large"
+                     data-show-faces="true"
+                     data-share="true">
+                   </div>
                     <?php endif ?>
                 </div>
           </div>
