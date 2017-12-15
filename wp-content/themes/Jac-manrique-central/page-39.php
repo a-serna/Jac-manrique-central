@@ -11,7 +11,7 @@
          $filter_posts = new WP_Query($args);
          if($filter_posts->have_posts() ) : ?>
              <?php while( $filter_posts->have_posts() ) : $filter_posts->the_post() ?>
-           <div class="col-lg-3 col-md-6 col-xs-12 order-first">
+           <div class="col-lg-3 col-md-6 col-xs-12 order-first pb-3">
            <div class="card">
              <a class="text-white" href='<?php the_permalink() ?>'>
                <?php
@@ -29,7 +29,7 @@
                <small class="card-text">Publicado en <?php the_time( "Y-m-d" ) ?></small>
                <small class="card-text"><?php the_tags(); ?></small>
                <a class="text-muted" href='<?php the_permalink() ?>'><p>Ver más</p></a>
-               <div class="fb-like" 
+               <div class="fb-like"
                   data-href="https://www.jacmanriquecentral.org/blog/"
                   data-layout="button"
                   data-action="like"
