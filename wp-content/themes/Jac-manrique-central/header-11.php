@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="description" content="<?php bloginfo(description); ?>">
+    <!--colocar descripción-->
+    <meta name="description" content="">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
     <!--colocar keywords-->
-    <meta name="keywords" content="Gobierno, Medellín, Jac, comuna 4, Manrique central, calidad de vida, desarrollo integral, trabajo comunitario, gestión administrativa, salud pública,">
+    <meta name="keywords" content="">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,15 +18,11 @@
     <!--css-->
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_url); ?>" >
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_directory); ?>/css/comuna.css" >
-    <!-- animate css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
     <!-- js smooth scroll -->
     <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
-    <!-- js -->
-    <script src="<?php bloginfo(stylesheet_directory); ?>/js/comuna.js"></script>
-    <title><?php bloginfo(title); ?></title>
+    <title><?php the_title(); ?></title>
   </head>
 
   <body>

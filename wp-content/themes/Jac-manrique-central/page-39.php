@@ -4,14 +4,10 @@
           <div class="col-lg-3 col-md-6 col-xs-12 pb-3">
               <?php get_sidebar(); ?>
           </div>
-             <!-- loop con excerpt -->
-             <?php
-
-             $CurrentPage = get_query_var('paged');
-
+          <!-- loop con excerpt -->
+          <?php $CurrentPage = get_query_var('paged');
              $args = array ('posts_per_page' => '7',
-                            'paged' => $CurrentPage
-                );
+                            'paged' => $CurrentPage);
              $filter_posts = new WP_Query($args);
              if($filter_posts->have_posts() ) : ?>
                  <?php while( $filter_posts->have_posts() ) : $filter_posts->the_post() ?>
@@ -48,25 +44,23 @@
            <?php endwhile ?>
            <!-- paginacion -->
            <div class="col-12">
-               <nav aria-label="page navigation example">
-                   <ul class="pagination justify-content-center">
-                       <?php echo paginate_links(array(
-                           'total' => $filter_posts->max_num_pages
-                        ));
-                       ?>
-                   </ul>
-               </nav>
+             <nav aria-label="page navigation example">
+               <ul class="pagination justify-content-center">
+                 <?php echo paginate_links(array('total' => $filter_posts->max_num_pages )); ?>
+               </ul>
+             </nav>
            </div>
            <?php else : ?>
-               <h1>Oops no tenemos publicaciones aún.</h1>
-           <?php endif;
-           wp_reset_postdata(); //reset del loop
-            ?>
-           <!-- fin del loop -->
-         </div>
+              <div class="row">
+                  <div class="col-lg-9 col-md-6 col-xs-12">
+                      <h1 class="text-center">Oops no tenemos publicaciones aún.</h1>
+                  </div>
+              </div>
+
+           <?php endif; wp_reset_postdata(); //reset del loop ?><!-- fin del loop -->
     </article>
 
-    <main>
-        zona de suscripción
+    <main id="suscriptor">
+      <?php get_template_part( 'template-parts/suscriptor', '' ); ?>
     </main>
 <?php get_footer() ?>

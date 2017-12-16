@@ -5,7 +5,6 @@
     <meta name="description" content="<?php bloginfo(description); ?>">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
-    <!--colocar keywords-->
     <meta name="keywords" content="Gobierno, Medellín, Jac, comuna 4, Manrique central, calidad de vida, desarrollo integral, trabajo comunitario, gestión administrativa, salud pública,">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
@@ -21,32 +20,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
     <!-- js smooth scroll -->
     <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
-    <!-- js -->
-    <script src="<?php bloginfo(stylesheet_directory); ?>/js/jac.js"></script>
-    <title><?php bloginfo(title); ?></title>
+    <title><?php the_title(); ?></title>
   </head>
 
   <body>
-
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
-          <a data-scroll class="navbar-brand" href="<?php echo home_url(); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <?php
-            wp_nav_menu(
-              array(
-                'theme_location' => 'header-menu',
-                'container' => 'nav',
-                'menu-class' => 'nav_list',
-              )
-            );
-            ?>
-          </div>
-        </nav>
-      </header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
+        <a data-scroll class="navbar-brand" href="<?php echo home_url(); ?>">
+          <img src="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <?php wp_nav_menu( array( 'theme_location' => 'header-menu',
+                                    'container' => 'nav',
+                                    'menu-class' => 'nav_list',));
+          ?>
+        </div>
+      </nav>
+    </header>

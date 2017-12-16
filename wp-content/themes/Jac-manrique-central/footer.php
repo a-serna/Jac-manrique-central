@@ -1,25 +1,25 @@
   <footer class="pl-5 pr-5 mt-5">
-    <div class="d-flex justify-content-center pt-5 pb-5 mt-5">
+    <div class="d-flex justify-content-center pt-4 pb-3 mt-4">
       <a target="_blank" href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"><img class="pt-5 pl-5 pr-5" src="<?php bloginfo('template_url'); ?>/img/facebook-blanco.png" alt="facebook"></a>
       <a target="_blank" href="#"><img class="pt-5 pl-5 pr-5" src="<?php bloginfo('template_url'); ?>/img/youtube-blanco.png" alt="youtube"></a>
     </div>
-    <div class="float-right mt-3 pt-5">
-      <a href="#home"><img src="<?php bloginfo('template_url'); ?>/img/arriba-icon-blanco.png" alt="arriba"></a>
+    <div class="float-right mt-3 pt-3 d-none d-sm-block">
+      <a href="#home"><img  class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/arriba-icon-blanco.png" alt="arriba"></a>
       <p class="text-center"><small>Arriba</small></p>
     </div>
-    <div class="d-flex justify-content-center mt-3 pt-5">
-      <div>
+    <div class="row d-flex justify-content-center mt-sm-0 mt-md-3 pt-sm-3 pt-md-5">
+      <div class="col-xs-12 col-sm-6">
         <p class="text-center"><i class="material-icons">email</i> info@jacmanriquecentral.org</p>
         <p class="text-center"><i class="material-icons">phone</i> +57(4) 314 646 75 63 Presidencia</p>
       </div>
     </div>
-    <div class="row mt-2 pt-2">
-      <div class="col">
+    <div class="row mt-sm-0 mt-md-2 pt-sm-2">
+      <div class="col-12">
         <?php wp_nav_menu('Footer menu'); ?>
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col-12">
         <p class="text-center"><b>&copy;</b> <?php echo date('Y'); ?> <?php bloginfo(name) ?> | Desarrollado por: <a target="_blank" href="http://www.brumker.com/"><img src="<?php bloginfo('template_url'); ?>/img/brumker-logo-blanco.png" alt="Brumker studios"></a></p>
       </div>
     </div>

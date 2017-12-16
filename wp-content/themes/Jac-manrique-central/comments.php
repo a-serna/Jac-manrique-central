@@ -6,7 +6,6 @@
   <?php else: ?>
   <h6 id="comments"><span class="badge badge-dark"> <?php comments_number('Aún no hay comentarios en este articulo' ); ?></span></h6>
 <?php endif; ?>
-
 <?php
   $comments_args = array(
     'label_submit' => 'Enviar comentario',
