@@ -136,6 +136,24 @@ cite>a:hover{
   padding: 0.50rem 1.25rem;
 }
 
+/* paginacion del blog */
+.page-numbers{
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #808080;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.page-numbers:hover{
+  color: #ffffff;
+  background-color: #82BA2B;
+  border: 1px solid #ddd;
+  transition: background-color .15s ease-in-out;
+}
 /*footer principal*/
 footer{
   padding-top: 4em;
