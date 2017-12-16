@@ -230,31 +230,30 @@
       </div>
 
 
-      <form class="mt-5 p-5">
+      <form class="mt-5 p-5" class="was-validated" method="post" action="contacto.php">
         <div class="form">
             <div class="row d-flex justify-content-center">
-                <div class="col-sm-12 col-md-4 mb-3">
-                  <input type="text" class="form-control border form-border rounded text-center" placeholder="Nombre">
+                <div class="col-sm-12 col-md-4 mb-3" for="validationDefault01">
+                  <input name="Nombre" type="text" class="form-control border form-border rounded text-center" id="validationDefault01" placeholder="Nombre" required>
                 </div>
-                <div class="col-sm-12 col-md-4 mb-3">
-                  <input type="text" class="form-control border form-border rounded text-center" placeholder="Apellido">
+                <div class="col-sm-12 col-md-4 mb-3" for="validationDefault02">
+                  <input name="Apellido" type="text" class="form-control border form-border rounded text-center" id="validationDefault02" placeholder="Apellido" required>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-sm-12 col-md-4 mb-3">
-                  <input type="email" class="form-control border form-border rounded text-center" id="inputEmail4" placeholder="Email">
+                <div class="col-sm-12 col-md-4 mb-3" for="validationDefault03">
+                  <input name="Email" type="email" class="form-control border form-border rounded text-center" id="validationDefault03" placeholder="Email" required>
                 </div>
-                <div class="col-sm-12 col-md-4 mb-3">
-                  <input type="tel" class="form-control border form-border rounded text-center" placeholder="Teléfono">
+                <div class="col-sm-12 col-md-4 mb-3" for="validationDefault04">
+                  <input name="Tel" type="tel" class="form-control border form-border rounded text-center" id="validationDefault04" placeholder="Teléfono">
                 </div>
             </div>
-            <textarea name="textarea" class="form-control border form-border rounded" length="400"></textarea>
+            <textarea name="Mensaje" class="form-control border form-border rounded" length="400" required></textarea>
         </div>
-
         <div class="row d-flex justify-content-md-center mt-3">
             <div class="form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox"><h6>Acepto términos y condiciones</h6>
+                    <input class="form-check-input" type="checkbox" required><h6>Acepto términos y condiciones</h6>
                 </label>
             </div>
         </div>

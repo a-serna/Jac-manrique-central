@@ -147,13 +147,13 @@ cite>a:hover{
   background-color: #fff;
   border: 1px solid #ddd;
 }
-
 .page-numbers:hover{
   color: #ffffff;
   background-color: #82BA2B;
   border: 1px solid #ddd;
   transition: background-color .15s ease-in-out;
 }
+
 /*footer principal*/
 footer{
   padding-top: 4em;
