@@ -16,65 +16,41 @@
 .bg-purpura{
   background-color: #db157d;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-naranja{
   background-color: #f9a745;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-cian{
   background-color: #0097a5;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-verde{
   background-color: #059d60;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-violeta{
   background-color: #683cb0;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-azul{
   background-color: #1c2579;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-café{
   background-color: #754c24;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 .bg-rojo{
   background-color: #ea413d;
   width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 80px;
 }
 
 /*border colors*/
