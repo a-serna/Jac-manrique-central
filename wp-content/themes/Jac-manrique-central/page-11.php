@@ -88,7 +88,7 @@
                     </div>
                   <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-El-Bosque.jpg">
                   <div class="modal-footer bg-light d-flex justify-content-center">
-                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede11">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
                           <i class="material-icons text-center text-purpura">chevron_left</i>
                       </button>
                       <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede02">
@@ -411,6 +411,70 @@
                       <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede10">
                           <i class="material-icons text-center text-purpura">chevron_left</i>
                       </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede12">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sede12 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede12">
+                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-isidro-(1).jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social San Isidro</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede12" tabindex="-1" role="dialog" aria-labelledby="Sede social San Isidro" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social San Isidro</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-isidro-(1).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede11">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sede13 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede13">
+                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social San Nicolás</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede13" tabindex="-1" role="dialog" aria-labelledby="Sede social San Nicolás" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social San Nicolás</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
                       <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede01">
                           <i class="material-icons text-center text-purpura">chevron_right</i>
                       </button>
@@ -602,7 +666,7 @@
         </div>
       </div>
 
-      <div id="ciudadslider" class="carousel slide" data-ride="carousel">
+      <div id="deportesslider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#ciudadslider" data-slide-to="0" class="active"></li>
           <li data-target="#ciudadslider" data-slide-to="1"></li>
@@ -724,51 +788,12 @@
                 Su slogan es "Plaza de Mercado, para Mercar y Regatear".</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Norte-(2).jpg" alt="Parque norte">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Parque Norte</h3>
-              <p class="text-shadow">El Parque Norte es un espacio de diversión, sana convivencia, cultura y recreación de la ciudad de Medellín.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Norte-(3).jpg" alt="Parque norte">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Parque Norte</h3>
-              <p class="text-shadow">Tiene el lago más grande de Latinoamérica.
-                Cuenta con 25 atracciones mecánicas para el disfrute de todos los grupos poblacionales que lo visitan.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Cementerio-de-San-Pedro-(2).jpg" alt="cementerio">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Museo cementerio San Pedro</h3>
-              <p class="text-shadow">En el Cementerio se encuentran inhumadas personas que fueron muy importantes del país
-              como los expresidentes Mariano Ospina Rodríguez, Carlos E. Restrepo y Pedro Nel Ospina, escritores
-              y artistas como María Cano, Jorge Isaac, Bernardo Vieco y Fidel Cano. Declarado Monumento Nacional en el año de 1.999</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Cementerio-de-San-Pedro-(4).jpg" alt="cementerio">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Museo cementerio San Pedro</h3>
-              <p class="text-shadow">Los mausoleos se destacan tanto por sus obras esculturales y arquitectónicas que son muy representativas del arte fúnebre.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/biblioteca-piloto-(1).jpg">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Biblioteca Pública piloto Juan Zuleta Ferrer</h3>
-              <p class="text-shadow">Sus funciones básicas son: educar, informar, investigar, consultar, culturalizar y recrear a
-                la comunidad en general. Lleva el nombre de Juan Zuleta Ferrer en homenaje al ilustre escritor y periodista Antiqueño.</p>
-            </div>
-          </div>
         </div>
-        <a class="carousel-control-prev" href="#ciudadslider" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#deportesslider" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#ciudadslider" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#deportesslider" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
           <span class="sr-only">Next</span>
         </a>
