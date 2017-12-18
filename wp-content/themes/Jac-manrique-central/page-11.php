@@ -1057,32 +1057,39 @@
               </div>
             </div>
           </div>
-          <!-- sede08 -->
+          <!-- ciudad08 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
-                <a data-toggle="modal" data-target="#sede08">
-                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
-                     <div class="car-body text-purpura">
-                         <h5 class="card-header">Sede social Prado Brasilia</h5>
+                <a data-toggle="modal" data-target="#ciudad08">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Museo-Pedro-Nel-Gomez-(6).jpg">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Museo Pedro Nel Gómez</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">Fue inaugurado en el año de 1975, es un sitio cultural constituido
+                             por el maestro Pedro Nel Gómez con el fin de conservar la casa, su acervo artístico,
+                             bibliográfico y documental como patrimonio de la ciudad de Medellín.
+                             Guarda cerca de 3.015 obras de arte entre dibujos, acuarelas y oleos.
+                         </p>
                      </div>
                 </a>
             </div>
-            <div class="modal fade" id="sede08" tabindex="-1" role="dialog" aria-labelledby="Sede social Prado Brasilia" aria-hidden="true">
+            <div class="modal fade" id="ciudad08" tabindex="-1" role="dialog" aria-labelledby="Museo Pedro Nel Gómez" aria-hidden="true">
               <div class="modal-dialog modal-lg bg-light">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text-purpura">Sede social Prado Brasilia</h5>
-                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                        <h5 class="modal-title text-violeta">Museo Pedro Nel Gómez</h5>
+                        <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Museo-Pedro-Nel-Gomez-(6).jpg">
                   <div class="modal-footer d-flex justify-content-center">
-                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede07">
-                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad07">
+                          <i class="material-icons text-center text-violeta">chevron_left</i>
                       </button>
-                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede09">
-                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad09">
+                          <i class="material-icons text-center text-violeta">chevron_right</i>
                       </button>
                   </div>
                 </div>
@@ -1251,9 +1258,6 @@
           </div>
       </div>
 
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Museo-Pedro-Nel-Gomez-(6).jpg" alt="Pedro Nel Gomez">
-              <h3 class="text-shadow">Museo Pedro Nel Gomez</h3>
-              <p class="text-shadow">Es un sitio cultural constituido por el maestro Pedro Nel Gómez con el fin de conservar la casa, su acervo artístico, bibliográfico y documental como patrimonio de la ciudad de Medellín.</p>
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Comfama-(1).jpg" alt="Comfama">
               <h3 class="text-shadow">Comfama</h3>
               <p class="text-shadow">Este espacio antiguo fue restaurado, en el pasado allí funcionaba el manicomio de la ciudad.</p>
