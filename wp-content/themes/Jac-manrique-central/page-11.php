@@ -71,7 +71,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede01">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-El-Bosque.jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-El-Bosque.jpg">
                      <div class="car-body">
                          <h5 class="card-header text-purpura">Sede social El Bosque</h5>
                      </div>
@@ -103,7 +103,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede02">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Campo-Valdes-Calvario.jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Campo-Valdes-Calvario.jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social Campo Valdés Calvario</h5>
                      </div>
@@ -135,7 +135,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede03">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Álamos-(2).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Álamos-(2).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social Álamos</h5>
                      </div>
@@ -167,7 +167,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede04">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-San-Pedro-(1).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-San-Pedro-(1).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social San Pedro</h5>
                      </div>
@@ -199,7 +199,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede05">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-San-Cayetano-(1).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-San-Cayetano-(1).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social San Cayetano</h5>
                      </div>
@@ -231,7 +231,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede06">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/sede-s-moravia-oriente-(1).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-moravia-oriente-(1).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social Moravia Oriente</h5>
                      </div>
@@ -263,7 +263,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede07">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/sede-s-miranda.jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-miranda.jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social Miranda</h5>
                      </div>
@@ -295,7 +295,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede08">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social Prado Brasilia</h5>
                      </div>
@@ -327,7 +327,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede09">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/sede-s-berlin.jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-berlin.jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social Berlín</h5>
                      </div>
@@ -359,7 +359,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede10">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-La-Piñuela-(3).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-La-Piñuela-(3).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social La Piñuela</h5>
                      </div>
@@ -391,7 +391,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede11">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-la-Maquinita-(3).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-la-Maquinita-(3).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social La Maquinita</h5>
                      </div>
@@ -423,7 +423,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede12">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-isidro-(1).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-isidro-(1).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social San Isidro</h5>
                      </div>
@@ -455,7 +455,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede13">
-                     <img class="img-thumbnail" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
                      <div class="car-body text-purpura">
                          <h5 class="card-header">Sede social San Nicolás</h5>
                      </div>
@@ -716,8 +716,8 @@
       </div>
     </section>
 
-    <section id="ciudad" class="mt-5">
-      <div class="row bg-violeta pl-5 pr-5 m-0">
+    <section id="ciudad">
+      <div class="row bg-violeta pl-5 mr-0 ml-0 mb-5">
         <div class="col-sm-12">
           <h2 class="text-white pt-5">Equipamientos de ciudad</h2>
         </div>
@@ -726,177 +726,560 @@
             para visitar por todos los ciudadanos de Medellín, Antioquia, Colombia y ciudadanos extranjeros que nos visitan.</p>
         </div>
       </div>
-      <div id="ciudadslider" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#ciudadslider" data-slide-to="0" class="active"></li>
-          <li data-target="#ciudadslider" data-slide-to="1"></li>
-          <li data-target="#ciudadslider" data-slide-to="2"></li>
-          <li data-target="#ciudadslider" data-slide-to="3"></li>
-          <li data-target="#ciudadslider" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(2).jpg" alt="udea">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Universidad de Antioquia</h3>
-              <p class="text-shadow">Es la principal institución académica de Antioquia y una de las mejores universidades de Colombia gracias a sus logros investigativos, culturales y académicos.</p>
+      <div class="row pl-5 pr-5 mb-5 card-columns">
+          <!-- ciudad01 -->
+          <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad01">
+                    <img src="<?php bloginfo('template_url'); ?>/img/U-de-A-(2).jpg">
+                     <div class="car-body">
+                         <h5 class="card-header text-violeta">Universidad de Antioquia</h5>
+                     </div>
+                    <div class="card-footer text-dark">
+                        <p class="card-text">Es la principal institución académica de Antioquia y una de las
+                            mejores universidades de Colombia, gracias a sus logros investigativos, culturales y académicos.
+                            <br>La ciudadela universitaria inicio funciones en octubre del año 1.968.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="modal fade" id="ciudad01" tabindex="-1" role="dialog" aria-labelledby="Universidad de Antioquia" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title text-violeta">Universidad de Antioquia</h5>
+                        <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div id="udeaslider" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#udeaslider" data-slide-to="0" class="active"></li>
+                        <li data-target="#udeaslider" data-slide-to="1"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(2).jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(3).jpg">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="modal-footer bg-light d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad">
+                          <i class="material-icons text-center text-violeta">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad02">
+                          <i class="material-icons text-center text-violeta">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(3).jpg" alt="udea">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Universidad de Antioquia</h3>
-              <p class="text-shadow">La ciudadela universitaria inicio funciones en octubre del año 1.968.</p>
+          <!-- ciudad02 -->
+          <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad02">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(3).jpg">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Ruta n</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">Es el centro de innovación y negocios de Medellín,
+                             una corporación creada por la Alcaldía de Medellín, Une y Epm para promover el desarrollo
+                             de negocios innovadores basados en la tecnología que incrementan la competitividad de la ciudad y la región.
+                             <br>Nace en el año 2009.
+                         </p>
+                     </div>
+                </a>
+                <div class="modal fade" id="ciudad02" tabindex="-1" role="dialog" aria-labelledby="Ruta n" aria-hidden="true">
+                  <div class="modal-dialog modal-lg bg-light">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-violeta">Ruta n</h5>
+                            <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div id="rutanslider" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#rutanslider" data-slide-to="0" class="active"></li>
+                            <li data-target="#rutanslider" data-slide-to="1"></li>
+                            <li data-target="#rutanslider" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(3).jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(4).jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(9).jpg">
+                            </div>
+                          </div>
+                        </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad01">
+                              <i class="material-icons text-center text-violeta">chevron_left</i>
+                          </button>
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad03">
+                              <i class="material-icons text-center text-violeta">chevron_right</i>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(3).jpg" alt="ruta n">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Ruta N</h3>
-              <p class="text-shadow">Es el centro de innovación y negocios de Medellín.</p>
+          <!-- ciudad03 -->
+          <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad03">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Unidad-Permanente-de-Justicia.jpg">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Unidad permanente de justicia</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">Conocida como "la UPJ el Bosque". Es un centro de prestación de servicios de justicia formal e informal,
+                             presta los servicios a la comunidad en justicia, oportuna y gratuita.
+                         </p>
+                     </div>
+                </a>
+                <div class="modal fade" id="ciudad03" tabindex="-1" role="dialog" aria-labelledby="Unidad permanente de justicia" aria-hidden="true">
+                  <div class="modal-dialog modal-lg bg-light">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-violeta">Unidad permanente de justicia</h5>
+                            <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                      <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Unidad-Permanente-de-Justicia.jpg">
+                      <div class="modal-footer d-flex justify-content-center">
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad02">
+                              <i class="material-icons text-center text-violeta">chevron_left</i>
+                          </button>
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad04">
+                              <i class="material-icons text-violeta text-center">chevron_right</i>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(4).jpg" alt="ruta n">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Ruta N</h3>
-              <p class="text-shadow">Una corporación creada por la Alcaldía de Medellín, une y epm.</p>
+          <!-- ciudad04 -->
+          <div class="col-sm-12 col-md-8 col-lg-6 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad04">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Planetario-(13).jpg" alt="planetario">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Planetario</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">Ésta ubicado adyacente al Parque de los Deseos de Medellín,
+                             inicia funciones en el mes de octubre del año 1984; cuenta con un Domo de proyecciones.
+                             Un espacio para reuniones pedagógicas sobre el Universo y la Astronomía,
+                             las diferentes programaciones se hacen bajo la cúpula de uno de los Domos más inclinados del mundo,
+                             con unos 27 grados, es considerado como un museo.
+                         </p>
+                     </div>
+                </a>
+                <div class="modal fade" id="ciudad04" tabindex="-1" role="dialog" aria-labelledby="Planetario" aria-hidden="true">
+                  <div class="modal-dialog modal-lg bg-light">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-violeta">Planetario</h5>
+                            <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div id="planetarioslider" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#planetarioslider" data-slide-to="0" class="active"></li>
+                            <li data-target="#planetarioslider" data-slide-to="1"></li>
+                            <li data-target="#planetarioslider" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(13).jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(14).jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(16).jpg">
+                            </div>
+                          </div>
+                        </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad03">
+                              <i class="material-icons text-violeta text-center">chevron_left</i>
+                          </button>
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad05">
+                              <i class="material-icons text-violeta text-center">chevron_right</i>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(9).jpg" alt="ruta n">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Ruta N</h3>
-              <p class="text-shadow">Nace en el año 2.009.</p>
+          <!-- ciudad05 -->
+          <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad05">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(1).jpg">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Jardín Botánico</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">Fue construido en nombre del botánico Joaquín Antonio Uribe;
+                             cuenta con un recinto llamado Orquideorama lugar para la exposición de flores,
+                             alberga 1000 especies vivas; en el año 1985 fue declarado Patrimonio Cultural de Medellín.
+                         </p>
+                     </div>
+                </a>
+                <div class="modal fade" id="ciudad05" tabindex="-1" role="dialog" aria-labelledby="Jardín Botánico" aria-hidden="true">
+                  <div class="modal-dialog modal-lg bg-light">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-violeta">Jardín Botánico</h5>
+                            <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div id="jardinslider" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#jardinslider" data-slide-to="0" class="active"></li>
+                            <li data-target="#jardinslider" data-slide-to="1"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(1).jpg">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(6).jpg">
+                            </div>
+                          </div>
+                        </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad04">
+                              <i class="material-icons text-violeta text-center">chevron_left</i>
+                          </button>
+                          <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad06">
+                              <i class="material-icons text-violeta text-center">chevron_right</i>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Unidad-Permanente-de-Justicia.jpg" alt="updj">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Unidad permanente de justicia</h3>
-              <p class="text-shadow">Es un centro de prestación de servicios de justicia formal e informal, presta los servicios a la comunidad en justicia, oportuna y gratuita.</p>
+          <!-- ciudad06 -->
+          <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad06">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Explora-(2).jpg">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Parque Explora</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">Es un museo interactivo para la apropiación y divulgación
+                             de la ciencia y la tecnología. Fue abierto al público en el año de 2007.
+                             Alberga más de 300 experiencias interactivas, un auditorio en 3D, una sala infantil,
+                             sala de exposiciones temporales y el acuario de agua dulce más grande de Latinoamérica.
+                         </p>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="ciudad06" tabindex="-1" role="dialog" aria-labelledby="Parque Explora" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-violeta">Parque Explora</h5>
+                        <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Explora-(2).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad05">
+                          <i class="material-icons text-center text-violeta">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad07">
+                          <i class="material-icons text-center text-violeta">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(13).jpg" alt="planetario">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Planetario</h3>
-              <p class="text-shadow">Inicia funciones en el mes de octubre del año 1.984.</p>
+          <!-- ciudad07 -->
+          <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#ciudad07">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Centro-Cultural-Moravia-(1).jpg">
+                     <div class="car-body text-violeta">
+                         <h5 class="card-header">Centro de desarrollo cultural de Moravia</h5>
+                     </div>
+                     <div class="card-footer text-dark">
+                         <p class="card-text">La casa de todos es un espacio para los encuentros,
+                             las Expresiones Artísticas, lo Cultural y lo Comunitario. Se fomenta la creación,
+                             la comunicación, la cooperación, la cultura, lo lúdico, lo comunal, lo artístico,
+                             la música, la danza, las artes plásticas y lo escénico.
+                         </p>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="ciudad07" tabindex="-1" role="dialog" aria-labelledby="Centro de desarrollo cultural de Moravia" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-violeta">Centro de desarrollo cultural de Moravia</h5>
+                        <button type="button" class="close text-violeta" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Centro-Cultural-Moravia-(1).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad06">
+                          <i class="material-icons text-center text-violeta">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#ciudad08">
+                          <i class="material-icons text-center text-violeta">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(14).jpg" alt="planetario">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Planetario</h3>
-              <p class="text-shadow">Cuenta con un Domo de proyecciones.</p>
+          <!-- sede08 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede08">
+                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social Prado Brasilia</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede08" tabindex="-1" role="dialog" aria-labelledby="Sede social Prado Brasilia" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social Prado Brasilia</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/sede-s-brasilia.jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede07">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede09">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(16).jpg" alt="planetario">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Planetario</h3>
-              <p class="text-shadow">Un espacio para reuniones pedagógicas sobre el Universo y la Astronomía, es considerado como un museo.</p>
+          <!-- sede09 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede09">
+                     <img src="<?php bloginfo('template_url'); ?>/img/sede-s-berlin.jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social Berlín</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede09" tabindex="-1" role="dialog" aria-labelledby="Sede social Berlín" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social Berlín</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/sede-s-berlin.jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede08">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede10">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(1).jpg" alt="jardin botanico">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Jardín Botánico</h3>
-              <p class="text-shadow">Fue construido en nombre del botánico Joaquín Antonio Uribe. En el año 1.985 fue declarado Patrimonio Cultural de Medellín.</p>
+          <!-- sede10 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede10">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-La-Piñuela-(3).jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social La Piñuela</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede10" tabindex="-1" role="dialog" aria-labelledby="Sede social La Piñuela" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social La Piñuela</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-La-Piñuela-(3).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede09">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede11">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(6).jpg" alt="jardin botanico">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Jardín Botánico</h3>
-              <p class="text-shadow">Cuenta con un recinto llamado Orquideorama lugar para la exposición de flores, alberga 1000 especies vivas.</p>
+          <!-- sede11 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede11">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-la-Maquinita-(3).jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social La Maquinita</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede11" tabindex="-1" role="dialog" aria-labelledby="Sede social La Maquinita" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social La Maquinita</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-la-Maquinita-(3).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede10">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede12">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Explora-(2).jpg" alt="Parque explora">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Parque explora</h3>
-              <p class="text-shadow">Es un museo interactivo para la apropiación y divulgación de la ciencia y la tecnología ubicado en Medellín Colombia.</p>
+          <!-- sede12 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede12">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-isidro-(1).jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social San Isidro</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede12" tabindex="-1" role="dialog" aria-labelledby="Sede social San Isidro" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social San Isidro</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-isidro-(1).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede11">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Centro-Cultural-Moravia-(1).jpg" alt="cultural moravia">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Centro de desarrollo cultural de Moravia</h3>
-              <p class="text-shadow">La casa de todos es un espacio de encuentros, de las Expresiones Artísticas, lo Cultural y lo Comunitario.</p>
+          <!-- sede13 -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede13">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social San Nicolás</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede13" tabindex="-1" role="dialog" aria-labelledby="Sede social San Nicolás" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social San Nicolás</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
+                  <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede01">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
+      </div>
+
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Museo-Pedro-Nel-Gomez-(6).jpg" alt="Pedro Nel Gomez">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Museo Pedro Nel Gomez</h3>
               <p class="text-shadow">Es un sitio cultural constituido por el maestro Pedro Nel Gómez con el fin de conservar la casa, su acervo artístico, bibliográfico y documental como patrimonio de la ciudad de Medellín.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Comfama-(1).jpg" alt="Comfama">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Comfama</h3>
               <p class="text-shadow">Este espacio antiguo fue restaurado, en el pasado allí funcionaba el manicomio de la ciudad.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Plaza-de-Campo-Valdes-(1).jpg" alt="plaza">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Plaza de Campo Valdés</h3>
               <p class="text-shadow">Es un establecimiento de comercio mayorista de abarrotes. Cuenta con un amplio parqueadero de cargue y descargue.
                 Su slogan es "Plaza de Mercado, para Mercar y Regatear".</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Norte-(2).jpg" alt="Parque norte">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Parque Norte</h3>
               <p class="text-shadow">El Parque Norte es un espacio de diversión, sana convivencia, cultura y recreación de la ciudad de Medellín.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Norte-(3).jpg" alt="Parque norte">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Parque Norte</h3>
               <p class="text-shadow">Tiene el lago más grande de Latinoamérica.
                 Cuenta con 25 atracciones mecánicas para el disfrute de todos los grupos poblacionales que lo visitan.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Cementerio-de-San-Pedro-(2).jpg" alt="cementerio">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Museo cementerio San Pedro</h3>
               <p class="text-shadow">En el Cementerio se encuentran inhumadas personas que fueron muy importantes del país
               como los expresidentes Mariano Ospina Rodríguez, Carlos E. Restrepo y Pedro Nel Ospina, escritores
               y artistas como María Cano, Jorge Isaac, Bernardo Vieco y Fidel Cano. Declarado Monumento Nacional en el año de 1.999</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Cementerio-de-San-Pedro-(4).jpg" alt="cementerio">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Museo cementerio San Pedro</h3>
               <p class="text-shadow">Los mausoleos se destacan tanto por sus obras esculturales y arquitectónicas que son muy representativas del arte fúnebre.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
             <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/biblioteca-piloto-(1).jpg">
-            <div class="carousel-caption d-none d-md-block">
               <h3 class="text-shadow">Biblioteca Pública piloto Juan Zuleta Ferrer</h3>
               <p class="text-shadow">Sus funciones básicas son: educar, informar, investigar, consultar, culturalizar y recrear a
                 la comunidad en general. Lleva el nombre de Juan Zuleta Ferrer en homenaje al ilustre escritor y periodista Antiqueño.</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#ciudadslider" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#ciudadslider" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
     </section>
 
     <section id="instituciones">
@@ -1068,7 +1451,7 @@
       </div>
     </section>
 
-    <section id="mapas" class="mt-5">
+    <section id="mapas">
       <div class="row bg-rojo pl-5 pr-5 m-0">
         <div class="col-sm-12">
           <h2 class="text-white pt-5">Mapas</h2>
