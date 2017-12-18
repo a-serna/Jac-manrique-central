@@ -114,6 +114,10 @@ b{
   color: #ffffff;
 }
 
+.text-shadow{
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 1);
+}
+
 /*menu index*/
 .navbar-light .navbar-nav .nav-link:hover {
     border-bottom: 3px solid #82BA2B;

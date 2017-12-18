@@ -665,127 +665,43 @@
           <p class="text-white">La comuna 4 cuenta con 6 canchas sintéticas y 9 placas polideportivas.</p>
         </div>
       </div>
-
       <div id="deportesslider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#ciudadslider" data-slide-to="0" class="active"></li>
-          <li data-target="#ciudadslider" data-slide-to="1"></li>
-          <li data-target="#ciudadslider" data-slide-to="2"></li>
-          <li data-target="#ciudadslider" data-slide-to="3"></li>
-          <li data-target="#ciudadslider" data-slide-to="4"></li>
+          <li data-target="#deportesslider" data-slide-to="0" class="active"></li>
+          <li data-target="#deportesslider" data-slide-to="1"></li>
+          <li data-target="#deportesslider" data-slide-to="2"></li>
+          <li data-target="#deportesslider" data-slide-to="3"></li>
+          <li data-target="#deportesslider" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(2).jpg" alt="udea">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Placa-deportiva-Moravia-(1).jpg">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Universidad de Antioquia</h3>
-              <p class="text-shadow">Es la principal institución académica de Antioquia y una de las mejores universidades de Colombia gracias a sus logros investigativos, culturales y académicos.</p>
+              <h3 class="text-shadow">Placa deportiva Moravia</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/U-de-A-(3).jpg" alt="udea">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Placa-deportiva-San-Isidro-(1).jpg">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Universidad de Antioquia</h3>
-              <p class="text-shadow">La ciudadela universitaria inicio funciones en octubre del año 1.968.</p>
+              <h3 class="text-shadow">Placa deportiva San Isidro</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(3).jpg" alt="ruta n">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Placa-deportiva-San-Isidro-(3).jpg">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Ruta N</h3>
-              <p class="text-shadow">Es el centro de innovación y negocios de Medellín.</p>
+              <h3 class="text-shadow">Placa deportiva San Isidro</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(4).jpg" alt="ruta n">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Parque-Skate-la-Piñuela-(1).jpg">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Ruta N</h3>
-              <p class="text-shadow">Una corporación creada por la Alcaldía de Medellín, une y epm.</p>
+              <h3 class="text-shadow">Parque Skate La Piñuela</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Ruta-N-(9).jpg" alt="ruta n">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Placa-deportiva-Brasilia-(1).jpg">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Ruta N</h3>
-              <p class="text-shadow">Nace en el año 2.009.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Unidad-Permanente-de-Justicia.jpg" alt="updj">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Unidad permanente de justicia</h3>
-              <p class="text-shadow">Es un centro de prestación de servicios de justicia formal e informal, presta los servicios a la comunidad en justicia, oportuna y gratuita.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(13).jpg" alt="planetario">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Planetario</h3>
-              <p class="text-shadow">Inicia funciones en el mes de octubre del año 1.984.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(14).jpg" alt="planetario">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Planetario</h3>
-              <p class="text-shadow">Cuenta con un Domo de proyecciones.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Planetario-(16).jpg" alt="planetario">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Planetario</h3>
-              <p class="text-shadow">Un espacio para reuniones pedagógicas sobre el Universo y la Astronomía, es considerado como un museo.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(1).jpg" alt="jardin botanico">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Jardín Botánico</h3>
-              <p class="text-shadow">Fue construido en nombre del botánico Joaquín Antonio Uribe. En el año 1.985 fue declarado Patrimonio Cultural de Medellín.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Jardín-Botanico-(6).jpg" alt="jardin botanico">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Jardín Botánico</h3>
-              <p class="text-shadow">Cuenta con un recinto llamado Orquideorama lugar para la exposición de flores, alberga 1000 especies vivas.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Explora-(2).jpg" alt="Parque explora">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Parque explora</h3>
-              <p class="text-shadow">Es un museo interactivo para la apropiación y divulgación de la ciencia y la tecnología ubicado en Medellín Colombia.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Centro-Cultural-Moravia-(1).jpg" alt="cultural moravia">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Centro de desarrollo cultural de Moravia</h3>
-              <p class="text-shadow">La casa de todos es un espacio de encuentros, de las Expresiones Artísticas, lo Cultural y lo Comunitario.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Museo-Pedro-Nel-Gomez-(6).jpg" alt="Pedro Nel Gomez">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Museo Pedro Nel Gomez</h3>
-              <p class="text-shadow">Es un sitio cultural constituido por el maestro Pedro Nel Gómez con el fin de conservar la casa, su acervo artístico, bibliográfico y documental como patrimonio de la ciudad de Medellín.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Comfama-(1).jpg" alt="Comfama">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Comfama</h3>
-              <p class="text-shadow">Este espacio antiguo fue restaurado, en el pasado allí funcionaba el manicomio de la ciudad.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Plaza-de-Campo-Valdes-(1).jpg" alt="plaza">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-shadow">Plaza de Campo Valdés</h3>
-              <p class="text-shadow">Es un establecimiento de comercio mayorista de abarrotes. Cuenta con un amplio parqueadero de cargue y descargue.
-                Su slogan es "Plaza de Mercado, para Mercar y Regatear".</p>
+              <h3 class="text-shadow">Placa deportiva Brasilia</h3>
             </div>
           </div>
         </div>
@@ -798,7 +714,6 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
     </section>
 
     <section id="ciudad" class="mt-5">
@@ -1107,6 +1022,49 @@
         <div class="col-sm-12">
           <h2 class="text-white pt-5">Iglesias</h2>
         </div>
+      </div>
+      <div id="iglesiasslider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#iglesiasslider" data-slide-to="0" class="active"></li>
+          <li data-target="#iglesiasslider" data-slide-to="1"></li>
+          <li data-target="#iglesiasslider" data-slide-to="2"></li>
+          <li data-target="#iglesiasslider" data-slide-to="3"></li>
+          <li data-target="#iglesiasslider" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Iglesia-de-Manrique-(2).jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-shadow">Iglesia de Manrique</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Iglesia-de-San-Nicolas-(5).jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-shadow">Iglesia de San Nicolás</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Iglesia-el-Sagrario-(3).jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-shadow">Iglesia el Sagrario</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="<?php bloginfo('template_url'); ?>/img/Iglesia-San-Cayetano-(1).jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-shadow">Iglesia San Cayetano</h3>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#iglesiasslider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="material-icons">chevron_left</i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#iglesiasslider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="material-icons">chevron_right</i></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </section>
 
