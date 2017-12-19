@@ -20,6 +20,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
     <!-- js smooth scroll -->
     <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="<?php bloginfo(stylesheet_directory); ?>/img/jac-icon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php bloginfo(stylesheet_directory); ?>/img/jac-icon.ico" type="image/x-icon">
     <title><?php the_title(); ?></title>
   </head>
 

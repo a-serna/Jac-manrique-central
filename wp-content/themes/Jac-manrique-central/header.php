@@ -24,6 +24,9 @@
     <meta property="og:title"         content="<?php bloginfo(title); ?>" />
     <meta property="og:description"   content="<?php bloginfo(description); ?>" />
     <meta property="og:image"         content="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="<?php bloginfo(stylesheet_directory); ?>/img/jac-icon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php bloginfo(stylesheet_directory); ?>/img/jac-icon.ico" type="image/x-icon">
     <title><?php bloginfo(title); ?></title>
   </head>
 
@@ -45,7 +48,7 @@
               <a data-scroll class="nav-link" href="#misión-visión"><p>Misión/visión</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
+              <a class="nav-link" target="_blank" href="<?php echo get_page_link(11); ?>"><p>Comuna virtual</p></a>
             </li>
             <li class="nav-item">
               <a data-scroll class="nav-link" href="<?php echo get_page_link(39); ?>"><p>Blog</p></a>
