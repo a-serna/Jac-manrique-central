@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="description" content="<?php bloginfo(description); ?>">
+    <meta name="description" content="Entra e informate de las noticias, eventos y demás, de nuestra Junta de acción comunal Manrique Central N°1.">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
     <meta name="keywords" content="Gobierno, Medellín, Jac, comuna 4, Manrique central, calidad de vida, desarrollo integral, trabajo comunitario, gestión administrativa, salud pública,">

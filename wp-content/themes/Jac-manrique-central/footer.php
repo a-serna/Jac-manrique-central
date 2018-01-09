@@ -1,7 +1,7 @@
   <footer class="pl-5 pr-5 mt-5">
     <div class="d-flex justify-content-center pt-4 pb-3 mt-4">
       <a target="_blank" href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"><img class="pt-5 pl-5 pr-5" src="<?php bloginfo('template_url'); ?>/img/facebook-blanco.png" alt="facebook"></a>
-      <a target="_blank" href="#"><img class="pt-5 pl-5 pr-5" src="<?php bloginfo('template_url'); ?>/img/youtube-blanco.png" alt="youtube"></a>
+      <a target="_blank" href="https://www.youtube.com/channel/UCeiTXUTCS6jpTKvTXmjDEYQ"><img class="pt-5 pl-5 pr-5" src="<?php bloginfo('template_url'); ?>/img/youtube-blanco.png" alt="youtube"></a>
     </div>
     <div class="float-right mt-3 pt-3 d-none d-sm-block">
       <a href="#home"><img  class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/arriba-icon-blanco.png" alt="arriba"></a>

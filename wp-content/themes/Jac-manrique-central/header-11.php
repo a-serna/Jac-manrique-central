@@ -3,7 +3,7 @@
   <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <!--colocar descripción-->
-    <meta name="description" content="">
+    <meta name="description" content="Una plataforma digital en la que vos y tu comunidad pueden acceder a contenidos de la Comuna 4.">
     <!--verificación google analytics.. pendiente-->
     <meta name="google-site-verification" content="...."/>
     <!--colocar keywords-->
