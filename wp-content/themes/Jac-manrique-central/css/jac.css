@@ -41,6 +41,12 @@ textarea{
   background-color: #82BA2B;
 }
 
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  width:100%;
+}
+
 .my-btn:hover{
   background-color: #7bac2f;
   transition: background-color .15s ease-in-out;

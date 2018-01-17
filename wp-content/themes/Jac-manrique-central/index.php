@@ -119,7 +119,7 @@
           </div>
       </div>
       <div class="row pt-5 pl-5 pr-5 d-flex align-self-start">
-          <div class="col-lg-3 col-md-6 col-xs-12 float-left pb-3 order-md-1 order-lg-2">
+          <div class="col-lg-3 col-md-6 col-xs-12 float-right pb-3 order-md-1 order-lg-2">
               <?php get_sidebar(); ?>
           </div>
           <?php
