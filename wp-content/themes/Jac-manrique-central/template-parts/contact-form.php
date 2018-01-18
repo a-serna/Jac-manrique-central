@@ -38,7 +38,7 @@
   </div>
   <div class="row justify-content-sm-center mt-3">
     <div class="col-sm-3">
-      <input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar">
+      <a href="<?php bloginfo('template_url'); ?>/template-parts/contacto.php"><input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar"></a>
     </div>
   </div>
 </form>
