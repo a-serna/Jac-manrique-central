@@ -21,11 +21,4 @@
     ) );
   }
   add_action('init', 'register_my_menus');
-  // formulario de contacto
-  // register_setting( 'Jac-contacto-opciones', 'activate' );
-  //
-  // add_settings_section( 'Jac-contacto-sección', 'Contacto', 'Jac_contacto_sección' );
-  //
-  // add_settings_field( 'activate-form', 'Activate Contact Form', 'Jac-contacto-sección');
-  // 
 ?>

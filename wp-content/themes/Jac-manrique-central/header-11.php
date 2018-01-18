@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112676078-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112676078-1');
+    </script>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <!--colocar descripción-->
     <meta name="description" content="Una plataforma digital en la que vos y tu comunidad pueden acceder a contenidos de la Comuna 4.">
-    <!--verificación google analytics.. pendiente-->
-    <meta name="google-site-verification" content="...."/>
-    <!--colocar keywords-->
-    <meta name="keywords" content="">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
