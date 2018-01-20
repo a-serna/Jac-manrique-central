@@ -1,5 +1,4 @@
 <?php
-  // add sidebar widget
   add_action( 'widgets_init', 'mat_widget_areas' );
   function mat_widget_areas() {
       register_sidebar( array(
@@ -13,7 +12,6 @@
       ));
   }
   add_theme_support( 'post-thumbnails' );
-  // navigation menu
   function register_my_menus(){
     register_nav_menus( array(
       'header-menu' => 'Header Menu',

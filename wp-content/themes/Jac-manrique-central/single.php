@@ -1,5 +1,4 @@
 <?php get_header("blog"); ?>
-
     <article id="home">
       <div class="row pt-5 pl-5 pr-5">
       	<div class="col-sm-12">
@@ -60,9 +59,7 @@
          </div>
       </div>
     </article>
-
   <main id="suscriptor">
     <?php get_template_part( 'template-parts/suscriptor', '' ); ?>
   </main>
-
 <?php get_footer(); ?>

@@ -56,10 +56,8 @@
                       <h1 class="text-center">Oops no tenemos publicaciones aún.</h1>
                   </div>
               </div>
-
            <?php endif; wp_reset_postdata(); //reset del loop ?><!-- fin del loop -->
     </article>
-
     <main id="suscriptor">
       <?php get_template_part( 'template-parts/suscriptor', '' ); ?>
     </main>

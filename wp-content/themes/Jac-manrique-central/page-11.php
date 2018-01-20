@@ -30,10 +30,10 @@
     <section id="comuna">
       <div class="row bg-purpura pl-5 pr-5 m-0">
         <div class="col-sm-12">
-          <h2 class="text-white pt-5">Mi comuna</h2>
+          <h2 class="text-white pt-5">Comuna Virtual</h2>
         </div>
         <div class="col-sm-12 col-md-6 float-left">
-          <p class="text-white">La comuna 4 tiene una interesante geografía con una larga trayectoria historica y cultural.</p>
+          <p class="text-white">Es una plataforma tecnológica en la que vos y tu comunidad pueden acceder a contenidos sobre la Comuna 4.</p>
         </div>
       </div>
       <div class="row media mt-5 pl-5 pr-5 mb-5">
@@ -67,7 +67,6 @@
         </div>
       </div>
       <div class="row pl-5 pr-5 mb-5 d-flex justify-content-center">
-          <!-- sede01 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede01">
@@ -88,7 +87,7 @@
                     </div>
                   <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-El-Bosque.jpg">
                   <div class="modal-footer bg-light d-flex justify-content-center">
-                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede14">
                           <i class="material-icons text-center text-purpura">chevron_left</i>
                       </button>
                       <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede02">
@@ -99,7 +98,6 @@
               </div>
             </div>
           </div>
-          <!-- sede02 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede02">
@@ -131,7 +129,6 @@
                 </div>
             </div>
           </div>
-          <!-- sede03 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede03">
@@ -163,7 +160,6 @@
                 </div>
             </div>
           </div>
-          <!-- sede04 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede04">
@@ -195,7 +191,6 @@
                 </div>
             </div>
           </div>
-          <!-- sede05 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede05">
@@ -227,7 +222,6 @@
                 </div>
             </div>
           </div>
-          <!-- sede06 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede06">
@@ -259,7 +253,6 @@
               </div>
             </div>
           </div>
-          <!-- sede07 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede07">
@@ -291,7 +284,6 @@
               </div>
             </div>
           </div>
-          <!-- sede08 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede08">
@@ -323,7 +315,6 @@
               </div>
             </div>
           </div>
-          <!-- sede09 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede09">
@@ -355,7 +346,6 @@
               </div>
             </div>
           </div>
-          <!-- sede10 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede10">
@@ -387,7 +377,6 @@
               </div>
             </div>
           </div>
-          <!-- sede11 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede11">
@@ -419,7 +408,6 @@
               </div>
             </div>
           </div>
-          <!-- sede12 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede12">
@@ -451,7 +439,6 @@
               </div>
             </div>
           </div>
-          <!-- sede13 -->
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#sede13">
@@ -472,6 +459,37 @@
                     </div>
                   <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-San-Nicolas-(1).jpg">
                   <div class="modal-footer d-flex justify-content-center">
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede12">
+                          <i class="material-icons text-center text-purpura">chevron_left</i>
+                      </button>
+                      <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede14">
+                          <i class="material-icons text-center text-purpura">chevron_right</i>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card bg-light">
+                <a data-toggle="modal" data-target="#sede14">
+                     <img src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Palermo.jpg">
+                     <div class="car-body text-purpura">
+                         <h5 class="card-header">Sede social Palermo</h5>
+                     </div>
+                </a>
+            </div>
+            <div class="modal fade" id="sede14" tabindex="-1" role="dialog" aria-labelledby="Sede social Palermo" aria-hidden="true">
+              <div class="modal-dialog modal-lg bg-light">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-purpura">Sede social Palermo</h5>
+                        <button type="button" class="close text-purpura" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                  <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/img/Sede-Social-Palermo.jpg">
+                  <div class="modal-footer d-flex justify-content-center">
                       <button class="btn btn-light" data-toggle="modal" data-dismiss="modal" data-target="#sede13">
                           <i class="material-icons text-center text-purpura">chevron_left</i>
                       </button>
@@ -485,13 +503,11 @@
           </div>
       </div>
     </section>
-
     <main class="mt-5 pt-3">
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
       </div>
     </main>
-
     <section id="movilidad">
       <div class="row bg-naranja pl-5 pr-5 m-0">
         <div class="col-sm-12">
@@ -502,7 +518,6 @@
             público de transporte, que atienden su población.</p>
         </div>
       </div>
-
       <div class="row media p-5 mt-5 d-flex justify-content-center">
         <div class="my-border border rounded col-sm-8 p-4 mb-3">
           <div class="row">
@@ -517,7 +532,6 @@
             </div>
           </div>
         </div>
-
         <div class="my-border border rounded col-sm-8 p-4 mb-3">
           <div class="row">
             <div class="col-sm-2">
@@ -530,7 +544,6 @@
             </div>
           </div>
         </div>
-
         <div class="my-border border rounded col-sm-8 p-4 mb-3">
           <div class="row">
             <div class="col-sm-2">
@@ -545,7 +558,6 @@
             </div>
           </div>
         </div>
-
         <div class="my-border border rounded col-sm-8 p-4 mb-3">
           <div class="row">
             <div class="col-sm-2">
@@ -562,7 +574,6 @@
             </div>
           </div>
         </div>
-
         <div class="my-border border rounded col-sm-8 p-4 mb-3">
           <div class="row">
             <div class="col-sm-2">
@@ -579,7 +590,6 @@
         </div>
       </div>
     </section>
-
     <section id="quebradas" class="mt-5">
       <div class="row bg-cian pl-5 pr-5 m-0">
         <div class="col-sm-12">
@@ -655,7 +665,6 @@
         </div>
       </div>
     </section>
-
     <section id="deportivos" class="mt-5">
       <div class="row bg-verde pl-5 pr-5 m-0">
         <div class="col-sm-12">
@@ -722,7 +731,6 @@
         </a>
       </div>
     </section>
-
     <section id="ciudad">
       <div class="row bg-violeta pl-5 mr-0 ml-0 mb-5">
         <div class="col-sm-12">
@@ -734,7 +742,6 @@
         </div>
       </div>
       <div class="row pl-5 pr-5 mb-5 d-flex justify-content-center">
-          <!-- ciudad01 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad01">
@@ -785,7 +792,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad02 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad02">
@@ -841,7 +847,6 @@
                 </div>
             </div>
           </div>
-          <!-- ciudad03 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad03">
@@ -878,7 +883,6 @@
                 </div>
             </div>
           </div>
-          <!-- ciudad04 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad04">
@@ -935,7 +939,6 @@
                 </div>
             </div>
           </div>
-          <!-- ciudad05 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad05">
@@ -986,7 +989,6 @@
                 </div>
             </div>
           </div>
-          <!-- ciudad06 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad06">
@@ -1025,7 +1027,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad07 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad07">
@@ -1064,7 +1065,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad08 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad08">
@@ -1116,7 +1116,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad09 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad09">
@@ -1155,7 +1154,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad10 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad10">
@@ -1187,7 +1185,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad11 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad11">
@@ -1232,7 +1229,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad12 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad12">
@@ -1264,7 +1260,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad13 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad13">
@@ -1309,7 +1304,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad14 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad14">
@@ -1348,7 +1342,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad16 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad16">
@@ -1388,7 +1381,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad17 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad17">
@@ -1441,7 +1433,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad18 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad18">
@@ -1495,7 +1486,6 @@
               </div>
             </div>
           </div>
-          <!-- ciudad19 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#ciudad19">
@@ -1537,16 +1527,13 @@
           </div>
       </div>
     </section>
-
     <section id="instituciones">
       <div class="row bg-azul pl-5 pr-5 mb-5">
         <div class="col-sm-12">
           <h2 class="text-white pt-5">Instituciones Educativas</h2>
         </div>
       </div>
-
       <div class="row pl-5 pr-5 mb-5 d-flex justify-content-center">
-          <!-- colegio01 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio01">
@@ -1583,7 +1570,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio02 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio02">
@@ -1621,7 +1607,6 @@
                 </div>
             </div>
           </div>
-          <!-- colegio03 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio03">
@@ -1659,7 +1644,6 @@
                 </div>
             </div>
           </div>
-          <!-- colegio04 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio04">
@@ -1697,7 +1681,6 @@
                 </div>
             </div>
           </div>
-          <!-- colegio05 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio05">
@@ -1729,7 +1712,6 @@
                 </div>
             </div>
           </div>
-          <!-- colegio06 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio06">
@@ -1767,7 +1749,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio07 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio07">
@@ -1805,7 +1786,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio08 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio08">
@@ -1837,7 +1817,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio09 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio09">
@@ -1875,7 +1854,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio10 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio10">
@@ -1913,7 +1891,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio11 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio11">
@@ -1951,7 +1928,6 @@
               </div>
             </div>
           </div>
-          <!-- colegio12 -->
           <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
             <div class="card bg-light">
                 <a data-toggle="modal" data-target="#colegio12">
@@ -1985,7 +1961,6 @@
           </div>
       </div>
     </section>
-
     <section id="iglesias" class="mt-5">
       <div class="row bg-café pl-5 pr-5 m-0">
         <div class="col-sm-12">
@@ -2042,7 +2017,6 @@
         </a>
       </div>
     </section>
-
     <section id="mapas">
       <div class="row bg-rojo pl-5 pr-5 m-0">
         <div class="col-sm-12">

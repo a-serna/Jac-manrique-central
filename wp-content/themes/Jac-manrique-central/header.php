@@ -6,7 +6,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-112676078-1');
     </script>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -15,29 +14,16 @@
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--css bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!--css-->
-    <link rel="stylesheet" href="<?php bloginfo(stylesheet_url); ?>">
     <link rel="stylesheet" href="<?php bloginfo(stylesheet_directory); ?>/css/jac.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
-    <!-- js smooth scroll -->
-    <script src="<?php bloginfo(stylesheet_directory); ?>/js/smooth-scroll.min.js"></script>
-    <!-- fb metas -->
     <meta property="og:url"           content="https://www.jacmanriquecentral.org" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="<?php bloginfo(title); ?>" />
     <meta property="og:description"   content="<?php bloginfo(description); ?>" />
     <meta property="og:image"         content="<?php bloginfo('template_url'); ?>/img/logo-manrique.png" />
-    <!-- favicon -->
     <link rel="shortcut icon" href="<?php bloginfo(stylesheet_directory); ?>/img/jac-icon.ico" type="image/x-icon">
     <link rel="icon" href="<?php bloginfo(stylesheet_directory); ?>/img/jac-icon.ico" type="image/x-icon">
-    <!-- MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <title><?php bloginfo(title); ?></title>
   </head>
-
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
