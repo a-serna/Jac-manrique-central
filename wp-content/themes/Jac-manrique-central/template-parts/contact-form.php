@@ -9,25 +9,25 @@
       </div>
     </div>
 </div>
-<form class="mt-5 p-5" class="was-validated" method="post" action="contacto.php">
+<form class="mt-5 p-5" method="post" action="<?php bloginfo('template_url'); ?>/template-parts/contacto.php">
   <div class="form">
       <div class="row d-flex justify-content-center">
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault01">
-            <input name="Nombre" type="text" class="form-control border form-border rounded text-center" id="validationDefault01" placeholder="Nombre" required>
+            <input name="nombre" type="text" class="form-control border form-border rounded text-center" id="validationDefault01" placeholder="Nombre" required>
           </div>
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault02">
-            <input name="Apellido" type="text" class="form-control border form-border rounded text-center" id="validationDefault02" placeholder="Apellido" required>
+            <input name="apellido" type="text" class="form-control border form-border rounded text-center" id="validationDefault02" placeholder="Apellido" required>
           </div>
       </div>
       <div class="row d-flex justify-content-center">
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault03">
-            <input name="Email" type="email" class="form-control border form-border rounded text-center" id="validationDefault03" placeholder="Email" required>
+            <input name="email" type="email" class="form-control border form-border rounded text-center" id="validationDefault03" placeholder="Email" required>
           </div>
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault04">
-            <input name="Tel" type="tel" class="form-control border form-border rounded text-center" id="validationDefault04" placeholder="Teléfono">
+            <input name="tel" type="tel" class="form-control border form-border rounded text-center" id="validationDefault04" placeholder="Teléfono">
           </div>
       </div>
-      <textarea name="Mensaje" class="form-control border form-border rounded" length="400" required></textarea>
+      <textarea name="mensaje" class="form-control border form-border rounded" length="400" required></textarea>
   </div>
   <div class="row d-flex justify-content-md-center mt-3">
       <div class="form-check">
@@ -38,7 +38,7 @@
   </div>
   <div class="row justify-content-sm-center mt-3">
     <div class="col-sm-3">
-      <a href="<?php bloginfo('template_url'); ?>/template-parts/contacto.php"><input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar"></a>
+      <input class="my-btn btn btn-lg btn-block text-white" type="Submit" value="Enviar" name="submit">
     </div>
   </div>
 </form>

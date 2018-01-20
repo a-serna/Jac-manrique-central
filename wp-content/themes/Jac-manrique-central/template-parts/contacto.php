@@ -1,141 +1,136 @@
 <?php
-if(isset($_POST['email'])) {
+  $nombre = $_POST['nombre'];
+  $apellido = $_POST['apellido'];
+  $email = $_POST['email'];
+  $tel = $_POST['tel'];
+  $mensaje = $_POST['mensaje'];
+  $from = 'From: www.jacmanriquecentral.org';
+  $to = 'info@jacmanriquecentral.org';
+  $subject = 'Hola';
 
-    // Edita las dos líneas siguientes con tu dirección de correo y asunto personalizados
+  $body = "From: $nombre\n E-Mail: $email\n Tel: $tel\n Mensaje:\n $mensaje";
 
-    $email_to = "info@jacmanriquecentral.org";
-
-    $email_subject = "Hola";
-
-    function died($error) {
-
-        // si hay algún error, el formulario puede desplegar su mensaje de aviso
-
-        echo "Lo sentimos, hubo un error en sus datos y el formulario no puede ser enviado en este momento. ";
-
-        echo "Detalle de los errores.<br /><br />";
-
-        echo $error."<br /><br />";
-
-        echo "Porfavor corrija estos errores e inténtelo de nuevo.<br /><br />";
-        die();
-    }
-
-    // Se valida que los campos del formulairo estén llenos
-
-    if(!isset($_POST['Nombre']) ||
-
-        !isset($_POST['Apellido']) ||
-
-        !isset($_POST['Email']) ||
-
-        !isset($_POST['Tel']) ||
-
-        !isset($_POST['Mensaje'])) {
-
-        died('Lo sentimos pero parece haber un problema con los datos enviados.');
-
-    }
- //En esta parte el valor "name" nos sirve para crear las variables que recolectaran la información de cada campo
-
-    $Nombre = $_POST['Nombre']; // requerido
-
-    $Apellido = $_POST['Apellido']; // requerido
-
-    $Email = $_POST['Email']; // requerido
-
-    $Tel = $_POST['Tel']; // no requerido
-
-    $Mensaje = $_POST['Mensaje']; // requerido
-
-    $error_message = "Error";
-
-//En esta parte se verifica que la dirección de correo sea válida
-
-   $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-
-  if(!preg_match($email_exp,$Email)) {
-
-    $error_message .= 'La dirección de correo proporcionada no es válida.<br />';
-
+  if ($_POST['submit']) {
+    if (mail ($to, $subject, $body, $from)) {
+      echo '
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8">
+          <meta name="author" content="Brumker">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <link rel="stylesheet" href="../css/jac.css" >
+          <link rel="stylesheet" href="../css/style.css" >
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+          <link rel="shortcut icon" href="../img/jac-icon.ico" type="image/x-icon">
+          <link rel="icon" href="../img/jac-icon.ico" type="image/x-icon">
+          <title>Contacto</title>
+        </head>
+        <body>
+          <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
+              <a data-scroll class="navbar-brand" href="http://www.jacmanriquecentral.org">
+                <img src="../img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
+              </a>
+            </nav>
+          </header>
+          <article id="home">
+            <div class="row mt-5 pl-5 pr-5 pt-5 d-flex justify-content-center">
+              <div class="col-lg-12 col-md-6 col-xs-12 mt-5">
+                  <h1 class="text-center">Tu mensaje ha sido enviado exitosamente.</h1>
+                  <h2 class="text-center">Te responderemos lo más pronto posible.</h2>
+              </div>
+            </div>
+          </article>
+          <footer class="pl-5 pr-5 mt-5">
+            <div class="float-right mt-0 pt-0 d-none d-sm-block">
+              <a href="#home"><img  class="img-fluid" src="../img/arriba-icon-blanco.png" alt="arriba"></a>
+              <p class="text-center"><small>Arriba</small></p>
+            </div>
+            <div class="d-flex justify-content-center pt-4 pb-3 mt-4">
+              <a target="_blank" href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"><img class="pt-5 pl-5 pr-5" src="../img/facebook-blanco.png" alt="facebook"></a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCeiTXUTCS6jpTKvTXmjDEYQ"><img class="pt-5 pl-5 pr-5" src="../img/youtube-blanco.png" alt="youtube"></a>
+            </div>
+            <div class="row d-flex justify-content-center mt-sm-0 mt-md-3 pt-sm-3 pt-md-5">
+              <div class="col-xs-12 col-sm-6 col-md-12">
+                <p class="text-center"><i class="material-icons">email</i> info@jacmanriquecentral.org</p>
+                <p class="text-center"><i class="material-icons">phone</i> +57(4) 314 646 75 63 Presidencia</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p class="text-center"><b>&copy;</b> Jac Manrique Central N°1 | Desarrollado por: <a target="_blank" href="http://www.brumker.com/"><img src="../img/brumker-logo-blanco.png" alt="Brumker studios"></a></p>
+              </div>
+            </div>
+          </footer>
+          <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+          </body>
+          </html>';
+     } else {
+      echo '
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8">
+          <meta name="author" content="Brumker">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <link rel="stylesheet" href="../css/jac.css" >
+          <link rel="stylesheet" href="../css/style.css" >
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+          <link rel="shortcut icon" href="../img/jac-icon.ico" type="image/x-icon">
+          <link rel="icon" href="../img/jac-icon.ico" type="image/x-icon">
+          <title>Contacto</title>
+        </head>
+        <body>
+          <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgba(255, 255, 255, 0.85);">
+              <a data-scroll class="navbar-brand" href="http://www.jacmanriquecentral.org">
+                <img src="../img/logo-manrique.png" class="img-fluid float-left" alt="Responsive image">
+              </a>
+            </nav>
+          </header>
+          <article id="home">
+            <div class="row mt-5 pl-5 pr-5 pt-5 d-flex justify-content-center">
+              <div class="col-lg-12 col-md-6 col-xs-12 mt-5">
+                  <h1 class="text-center">:( algo salió mal.</h1>
+                  <h2 class="text-center">Por favor intenta de nuevo.</h2>
+              </div>
+            </div>
+          </article>
+           <footer class="pl-5 pr-5 mt-5">
+             <div class="float-right mt-0 pt-0 d-none d-sm-block">
+               <a href="#home"><img  class="img-fluid" src="../img/arriba-icon-blanco.png" alt="arriba"></a>
+               <p class="text-center"><small>Arriba</small></p>
+             </div>
+             <div class="d-flex justify-content-center pt-4 pb-3 mt-4">
+               <a target="_blank" href="https://www.facebook.com/JUNTA-DE-ACCION-COMUNAL-MANRIQUE-CENTRAL-1-230459925838/"><img class="pt-5 pl-5 pr-5" src="../img/facebook-blanco.png" alt="facebook"></a>
+               <a target="_blank" href="https://www.youtube.com/channel/UCeiTXUTCS6jpTKvTXmjDEYQ"><img class="pt-5 pl-5 pr-5" src="../img/youtube-blanco.png" alt="youtube"></a>
+             </div>
+             <div class="row d-flex justify-content-center mt-sm-0 mt-md-3 pt-sm-3 pt-md-5">
+               <div class="col-xs-12 col-sm-6 col-md-12">
+                 <p class="text-center"><i class="material-icons">email</i> info@jacmanriquecentral.org</p>
+                 <p class="text-center"><i class="material-icons">phone</i> +57(4) 314 646 75 63 Presidencia</p>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-12">
+                 <p class="text-center"><b>&copy;</b> Jac Manrique Central N°1 | Desarrollado por: <a target="_blank" href="http://www.brumker.com/"><img src="../img/brumker-logo-blanco.png" alt="Brumker studios"></a></p>
+               </div>
+             </div>
+           </footer>
+           <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+           <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro" rel="stylesheet">
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+           </body>
+         </html>';
+     }
   }
-
-//En esta parte se validan las cadenas de texto
-
-    $string_exp = "/^[A-Za-z .'-]+$/";
-
-  if(!preg_match($string_exp,$Nombre)) {
-
-    $error_message .= 'El formato del nombre no es válido<br />';
-
-  }
-
-  if(!preg_match($string_exp,$Apellido)) {
-
-    $error_message .= 'el formato del apellido no es válido.<br />';
-
-  }
-
-  if(strlen($Mensaje) < 2) {
-
-    $error_message .= 'El formato del texto no es válido.<br />';
-
-  }
-
-  if(strlen($error_message) > 0) {
-
-    died($error_message);
-
-  }
-
-//A partir de aqui se contruye el cuerpo del mensaje tal y como llegará al correo
-
-    $email_message = "Contenido del Mensaje.\n\n";
-
-
-
-    function clean_string($string) {
-
-      $bad = array("content-type","bcc:","to:","cc:","href");
-
-      return str_replace($bad,"",$string);
-
-    }
-
-
-
-    $email_message .= "Nombre: ".clean_string($Nombre)."\n";
-
-    $email_message .= "Apellido: ".clean_string($Apellido)."\n";
-
-    $email_message .= "Email: ".clean_string($Email)."\n";
-
-    $email_message .= "Tel: ".clean_string($Tel)."\n";
-
-    $email_message .= "Mensaje: ".clean_string($Mensaje)."\n";
-
-
-//Se crean los encabezados del correo
-
-$headers = 'From: '.$email_from."\r\n".
-
-'Reply-To: '.$email_from."\r\n" .
-
-'X-Mailer: PHP/' . phpversion();
-
-@mail($email_to, $email_subject, $email_message, $headers);
-
-?>
-
-
-
-<!-- incluye aqui tu propio mensaje de Éxito-->
-
-Gracias! Nos pondremos en contacto contigo a la brevedad
-
-
-<?php
-
-}
-
 ?>
