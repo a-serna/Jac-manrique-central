@@ -9,153 +9,57 @@
  Tags:         Gobierno, responsive, flat, Blog, Barra lateral izquierda, Fondo personalizado, Colores personalizados, Cabecera personalizada, custom-menu, Imágenes destacadas, Formatos de entradas, Entrada fija.
  Text Domain:  Jac manrique Central
 */
-
-/* css file */
-
-/*estructura general*/
-body{
-  position: relative;
-  font-size: 16px;
-}
-
-article{
-  padding-top: 90px;
-}
-
-img{
-  max-width: 100%;
-  vertical-align: middle;
-  height: auto;
-}
-
-a{
-  text-decoration: none !important;
-}
-
-/*fonts*/
-p{
-  font-size: 1.2em;
-  font-family: 'Source Sans Pro', sans-serif !important;
-}
-
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Lato', sans-serif !important;
-}
-
-small{
-  font-family: 'Source Sans Pro', sans-serif !important;
-}
-
-b{
-  font-family: 'Source Sans Pro', sans-serif !important;
-}
-
-.text-green{
-  color: #82BA2B;
-}
-
-.text-white{
-  font-family: 'Lato', sans-serif !important;
-}
-
-/*top menu*/
-.menu-header-main-container ul{
-  padding: 0;
-  display: flex;
-  list-style: none;
-}
-
-.menu-header-main-container ul:before, .site-nav ul:after{
-  content: "";
-}
-.menu-header-main-container ul:after { clear: both;}
-.menu-header-main-container ul { *zoom: 1; }
-
-.menu-header-main-container ul li{
-  list-style: none;
-  float: left;
-  padding-top: 0.5em;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 1em;
-  display: list-item;
-}
-
-.menu-header-main-container ul li a{
-  text-decoration: none;
-  color: rgba( 0,0,0,.5);
-  font-size: 1em;
-}
-
-/*menu del footer*/
-.menu-footer-main-container ul{
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 0;
-  width: 80%;
-}
-
-.menu-footer-main-container ul:before, .site-nav ul:after{
-  content: "";
-  display: table;
-}
-.menu-footer-main-container ul:after { clear: both;}
-.menu-footer-main-container ul { *zoom: 1; }
-
-.menu-footer-main-container ul li{
-  list-style: none;
-  float: right;
-  padding-top: 0.5em;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 1em;
-}
-
-.menu-footer-main-container ul li a{
-  text-decoration: none;
-  color: #d1d1d1;
-  font-size: 1em;
-}
-
-/*alineación de imagenes en editor de wordpress*/
-img.alignright{float: right; margin: -70px 0 1em 1em;}
-img.alignleft{float: left; margin: 0 1em 1em 0;}
-img.aligncenter{display: block; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px;}
-a img.alignright{float: right; margin: -65px 0 1em 1em;}
-a img.alignleft{float: left; margin: 0 1em 1em 0;}
-a img.aligncenter{display: block; margin-left: auto; margin-right: auto;}
-img#wpstats{
-  display: none;
-}
-
-/*Responsive*/
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575px) {
-}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
- }
-
-/*Medium devices (tablets, 768px and down)*/
-@media (max-width: 768px) {
-  .menu-header-main-container ul{
-    flex-direction: column;
-  }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}
+article{padding-top:90px;}
+img{max-width:100%;vertical-align:middle;height:auto;}
+a{text-decoration:none !important;}
+@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://example.com/MaterialIcons-Regular.eot);src:local('Material Icons'),
+local('MaterialIcons-Regular'),
+url(./font/MaterialIcons-Regular.woff) format('woff2'),
+url(./font/MaterialIcons-Regular.woff) format('woff'),
+url(./font/MaterialIcons-Regular.ttf) format('truetype');}
+.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;display:inline-block;line-height:1;text-transform:none;letter-spacing:normal;word-wrap:normal;white-space:nowrap;direction:ltr;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale;font-feature-settings:'liga';}
+.material-icons.md-18{font-size:18px;}
+.material-icons.md-24{font-size:24px;}
+.material-icons.md-36{font-size:36px;}
+.material-icons.md-48{font-size:48px;}
+.material-icons.md-dark{color:rgba(0, 0, 0, 0.54);}
+.material-icons.md-dark.md-inactive{color:rgba(0, 0, 0, 0.26);}
+.material-icons.md-light{color:rgba(255, 255, 255, 1);}
+.material-icons.md-light.md-inactive{color:rgba(255, 255, 255, 0.3);}
+p{font-size:1.2em;font-family:'Source Sans Pro', sans-serif !important;}
+h1,h2,h3,h4,h5,h6{font-family:'Lato', sans-serif !important;}
+small{font-family:'Source Sans Pro', sans-serif !important;}
+b{font-family:'Source Sans Pro', sans-serif !important;}
+.text-green{color:#82BA2B;}
+.text-fb{color:#4267b2;}
+.text-white{font-family:'Lato', sans-serif !important;color:#ffffff;}
+.text-shadow{text-shadow:-2px 3px 1px rgba(0, 0, 0, 1);}
+.navbar-light .navbar-nav .nav-link:hover{border-bottom:3px solid #82BA2B;}
+.menu-header-main-container ul{padding:0;display:flex;list-style:none;}
+.menu-header-main-container ul:before, .site-nav ul:after{content:"";}
+.menu-header-main-container ul:after{clear:both;}
+.menu-header-main-container ul{*zoom:1;}
+.menu-header-main-container ul li{list-style:none;float:left;padding-top:0.5em;padding-left:3em;padding-right:3em;padding-bottom:1em;display:list-item;}
+.menu-header-main-container ul li a{text-decoration:none;color:rgba(0,0,0,.5);font-size:1em;}
+.menu-footer-main-container ul{margin-left:10%;margin-right:10%;padding:0;width:80%;display:inline-flex;}
+.menu-footer-main-container ul:before, .site-nav ul:after{content:"";display:table;}
+.menu-footer-main-container ul:after{clear:both;}
+.menu-footer-main-container ul{*zoom:1;}
+.menu-footer-main-container ul li{list-style:none;text-align:center;padding-top:0.5em;padding-left:3em;padding-right:3em;padding-bottom:1em;width:500px;}
+.menu-footer-main-container ul li a{text-decoration:none;color:#d1d1d1;font-size:1em;}
+.carousel-control-prev>span{background-color:#808080;border-radius:50%;height:35px;width:35px;background-image:none;padding:5px;}
+.carousel-control-next>span{background-color:#808080;border-radius:50%;height:35px;width:35px;background-image:none;padding:5px;}
+.carousel-indicators>li{height:10px !important;width:10px !important;border-radius:100%;}
+img.alignright{float:right;margin:-70px 0 1em 1em;}
+img.alignleft{float:left;margin:0 1em 1em 0;}
+img.aligncenter{display:block;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;}
+a img.alignright{float:right;margin:-65px 0 1em 1em;}
+a img.alignleft{float:left;margin:0 1em 1em 0;}
+a img.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+img#wpstats{display:none;}
+@media (max-width:768px){.menu-header-main-container ul{flex-direction:column;}
+.menu-footer-main-container ul{display:block;}
+.menu-footer-main-container ul li{width:auto;}}
+@media (min-width:768px){.menu-footer-main-container ul li{width:200px;}}
+@media (min-width:992px){.menu-footer-main-container ul li{width:350px;}}
+@media (min-width:1200px){.menu-footer-main-container ul li{width:500px;}}

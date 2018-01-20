@@ -1,51 +1,42 @@
-/*botones slider*/
-.carousel-indicators>li{
-  height: 10px !important;
-  width: 10px !important;
-  border-radius: 100%;
-}
-
-/*background colors*/
-.bg-1{
-  background-color: #82BA2B;
-  width: 100%;
-  height: 400px;
-}
-
-/*imagenes*/
-.img-thumb{
-  height: 400px;
-  background-color: #808080;
-  width: 100%;
-}
-
-/*bordes de formulario*/
-.form-border{
-  border: 2px solid #82BA2B !important;
-}
-
-.form-border.rounded{
-  border-radius: 1.2rem !important;
-}
-
-textarea{
-  width: 80% !important;
-  margin-left: 10% !important;
-  margin-right: 10% !important;
-  height: 15em !important;
-}
-
-.my-btn{
-  background-color: #82BA2B !important;
-}
-
-/*background de titulos entradas del blog*/
-.card-header{
-  background-color: rgba(0,0,0,0.8) !important;
-}
-
-/*footer principal*/
-footer{
-  background-color: #82BA2B;
-  color: #fff;
-}
+.bg-1{background-color:#82BA2B;width:100%;height:auto;}
+.navbar-light .navbar-toggler{border-color:rgb(130,186,43);}
+.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(130,186,43)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.img-thumb{height:400px;background-color:#808080;width:100%;}
+.form-border{border:2px solid #82BA2B !important;}
+.form-border.rounded{border-radius:1.2rem !important;}
+textarea{width:80% !important;margin-left:10% !important;margin-right:10% !important;height:15em !important;}
+.my-btn{background-color:#82BA2B;}
+#mc_embed_signup{background:#fff;clear:left;width:100%;}
+.my-btn:hover{background-color:#7bac2f;transition:background-color .15s ease-in-out;}
+.card-header{background-color:rgba(0,0,0,0.8) !important;}
+.comment{position:relative;display:block;margin-bottom:-1px;background-color:#fff;border:1px solid rgba(0,0,0,.125);}
+.comment:first-child{border-top-left-radius:.25rem;border-top-right-radius:.25rem;}
+.comment:last-child{border-bottom-left-radius:.25rem;border-bottom-right-radius:.25rem;}
+.comment-author{padding:.75rem 1.25rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125);}
+.fn{font-weight:700;font-style:normal;}
+cite>a{color:#82BA2B;font-size:1.5rem;}
+cite>a:hover{color:#7bac2f;}
+.comment-meta{padding:0rem 1.25rem;}
+.comment-meta>a{color:#808080;}
+.comment>p{padding:0rem 1.25rem;}
+.reply, .form-submit>input{padding:0rem 1.25rem 0.50rem 1.25rem;margin:0rem 1.25rem 0.50rem 1.25rem;background-color:#82BA2B;border-color:#868e96;display:inline-block;user-select:none;border:1px solid transparent;border-radius:.25rem;transition:background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+.reply>a, .form-submit>input{color:#fff;font-weight:400;text-align:center;font-size:1rem;line-height:1.5;padding:.375rem .75rem;white-space:nowrap;vertical-align:middle;}
+.reply:hover, .form-submit>input:hover{background-color:#7bac2f;border-color:#7bac2f;}
+.comment-reply-title{color:#82BA2B;}
+.comment-form{padding:0rem 1.25rem;}
+.comment-form-comment>label{display:none;}
+.comment-form-comment>textarea{border:2px solid #82BA2B;border-radius:1.2rem;}
+.comment-form-comment>textarea:focus,
+.comment-form-author>input:focus,
+.comment-form-email>input:focus,
+.comment-form-url>input:focus{box-shadow:0 0 5px rgba(81, 203, 238, 1);padding:0.50rem 1.25rem;margin:5px 1px 3px 0px;border:1px solid rgba(81, 203, 238, 1);}
+.comment-form-author, .comment-form-email, .comment-form-url>label{padding:0rem 1.25rem;}
+.comment-form-author>input, .comment-form-email>input, .comment-form-url>input{border:2px solid #82BA2B;border-radius:1.2rem;padding:0.50rem 1.25rem;}
+.page-numbers{position:relative;display:block;padding:.5rem .75rem;margin-left:-1px;line-height:1.25;color:#808080;background-color:#fff;border:1px solid #ddd;}
+.page-numbers:hover{color:#ffffff;background-color:#82BA2B;border:1px solid #ddd;transition:background-color .15s ease-in-out;}
+ul>li{list-style:none;}
+ul>li>a{color:#808080;}
+ul>li>a:hover{color:#82BA2B;}
+.tag-cloud-link{color:#82BA2B;}
+.tag-cloud-link:hover{color:#7bac2f;}
+footer{padding-top:4em;color:#fff;background:url(../img/fondo-footer.png) center;overflow:hidden;height:657px;}
