@@ -9,7 +9,7 @@
       <form action="https://jacmanriquecentral.us17.list-manage.com/subscribe/post?u=7afd1c2ca11f958a180d8c588&amp;id=4db6afe626" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
        <div class="form-row d-flex justify-content-center pl-5 pr-5">
          <div class="col-sm-8 col-md-5 col-lg-5">
-           <input type="email" value="" name="EMAIL" class="email form-control border form-border rounded text-center" id="mce-EMAIL validationDefault03" placeholder="Email" class="form-control border form-border rounded" required>
+           <input type="email" value="" name="EMAIL" class="email form-control text-center" style="border: 2px solid #82BA2B; border-radius: 1.2rem;" id="mce-EMAIL validationDefault03" placeholder="Email" class="form-control border form-border rounded" required>
          </div>
        </div>
        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->

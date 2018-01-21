@@ -8,7 +8,7 @@
   $to = 'info@jacmanriquecentral.org';
   $subject = 'Hola';
 
-  $body = "From: $nombre\n E-Mail: $email\n Tel: $tel\n Mensaje:\n $mensaje";
+  $body = "From: $nombre\n $apellido\n E-Mail: $email\n Tel: $tel\n Mensaje:\n $mensaje";
 
   if ($_POST['submit']) {
     if (mail ($to, $subject, $body, $from)) {

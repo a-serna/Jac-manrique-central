@@ -13,21 +13,21 @@
   <div class="form">
       <div class="row d-flex justify-content-center">
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault01">
-            <input name="nombre" type="text" class="form-control border form-border rounded text-center" id="validationDefault01" placeholder="Nombre" required>
+            <input name="nombre" type="text" class="form-control text-center" style="border: 2px solid #82BA2B; border-radius: 1.2rem;" id="validationDefault01" placeholder="Nombre" required>
           </div>
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault02">
-            <input name="apellido" type="text" class="form-control border form-border rounded text-center" id="validationDefault02" placeholder="Apellido" required>
+            <input name="apellido" type="text" class="form-control text-center" style="border: 2px solid #82BA2B; border-radius: 1.2rem;" id="validationDefault02" placeholder="Apellido" required>
           </div>
       </div>
       <div class="row d-flex justify-content-center">
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault03">
-            <input name="email" type="email" class="form-control border form-border rounded text-center" id="validationDefault03" placeholder="Email" required>
+            <input name="email" type="email" class="form-control text-center" style="border: 2px solid #82BA2B; border-radius: 1.2rem;" id="validationDefault03" placeholder="Email" required>
           </div>
           <div class="col-sm-12 col-md-4 mb-3" for="validationDefault04">
-            <input name="tel" type="tel" class="form-control border form-border rounded text-center" id="validationDefault04" placeholder="Teléfono">
+            <input name="tel" type="tel" class="form-control text-center" style="border: 2px solid #82BA2B; border-radius: 1.2rem;" id="validationDefault04" placeholder="Teléfono">
           </div>
       </div>
-      <textarea name="mensaje" class="form-control border form-border rounded" length="400" required></textarea>
+      <textarea name="mensaje" class="form-control" style="border: 2px solid #82BA2B; border-radius: 1.2rem;" length="400" required></textarea>
   </div>
   <div class="row d-flex justify-content-md-center mt-3">
       <div class="form-check">
